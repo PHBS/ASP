@@ -5,35 +5,37 @@
 
 ## Course Slides and Other Resources
 * Prelims: [Probability Statistics Review](files/Prob_Stat_Review.pdf) | [MC Method](files/MCmethod.pdf) ([Py demo](py/MC_Demo.ipynb))
-* Past Exam: [2017-18 ASP](files/ASP2017_Midterm.pdf), [2016-17 StoFin Midterm](files/SF2016_Midterm.pdf) and [Final](files/SF2016_Final.pdf)
+* Past Exam: [2017-18 Midterm](files/ASP2017_Midterm.pdf), [2018-19 Midterm](files/ASP2018_Midterm.pdf)
 * Black-Scholes model ([Py demo](py/BlackScholes_ImpliedVol.ipynb), [MC demo](py/BlackScholes_MC.ipynb)): Also see Ch. 10 of [StoFin Course Notes](https://github.com/PHBS/2017.M3.StoFin/blob/master/files/SCFA_Notes.pdf)
 * Normal (Bachelier) model ([Slides](files/Normal_Model.pdf))
 * Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
 * Spread/Basket options ([Slides](files/SpreadBasketOption.pdf))
 * SABR model ([Slides](files/SABRmodel.pdf))
 * Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
-* ...
 
 ## Lectures
-* __18__ (11.09 Tues): Course project presentation
-* __17__ (11.06 Tues): Research Presentation (NSVh model) and HW4 review
-* __16__ (11.02 Fri): Research Presentation (Sum of BSM models) and HW3 review
-* __15__ (10.30 Tues): Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb)), Github Pull-request
-* __14__ (10.26 Fri): Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
-* __13__ (10.23 Tues): Midterm exam ([Solution](files/ASP2018_Midterm.pdf))
-* __12__ (10.19 Fri): Review for midterm exam
-* __NO CLASS__ on 10.16 Tues
-* __11__ (10.12 Fri): SABR model ([Slides](files/SABRmodel.pdf)): Conditional MC method
-* __10__ (10.09 Tues): HW2 review, SABR model ([Slides](files/SABRmodel.pdf)), Stochastic Finance review
-* __09__ (09.28 Fri): SABR model([Slides](files/SABRmodel.pdf): Volatility smile, Local volatility model)
-* __08__ (09.25 Tues): [Spread/Basket option implementation](py/TestCode_BasketSpread.ipynb), Debugging in Python, Import([Py Demo](py/HW4/Demo_Advanced_Import.ipynb))
-* __07__ (09.21 Fri): [Black-Scholes Implementation](https://github.com/PHBS-2017-ASP-Classroom/BSMmodel_Base), Spread/Basket options ([Slides](files/SpreadBasketOption.pdf))
-* __06__ (09.18 Tues): Black-Scholes and Normal models in MC ([Py Demo](py/BlackScholes_MC.ipynb)), Normal model ([Slides](files/Normal_Model.pdf)), Correlated Normal RNs ([Py Demo](py/CorrelatedNormals_Demo.ipynb))
-* __05__ (09.14 Fri): HW2, Black-Scholes implementation ([Py Demo](py/BlackScholes_FunctionVsClass.ipynb)), Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
-* __04__ (__09.12 Wed__ instead of __10.16 Tues__): Python crash course ([Basic](py/PythonCrashCourse_Derek_Banas.ipynb) | [Numpy](py/PythonCrashCourse_Numpy.ipynb)).  More [cheatsheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html) also available in [MLF CMS](http://cms.phbs.pku.edu.cn/claroline/document/document.php?cidReset=true&cidReq=FN570).
-* __03__ (09.11 Tues): Continued ([Py demo](py/MC_Demo.ipynb))
-* __02__ (09.07 Fri): Scientific computing, Monte Carlo method, Random number generation ([Slides](files/MCmethod.pdf)). 
-* __01__ (09.04 Tues): Course overview ([Syllabus](files/syllabus.pdf)), Probability Statistics Review ([Slides](files/Prob_Stat_Review.pdf))
+No | Date | Contents
+--- | :---: | ---
+__01__ | 9.03 Tue | Course overview ([Syllabus](files/syllabus.pdf)), Probability Statistics Review ([Slides](files/Prob_Stat_Review.pdf))
+__02__ | 9.06 Fri | Scientific computing, Monte Carlo method, Random number generation ([Slides](files/MCmethod.pdf)). 
+__03__ | 9.10 Tue | Continued ([Py demo](py/MC_Demo.ipynb))
+__04__ | 9.11 Wed | Python crash course ([Basic](py/PythonCrashCourse_Derek_Banas.ipynb), [Numpy](py/PythonCrashCourse_Numpy.ipynb)).  More [cheatsheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html) also available in [MLF CMS](http://cms.phbs.pku.edu.cn/claroline/document/document.php?cidReset=true&cidReq=FN570).
+__05__ | 9.17 Tue | HW2, Black-Scholes implementation ([Py Demo](py/BlackScholes_FunctionVsClass.ipynb)), Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
+__06__ | 9.20 Fri | Black-Scholes and Normal models in MC ([Py Demo](py/BlackScholes_MC.ipynb)), Normal model ([Slides](files/Normal_Model.pdf)), Correlated Normal RNs ([Py Demo](py/CorrelatedNormals_Demo.ipynb))
+__07__ | 9.24 Tue | [Black-Scholes Implementation](https://github.com/PHBS-2017-ASP-Classroom/BSMmodel_Base), Spread/Basket options ([Slides](files/SpreadBasketOption.pdf))
+__08__  | 9.27 Fri | [Spread/Basket option implementation](py/TestCode_BasketSpread.ipynb), Debugging in Python, Import([Py Demo](py/HW4/Demo_Advanced_Import.ipynb))
+ x | x | __No Class: National Day Week__
+__09__ | 10.08 Tue | SABR model([Slides](files/SABRmodel.pdf): Volatility smile, Local volatility model)
+__10__ | 10.11 Fri | HW2 review, SABR model ([Slides](files/SABRmodel.pdf)), Stochastic Finance review
+__11__ | 10.15 Tue | SABR model ([Slides](files/SABRmodel.pdf)): Conditional MC method
+__12__ | 10.18 Fri | Review for midterm exam
+__13__ | 10.22 Tue | Midterm exam
+__14__ | 10.25 Fri | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
+__15__ | 10.29 Tue | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb)), Github Pull-request
+__16__ | 11.01 Fri | Research Presentation (Sum of BSM models) and HW3 review
+__17__ | 11.05 Tue | Research Presentation (NSVh model) and HW4 review
+__18__ | 11.08 Fri | Course project presentation
+
 
 ## Homeworks:
 * ### __Set 4__ 
@@ -43,13 +45,13 @@
 
 ## Classes: 
 * Lectures: Tues & Fri 1:30 – 3:20 PM
-* Venue: PHBS Building, Room 211
+* Venue: PHBS Building, Room 209
 
 ## Instructor: [Jaehyuk Choi](http://www.jaehyukchoi.net/phbs_en)
 * Office: PHBS Building, Room 755
 * Phone: 86-755-2603-0568
 * Email: jaehyuk@phbs.pku.edu.cn
-* Office Hour: Tues & Fri 10:30 – 11:30 AM or by appointment
+* Office Hour: TBA
 
 ## Teaching Assistance: TBA
 * Email: xxxx@pku.edu.cn
@@ -77,4 +79,4 @@ Attendance 20%, Mid-term Exam 30%, Assignments 20%, Course Project 30%
 * __Midterm exam__: 10.23 Tues. Open-book exam without computer/phone/calculator use. No final exam.
 * __Course project__: Presentation (11.09 Fri). Group up to 3 people.
 * __Attendance__: Randomly checked. The score is calculated as 20 – 2`x`(#of absence). Leave request should be made 24 hours before with supporting documents, except for emergency. Job interview/internship cannot be a valid reason for leave
-* __Grade__ in letters (e.g., A+, A-, ... ,D+, D, F). __A- or above < 30% and C+ or below > 10%__.
+* __Grade__ in letters (e.g., A+, A-, ... ,D+, D, F). __A- or above < 30% and B- or below > 10%__.
