@@ -16,7 +16,7 @@
 ## Lectures
 No | Date | Contents
 --- | :---: | ---
-__01__ | 9.03 Tue | Course overview ([Syllabus](files/syllabus.pdf)), Probability Statistics Review ([Slides](files/Prob_Stat_Review.pdf))
+__01__ | 9.03 Tue | Course overview, Probability Statistics Review ([Slides](files/Prob_Stat_Review.pdf))
 __02__ | 9.06 Fri | Scientific computing, Monte Carlo method, Random number generation ([Slides](files/MCmethod.pdf)). 
 __03__ | 9.10 Tue | Continued ([Py demo](py/MC_Demo.ipynb))
 __04__ | 9.11 Wed | Python crash course ([Basic](py/PythonCrashCourse_Derek_Banas.ipynb), [Numpy](py/PythonCrashCourse_Numpy.ipynb)).  More [cheatsheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html) also available in [MLF CMS](http://cms.phbs.pku.edu.cn/claroline/document/document.php?cidReset=true&cidReq=FN570).
@@ -32,16 +32,21 @@ __12__ | 10.18 Fri | Review for midterm exam
 __13__ | 10.22 Tue | Midterm exam
 __14__ | 10.25 Fri | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 __15__ | 10.29 Tue | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb)), Github Pull-request
-__16__ | 11.01 Fri | Research Presentation (Sum of BSM models) and HW3 review
-__17__ | 11.05 Tue | Research Presentation (NSVh model) and HW4 review
+__16__ | 11.01 Fri | Research Presentation: (Sum of BSM models) and HW3 review
+__17__ | 11.05 Tue | Course project presentation (or Research Presentation (NSVh model) and HW4 review)
 __18__ | 11.08 Fri | Course project presentation
 
-
 ## Homeworks:
+* ### __Set 0__: (Due by 9.6 Fri)
+  * Register on Github.com and send your ID to TA via email. Use your __full name__ in your profile. Accept invitation to the [PHBS organization](https://github.com/orgs/PHBS/people) from TA. Install [Github Desktop](https://desktop.github.com/). 
+  * Install [Anaconda](https://www.anaconda.com/download/) Python distribution (__3.X version__, not 2.X version). Anaconda distribution is core Python + useful scientific computation libraries (e.g., numpy, scipy, pandas) + package management system (pip or conda)
+  * Send the screenshot of Github desktop and Anaconda installed to TA. (Example: [Github Desktop](files/Choi_Jaehyuk_Github.png), [Anaconda Spyder](files/Choi_Jaehyuk_Python.png))  
 * ### __Set 4__ 
 * ### __Set 3__ 
 * ### __Set 2__ 
 * ### __Set 1__ 
+
+## Course Project: [2018 Project Description](https://github.com/PHBS/2018.M1.ASP/blob/master/files/Project.md)
 
 ## Classes: 
 * Lectures: Tues & Fri 1:30 – 3:20 PM
@@ -77,6 +82,6 @@ processes and how they can be computed using analytics or computer simulations.
 ## Assessment/Grading Details
 Attendance 20%, Mid-term Exam 30%, Assignments 20%, Course Project 30%
 * __Midterm exam__: 10.23 Tues. Open-book exam without computer/phone/calculator use. No final exam.
-* __Course project__: Presentation (11.09 Fri). Group up to 3 people.
+* __Course project__: Presentation (Last week). Group up to X people.
 * __Attendance__: Randomly checked. The score is calculated as 20 – 2`x`(#of absence). Leave request should be made 24 hours before with supporting documents, except for emergency. Job interview/internship cannot be a valid reason for leave
 * __Grade__ in letters (e.g., A+, A-, ... ,D+, D, F). __A- or above < 30% and B- or below > 10%__.
