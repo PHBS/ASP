@@ -6,7 +6,7 @@
 ## Course Slides and Other Resources
 * Prelims: [Probability Statistics Review](files/Prob_Stat_Review.pdf) | [MC Method](files/MCmethod.pdf) ([Py demo](py/MC_Demo.ipynb))
 * Past Exam: [2017-18 Midterm](files/ASP2017_Midterm.pdf), [2018-19 Midterm](files/ASP2018_Midterm.pdf)
-* Black-Scholes model ([Py demo](py/BlackScholes_ImpliedVol.ipynb), [MC demo](py/BlackScholes_MC.ipynb)): Also see Ch. 10 of [StoFin Course Notes](https://github.com/PHBS/2017.M3.StoFin/blob/master/files/SCFA_Notes.pdf)
+* Black-Scholes model ([Py demo](py/BlackScholes_ImpliedVol.ipynb), [MC demo](py/BlackScholes_MC.ipynb)): Also see Ch. 10 of [StoFin Course Notes](https://github.com/PHBS/2018.M3.StoFin/blob/master/files/SCFA_Notes.pdf)
 * Normal (Bachelier) model ([Slides](files/Normal_Model.pdf))
 * Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
 * Spread/Basket options ([Slides](files/SpreadBasketOption.pdf))
@@ -77,7 +77,7 @@ processes and how they can be computed using analytics or computer simulations.
 * Monte Carlo Methods in Finance by Peter Jaeckel
 * Option Valuation Under Stochastic Volatility by Alan Lewis
 * [Stochastic Calculus and Financial Applications](http://www-stat.wharton.upenn.edu/~steele/StochasticCalculus.html) by J. Michael Steele
-([Stochastic finance course notes](https://github.com/PHBS/2016.M3.StoFin/blob/master/files/Notes%20Steele.pdf))
+([Stochastic finance course notes](https://github.com/PHBS/2018.M3.StoFin/blob/master/files/Notes%20Steele.pdf))
 
 ## Assessment/Grading Details
 Attendance 20%, Mid-term Exam 30%, Assignments 20%, Course Project 30%
