@@ -77,7 +77,7 @@ processes and how they can be computed using analytics or computer simulations.
 * Monte Carlo Methods in Finance by Peter Jaeckel
 * Option Valuation Under Stochastic Volatility by Alan Lewis
 * [Stochastic Calculus and Financial Applications](http://www-stat.wharton.upenn.edu/~steele/StochasticCalculus.html) by J. Michael Steele
-([Stochastic finance course notes](https://github.com/PHBS/2018.M3.StoFin/blob/master/files/Notes%20Steele.pdf))
+([Stochastic finance course notes](https://github.com/PHBS/2018.M3.StoFin/blob/master/files/SCFA_Notes.pdf))
 
 ## Assessment/Grading Details
 Attendance 20%, Mid-term Exam 30%, Assignments 20%, Course Project 30%
