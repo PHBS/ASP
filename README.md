@@ -4,11 +4,12 @@
 * Email is the preferred method of communication. Class mailing list will be created as PHBS.ASP@allmail.net.
 
 ## Course Slides and Other Resources
-* Prelims: [Probability Statistics Review](files/Prob_Stat_Review.pdf) | [MC Method](files/MCmethod.pdf) ([Py demo](py/MC_Demo.ipynb))
+* Prelims: [Probability Statistics Review](files/Prob_Stat_Review.pdf) 
 * Past Exam: [2017-18 Midterm](files/ASP2017_Midterm.pdf), [2018-19 Midterm](files/ASP2018_Midterm.pdf)
+* Scientific computing, MC method, RN generation ([Slides](files/MCmethod.pdf) | [Py demo](py/MC_Demo.ipynb))
 * Black-Scholes model ([Py demo](py/BlackScholes_ImpliedVol.ipynb), [MC demo](py/BlackScholes_MC.ipynb)): Also see Ch. 10 of [StoFin Course Notes](https://github.com/PHBS/2018.M3.StoFin/blob/master/files/SCFA_Notes.pdf)
 * Normal (Bachelier) model ([Slides](files/Normal_Model.pdf))
-* Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
+* Implied volatility ([Slides](files/ImpVol.pdf) | [Py demo](py/BlackScholes_ImpliedVol.ipynb))
 * Spread/Basket options ([Slides](files/SpreadBasketOption.pdf))
 * SABR model ([Slides](files/SABRmodel.pdf))
 * Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
@@ -16,9 +17,9 @@
 ## Lectures
 No | Date | Contents
 --- | :---: | ---
-__01__ | 9.03 Tue | Course overview, Probability Statistics Review ([Slides](files/Prob_Stat_Review.pdf))
-__02__ | 9.06 Fri | Scientific computing, Monte Carlo method, Random number generation ([Slides](files/MCmethod.pdf)). 
-__03__ | 9.10 Tue | Continued ([Py demo](py/MC_Demo.ipynb))
+__01__ | 9.03 Tue | Course overview, Scientific computing, MC method, RN generation ([Slides](files/MCmethod.pdf) | [Py demo](py/MC_Demo.ipynb))
+__02__ | 9.06 Fri | Continued ([Slides](files/MCmethod.pdf) | [Py demo](py/MC_Demo.ipynb))
+__03__ | 9.10 Tue | 
 __04__ | 9.11 Wed | Python crash course ([Basic](py/PythonCrashCourse_Derek_Banas.ipynb), [Numpy](py/PythonCrashCourse_Numpy.ipynb)).  More [cheatsheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html) also available in [MLF CMS](http://cms.phbs.pku.edu.cn/claroline/document/document.php?cidReset=true&cidReq=FN570).
 __05__ | 9.17 Tue | HW2, Black-Scholes implementation ([Py Demo](py/BlackScholes_FunctionVsClass.ipynb)), Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
 __06__ | 9.20 Fri | Black-Scholes and Normal models in MC ([Py Demo](py/BlackScholes_MC.ipynb)), Normal model ([Slides](files/Normal_Model.pdf)), Correlated Normal RNs ([Py Demo](py/CorrelatedNormals_Demo.ipynb))
