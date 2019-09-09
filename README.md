@@ -8,7 +8,7 @@
 * Past Exam: [2017-18 Midterm](files/ASP2017_Midterm.pdf), [2018-19 Midterm](files/ASP2018_Midterm.pdf)
 * Scientific computing, MC method, RN generation ([Slides](files/MCmethod.pdf) | [Py demo](py/MC_Demo.ipynb))
 * Black-Scholes model ([Py demo](py/BlackScholes_ImpliedVol.ipynb), [MC demo](py/BlackScholes_MC.ipynb)): Also see Ch. 10 of [StoFin Course Notes](https://github.com/PHBS/2018.M3.StoFin/blob/master/files/SCFA_Notes.pdf)
-* Normal (Bachelier) model ([Slides](files/Normal_Model.pdf))
+* Normal (Bachelier) model ([Slides](files/Normal_Model.pdf)) from **Stochastic Finance** class
 * Implied volatility ([Slides](files/ImpVol.pdf) | [Py demo](py/BlackScholes_ImpliedVol.ipynb))
 * Spread/Basket options ([Slides](files/SpreadBasketOption.pdf))
 * SABR model ([Slides](files/SABRmodel.pdf))
