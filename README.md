@@ -42,10 +42,10 @@ __18__ | 11.08 Fri | Course project presentation
   * Register on Github.com and send your ID and student number to Prof. Choi via email (jaehyuk@phbs.pku.edu.cn). Use your __full name__ in your profile. Accept invitation to the [PHBS organization](https://github.com/orgs/PHBS/people) from TA. Install [Github Desktop](https://desktop.github.com/). 
   * Install [Anaconda](https://www.anaconda.com/download/) Python distribution (__3.X version__, not 2.X version). Anaconda distribution is core Python + useful scientific computation libraries (e.g., numpy, scipy, pandas) + package management system (pip or conda)
   * Send the screenshot of Github desktop and Anaconda installed to TA. (Example: [Github Desktop](files/Choi_Jaehyuk_Github.png), [Anaconda Spyder](files/Choi_Jaehyuk_Python.png))  
-* ### __Set 4__ 
-* ### __Set 3__ 
+* ### __Set 1__ [Due by 9.17 Tues] Simple corporate (default) bond pricing by MC simulation. [Starter Code](py/HW1/HW1.ipynb)
 * ### __Set 2__ 
-* ### __Set 1__ 
+* ### __Set 3__ 
+* ### __Set 4__ 
 
 ## Course Project: [2018 Project Description](https://github.com/PHBS/2018.M1.ASP/blob/master/files/Project.md)
 
