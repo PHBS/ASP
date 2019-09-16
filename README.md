@@ -21,10 +21,10 @@ __01__ | 9.03 Tue | Course overview, Scientific computing, MC method, RN generat
 __02__ | 9.06 Fri | Continued ([Slides](files/MCmethod.pdf) \| [Py demo](py/MC_Demo.ipynb))
 __03__ | 9.10 Tue | Black-Scholes-Merton and Normal option pricing with MC ([Py Demo](py/BlackScholes_MC.ipynb)), Normal model ([Slides](files/Normal_Model.pdf)), Black-Scholes implementation ([Py Demo](py/BlackScholes_FunctionVsClass.ipynb)), Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
 __04__ | 9.11 Wed | Python crash course ([Basic](py/PythonCrashCourse_Derek_Banas.ipynb) \| [Numpy](py/PythonCrashCourse_Numpy.ipynb)).  More [cheatsheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html) also available in [MLF CMS](http://cms.phbs.pku.edu.cn/claroline/document/document.php?cidReset=true&cidReq=FN570). HW1
-__05__ | 9.17 Tue | [Black-Scholes Implementation](https://github.com/PHBS-2017-ASP-Classroom/BSMmodel_Base), 
-__06__ | 9.20 Fri | 
-__07__ | 9.24 Tue | Spread/Basket options ([Slides](files/SpreadBasketOption.pdf)), Correlated Normal RNs ([Py Demo](py/CorrelatedNormals_Demo.ipynb))
-__08__  | 9.27 Fri | [Spread/Basket option implementation](py/TestCode_BasketSpread.ipynb), Debugging in Python, Import([Py Demo](py/HW4/Demo_Advanced_Import.ipynb))
+__05__ | 9.17 Tue | Spread/Basket options ([Slides](files/SpreadBasketOption.pdf)), Correlated Normal RNs ([Slides](files/MCmethod.pdf) \| [Py Demo](py/CorrelatedNormals_Demo.ipynb))
+__06__ | 9.20 Fri | [Spread/Basket option implementation](py/TestCode_BasketSpread.ipynb), Debugging in Python, Import([Py Demo](py/HW4/Demo_Advanced_Import.ipynb))
+__07__ | 9.24 Tue | 
+__08__  | 9.27 Fri | 
  x | x | __No Class: National Day Week__
 __09__ | 10.08 Tue | SABR model([Slides](files/SABRmodel.pdf): Volatility smile, Local volatility model)
 __10__ | 10.11 Fri | HW2 review, SABR model ([Slides](files/SABRmodel.pdf)), Stochastic Finance review
