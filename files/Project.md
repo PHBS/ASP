@@ -1,12 +1,7 @@
 # ASP Course Project
 
-## Project List [[link](https://github.com/PHBS/pyfedev_ASP2018/projects)]
-* __Team Jieqiang Tang__: [SABR Simulation] [Efficient SABR simulation by Leitao et al](http://dx.doi.org/10.1016/j.amc.2016.08.030)
-* __Team Junjie Zhang__: [BSM Implied Volatility] Analytic approximation of BSM implied volatility ([Jackel 2016](jaeckel.16mb.com/LetsBeRational.pdf)): implement the method, include it to BSM class and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness.
-* __Team Linsheng Zhuang__: [[Heston Model](https://en.wikipedia.org/wiki/Heston_model)]: Option pricing by exact Monte-Carlo + Fast Fourier Transform (FFT) method. Contact me for more information.
-* __Team Ting Xie__:[[Heston Model](https://en.wikipedia.org/wiki/Heston_model)]: Option pricing by exact Monte-Carlo + Fast Fourier Transform (FFT) method. Contact me for more information.
-* __Team Raphael Thomas__: Heston model simulation
-* ...
+## Project List [[link](https://github.com/PHBS/pyfedev_ASP2019/projects)]
+*
 
 ## Topics
 * Among the topics and HWs covered in the class, choose an in-depth research on one topic. You are also welcome to do the project on your own original idea. Otherwise, pick one from my suggestions which are basically understanding and implementing literatures. Topics includes 
@@ -15,7 +10,7 @@
   * SABR model and other stochastic volatility models
 
 ## Repository:
-* https://github.com/PHBS/pyfedev_ASP2018
+* https://github.com/PHBS/pyfedev_ASP2019
 
 ## File requirements
 * Core implementation (.py): python class and functions
@@ -30,22 +25,25 @@
   * Spread/Basket: make sure that the price is same as single asset BSM if the weigit is 1 for only one asset and zero otherwise.
 
 ## Other guidelines
-* The contribution will be individually graded. Make sure to show the contribution via github desktop commits (not online upload).
+* Make sure to show the contribution via github desktop commits (not online upload).
 * The presentation next week doesn't have to be complete. Show your plan and understanding so far, e.g. function prototypes & arguments, etc and the tests to put on.
 
-## Suggested Papers 
+## Suggested Topics and Papers 
+### * Exact simulations of Heston model
+* [Heston Model](https://en.wikipedia.org/wiki/Heston_model)
+* Broadie, M., Kaya, Ö., 2006. Exact simulation of stochastic volatility and other affine jump diffusion processes. Operations Research 54, 217–231.
+* Glasserman, P., Kim, K.-K., 2011. Gamma expansion of the Heston stochastic volatility model. Finance Stoch 15, 267–296. https://doi.org/10.1007/s00780-009-0115-y
+
+### * Rainnow Option
+* [Wiki](https://en.wikipedia.org/wiki/Rainbow_option)
+*
+
+### * Rough Volatility
+* McCrickerd, R., Pakkanen, M.S., 2018. Turbocharging Monte Carlo pricing for the rough Bergomi model. Quantitative Finance 18, 1877–1886. https://doi.org/10.1080/14697688.2018.1459812
+* Bennedsen, M., Lunde, A., Pakkanen, M.S., 2017. Hybrid scheme for Brownian semistationary processes. Finance Stoch 21, 931–965. https://doi.org/10.1007/s00780-017-0335-5
+
+### * Unfinished Projects
 * [BSM Implied Volatility] Analytic approximation of BSM implied volatility ([Jackel 2016](jaeckel.16mb.com/LetsBeRational.pdf)): implement the method, include it to BSM class and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness.
-
-* [[Heston Model](https://en.wikipedia.org/wiki/Heston_model)]: Option pricing by exact Monte-Carlo + Fast Fourier Transform (FFT) method. Contact me for more information.
-
-* [SABR approximations] Various improvement to Hagan's original paper: [Paulot](https://arxiv.org/abs/0906.0658), [Obloj](https://arxiv.org/abs/0708.0998), [Balland](http://janroman.dhis.org/finance/OIS/Artiklar%20%C3%B6vrigt/SABR%20goes%20Normal.pdf) 
-, etc. Contact me for more information.
-
-* [SABR Simulation] [Efficient SABR simulation by Leitao et al](http://dx.doi.org/10.1016/j.amc.2016.08.030)
-
-* [SABR Simulation/Interpolation] SABR simulation by stochastic sollocation Monte Carlo method ( [paper 1](https://ssrn.com/abstract=2529691), [paper 2](https://ssrn.com/abstract=2529684) )
-
-* [Vanna-Volga method] a smile interpolation method ([Wiki](https://en.wikipedia.org/wiki/Vanna-Volga_pricing), [BSM](https://arxiv.org/abs/0904.1074), [normal](https://arxiv.org/abs/1810.07457) )
 
 ## Completed Papers
 * ~[Normal Implied Volatility]~ Analytic approximation of normal implied volatility ([Choi et al 2007](http://jaehyukchoi.com/research/normvol/index.html)): (Contact me if you want to take this project) implement the method, include it to Normal class and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness.
@@ -61,7 +59,9 @@ Also implement Kirk's approximation covered in class and [(Bjersund, Stensland 2
 implement the method, include it to Normal class and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness.
 * ~[SABR Option Pricing]~ Arbitrage-free pricing method by [Kennedy et al, 2011](http://www.tandfonline.com/doi/abs/10.1080/1350486X.2011.646523) ([Download](http://ssrn.com/abstract_id=2043504)): simpler approach introduced in class is enough. Implement the method, create a new class ModelKennedy in sabr.py, and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness. 
 * ~[SABR Calibration]~ Efficient first guess for SABR calibrations to 3 option prices by [Le Floc’h and Kennedy, 2014](https://ssrn.com/abstract_id=2467231) (see also [here](https://www.clarusft.com/sabr-calibration-a-simple-explicit-initial-guess/)): Implement the method, add to sabr.py, and write a code comparing the efficient against the dumb initial guess. In python notebook, summarize the method, write a quick help and report strength and weakness. 
-
-
-
+* ~[Vanna-Volga method]~ a smile interpolation method ([Wiki](https://en.wikipedia.org/wiki/Vanna-Volga_pricing), [BSM](https://arxiv.org/abs/0904.1074), [Normal](https://arxiv.org/abs/1810.07457))
+* ~[SABR Simulation]~ [Efficient SABR simulation by Leitao et al](http://dx.doi.org/10.1016/j.amc.2016.08.030)
+* ~[SABR approximations]~ Various improvement to Hagan's original paper: [Paulot](https://arxiv.org/abs/0906.0658), [Obloj](https://arxiv.org/abs/0708.0998), [Balland](http://janroman.dhis.org/finance/OIS/Artiklar%20%C3%B6vrigt/SABR%20goes%20Normal.pdf) 
+, etc. Contact me for more information.
+* ~[SABR Simulation/Interpolation]~ SABR simulation by stochastic collocation Monte Carlo method ( [paper 1](https://ssrn.com/abstract=2529691), [paper 2](https://ssrn.com/abstract=2529684) )
 
