@@ -29,10 +29,10 @@
 * The presentation next week doesn't have to be complete. Show your plan and understanding so far, e.g. function prototypes & arguments, etc and the tests to put on.
 
 ## Suggested Topics and Papers 
-### * Exact simulations of Heston model
+### * Simulations of Heston model
 * [Heston Model](https://en.wikipedia.org/wiki/Heston_model)
-* Broadie, M., Kaya, Ö., 2006. Exact simulation of stochastic volatility and other affine jump diffusion processes. Operations Research 54, 217–231.
-* Glasserman, P., Kim, K.-K., 2011. Gamma expansion of the Heston stochastic volatility model. Finance Stoch 15, 267–296. https://doi.org/10.1007/s00780-009-0115-y
+* Andersen, L., 2008. Simple and efficient simulation of the Heston stochastic volatility model. The Journal of Computational Finance 11, 1–42. https://doi.org/10.21314/JCF.2008.189
+* Broadie, M., Kaya, Ö., 2006. Exact Simulation of Stochastic Volatility and Other Affine Jump Diffusion Processes. Operations Research 54, 217–231. https://doi.org/10.1287/opre.1050.0247 | Glasserman, P., Kim, K.-K., 2011. Gamma expansion of the Heston stochastic volatility model. Finance Stoch 15, 267–296. https://doi.org/10.1007/s00780-009-0115-y
 
 ### * Rainnow Option
 * [Wiki](https://en.wikipedia.org/wiki/Rainbow_option)
