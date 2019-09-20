@@ -22,7 +22,7 @@ __02__ | 9.06 Fri | Continued ([Slides](files/MCmethod.pdf) \| [Py demo](py/MC_D
 __03__ | 9.10 Tue | Black-Scholes-Merton and Normal option pricing with MC ([Py Demo](py/BlackScholes_MC.ipynb)), Normal model ([Slides](files/Normal_Model.pdf)), Black-Scholes implementation ([Py Demo](py/BlackScholes_FunctionVsClass.ipynb)), Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
 __04__ | 9.11 Wed | Python crash course ([Basic](py/PythonCrashCourse_Derek_Banas.ipynb) \| [Numpy](py/PythonCrashCourse_Numpy.ipynb)).  More [cheatsheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html) also available in [MLF CMS](http://cms.phbs.pku.edu.cn/claroline/document/document.php?cidReset=true&cidReq=FN570). HW1
 __05__ | 9.17 Tue | Spread/Basket options ([Slides](files/SpreadBasketOption.pdf)), Correlated Normal RNs ([Slides](files/MCmethod.pdf) \| [Py Demo](py/CorrelatedNormals_Demo.ipynb))
-__06__ | 9.20 Fri | [Spread/Basket option implementation](py/TestCode_BasketSpread.ipynb), Debugging in Python, Import([Py Demo](py/HW4/Demo_Advanced_Import.ipynb))
+__06__ | 9.20 Fri | [Spread/Basket option implementation](py/TestCode_BasketSpread.ipynb), Debugging in Python, Import([Py Demo](py/HW4/Demo_Advanced_Import.ipynb)), HW2
 __07__ | 9.24 Tue | 
 __08__  | 9.27 Fri | 
  x | x | __No Class: National Day Week__
@@ -43,7 +43,7 @@ __18__ | 11.08 Fri | Course project presentation
   * Install [Anaconda](https://www.anaconda.com/download/) Python distribution (__3.X version__, not 2.X version). Anaconda distribution is core Python + useful scientific computation libraries (e.g., numpy, scipy, pandas) + package management system (pip or conda)
   * Send the screenshot of Github desktop and Anaconda installed to TA. (Example: [Github Desktop](files/Choi_Jaehyuk_Github.png), [Anaconda Spyder](files/Choi_Jaehyuk_Python.png))  
 * ### __Set 1__ [Due by 9.19 Fri] Simple corporate (default) bond pricing by MC simulation. [Starter Code](py/HW1/HW1.ipynb)
-* ### __Set 2__ 
+* ### __Set 2__ [Due by 9.27 Fri] Pricing basket and spread option using MC [Starter Code](py/HW2/TestCode_BasketSpread.ipynb)
 * ### __Set 3__ 
 * ### __Set 4__ 
 
