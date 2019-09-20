@@ -42,7 +42,6 @@ def basket_price_mc_cv(
 
     ''' 
     compute price3: analytic price based on normal model
-    make sure you use the same seed
     
     price3 = basket_price_norm_analytic(
         strike, spot, vol, weights, texp, cor_m, intr, divr, cp_sign)
