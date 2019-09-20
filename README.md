@@ -22,7 +22,7 @@ __02__ | 9.06 Fri | Continued ([Slides](files/MCmethod.pdf) \| [Py demo](py/MC_D
 __03__ | 9.10 Tue | Black-Scholes-Merton and Normal option pricing with MC ([Py Demo](py/BlackScholes_MC.ipynb)), Normal model ([Slides](files/Normal_Model.pdf)), Black-Scholes implementation ([Py Demo](py/BlackScholes_FunctionVsClass.ipynb)), Implied volatility ([Slides](files/ImpVol.pdf), [Py demo](py/BlackScholes_ImpliedVol.ipynb))
 __04__ | 9.11 Wed | Python crash course ([Basic](py/PythonCrashCourse_Derek_Banas.ipynb) \| [Numpy](py/PythonCrashCourse_Numpy.ipynb)).  More [cheatsheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html) also available in [MLF CMS](http://cms.phbs.pku.edu.cn/claroline/document/document.php?cidReset=true&cidReq=FN570). HW1
 __05__ | 9.17 Tue | Spread/Basket options ([Slides](files/SpreadBasketOption.pdf)), Correlated Normal RNs ([Slides](files/MCmethod.pdf) \| [Py Demo](py/CorrelatedNormals_Demo.ipynb))
-__06__ | 9.20 Fri | Spread/Basket options continued, HW2: [Spread/Basket option implementation](py/TestCode_BasketSpread.ipynb)
+__06__ | 9.20 Fri | Spread/Basket options continued, HW2: [Spread/Basket option implementation](py/HW2/TestCode_BasketSpread.ipynb)
 __07__ | 9.24 Tue | 
 __08__  | 9.27 Fri | Debugging in Python, Import([Py Demo](py/HW4/Demo_Advanced_Import.ipynb))
  x | x | __No Class: National Day Week__
