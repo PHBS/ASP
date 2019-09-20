@@ -9,7 +9,7 @@ import numpy as np
 import scipy.stats as ss
 import scipy.optimize as sopt
 
-def bsm_price(strike, spot, vol, texp, intr=0.0, divr=0.0, cp_sign=1):
+def bsm_formula(strike, spot, vol, texp, intr=0.0, divr=0.0, cp_sign=1):
     div_fac = np.exp(-texp*divr)
     disc_fac = np.exp(-texp*intr)
     forward = spot / disc_fac * div_fac
@@ -34,7 +34,7 @@ class BsmModel:
         self.divr = divr
     
     def price(self, strike, spot, texp, cp_sign=1):
-        return bsm_price(strike, spot, self.vol, texp, intr=self.intr, divr=self.divr, cp_sign=cp_sign)
+        return bsm_formula(strike, spot, self.vol, texp, intr=self.intr, divr=self.divr, cp_sign=cp_sign)
     
     def delta(self, strike, spot, texp, cp_sign=1):
         ''' 
@@ -56,6 +56,6 @@ class BsmModel:
 
     def impvol(self, price, strike, spot, texp, cp_sign=1):
         iv_func = lambda _vol: \
-            bsm_price(strike, spot, _vol, texp, self.intr, self.divr, cp_sign) - price
+            bsm_formula(strike, spot, _vol, texp, self.intr, self.divr, cp_sign) - price
         vol = sopt.brentq(iv_func, 0, 10)
         return vol

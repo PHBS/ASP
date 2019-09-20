@@ -6,7 +6,7 @@ Created on Tue Sep 19 22:56:58 2017
 """
 import numpy as np
 import scipy.stats as ss
-from .bsm import bsm_price
+from .bsm import bsm_formula
 from .normal import normal_formula
 
 def basket_check_args(spot, vol, corr_m, weights):
@@ -108,6 +108,6 @@ def spread_price_kirk(strike, spot, vol, texp, corr, intr=0, divr=0, cp_sign=1):
     forward = spot / disc_fac * div_fac
     vol2 = vol[1]*forward[1]/(forward[1]+strike)
     vol_r = np.sqrt(vol[0]**2 + vol2*(vol2 - 2*corr*vol[0]))
-    price = disc_fac * bsm_price(forward[1]+strike, forward[0], vol_r, texp, cp_sign=cp_sign)
+    price = disc_fac * bsm_formula(forward[1]+strike, forward[0], vol_r, texp, cp_sign=cp_sign)
 
     return price
