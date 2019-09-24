@@ -1,4 +1,4 @@
-ooo# Applied Stochastic Processes (FIN 514, 2019-20 Module 1)
+# Applied Stochastic Processes (FIN 514, 2019-20 Module 1)
 
 ## Announcements
 * Email is the preferred method of communication. Class mailing list will be created as PHBS.ASP@allmail.net.
