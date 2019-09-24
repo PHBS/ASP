@@ -23,10 +23,10 @@ __03__ | 9.10 Tue | Black-Scholes-Merton and Normal option pricing with MC ([Py 
 __04__ | 9.11 Wed | Python crash course ([Basic](py/PythonCrashCourse_Derek_Banas.ipynb) \| [Numpy](py/PythonCrashCourse_Numpy.ipynb)).  More [cheatsheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html) also available in [MLF CMS](http://cms.phbs.pku.edu.cn/claroline/document/document.php?cidReset=true&cidReq=FN570). HW1
 __05__ | 9.17 Tue | Spread/Basket options ([Slides](files/SpreadBasketOption.pdf)), Correlated Normal RNs ([Slides](files/MCmethod.pdf) \| [Py Demo](py/CorrelatedNormals_Demo.ipynb))
 __06__ | 9.20 Fri | Spread/Basket options continued, HW2: [Spread/Basket option implementation](py/HW2/TestCode_BasketSpread.ipynb)
-__07__ | 9.24 Tue | 
-__08__  | 9.27 Fri | Debugging in Python, Import([Py Demo](py/HW4/Demo_Advanced_Import.ipynb))
+__07__ | 9.24 Tue | SABR model([Slides](files/SABRmodel.pdf): Volatility smile, Local volatility model)
+__08__  | 9.27 Fri | SABR model continued. Suggested project topics. Introduction to PyFE.
  x | x | __No Class: National Day Week__
-__09__ | 10.08 Tue | SABR model([Slides](files/SABRmodel.pdf): Volatility smile, Local volatility model)
+__09__ | 10.08 Tue | Debugging in Python, Import([Py Demo](py/HW4/Demo_Advanced_Import.ipynb))
 __10__ | 10.11 Fri | HW2 review, SABR model ([Slides](files/SABRmodel.pdf)), Stochastic Finance review
 __11__ | 10.15 Tue | SABR model ([Slides](files/SABRmodel.pdf)): Conditional MC method
 __12__ | 10.18 Fri | Review for midterm exam
