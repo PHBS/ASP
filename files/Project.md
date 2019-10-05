@@ -34,13 +34,24 @@
 * Andersen, L., 2008. Simple and efficient simulation of the Heston stochastic volatility model. The Journal of Computational Finance 11, 1–42. https://doi.org/10.21314/JCF.2008.189
 * Broadie, M., Kaya, Ö., 2006. Exact Simulation of Stochastic Volatility and Other Affine Jump Diffusion Processes. Operations Research 54, 217–231. https://doi.org/10.1287/opre.1050.0247 | Glasserman, P., Kim, K.-K., 2011. Gamma expansion of the Heston stochastic volatility model. Finance Stoch 15, 267–296. https://doi.org/10.1007/s00780-009-0115-y
 
-### * Rainnow Option
-* [Wiki](https://en.wikipedia.org/wiki/Rainbow_option)
-*
+### * GARCH-diffusion model
+* Papadopoulos, Y.A., Lewis, A.L., 2018. A First Option Calibration of the GARCH Diffusion Model by a PDE Method. arXiv:1801.06141 [q-fin].
+* Barone-Adesi, G., Rasmussen, H., Ravanelli, C., 2005. An option pricing formula for the GARCH diffusion model. Computational Statistics & Data Analysis, 2nd CSDA Special Issue on Computational Econometrics 49, 287–310. https://doi.org/10.1016/j.csda.2004.05.014
+
+### * Exact Simulation Scheme
+* __General SDE__: Beskos, A., Roberts, G.O., 2005. Exact simulation of diffusions. Ann. Appl. Probab. 15, 2422–2444. https://doi.org/10.1214/105051605000000485
+* __OU SV Model__: Li, C., Wu, L., 2019. Exact simulation of the Ornstein–Uhlenbeck driven stochastic volatility model. European Journal of Operational Research 275, 768–779. https://doi.org/10.1016/j.ejor.2018.11.057
+* __Heston Model__: Broadie, M., Kaya, Ö., 2006. Exact Simulation of Stochastic Volatility and Other Affine Jump Diffusion Processes. Operations Research 54, 217–231. https://doi.org/10.1287/opre.1050.0247 | Glasserman, P., Kim, K.-K., 2011. Gamma expansion of the Heston stochastic volatility model. Finance Stoch 15, 267–296. https://doi.org/10.1007/s00780-009-0115-y
+* __3/2 SV Model__: Baldeaux, J., 2012. Exact simulation of the 3/2 model. Int. J. Theor. Appl. Finan. 15, 1250032. https://doi.org/10.1142/S021902491250032X
+* __Computing Moments from Laplace Transform__: Choudhury, G.L., Lucantoni, D.M., 1996. Numerical Computation of the Moments of a Probability Distribution from its Transform. Operations Research 44, 368–381. https://doi.org/10.1287/opre.44.2.368
 
 ### * Rough Volatility
 * McCrickerd, R., Pakkanen, M.S., 2018. Turbocharging Monte Carlo pricing for the rough Bergomi model. Quantitative Finance 18, 1877–1886. https://doi.org/10.1080/14697688.2018.1459812
 * Bennedsen, M., Lunde, A., Pakkanen, M.S., 2017. Hybrid scheme for Brownian semistationary processes. Finance Stoch 21, 931–965. https://doi.org/10.1007/s00780-017-0335-5
+
+### * Rainnow Option
+* [Wiki](https://en.wikipedia.org/wiki/Rainbow_option)
+*
 
 ### * Unfinished Projects
 * [BSM Implied Volatility] Analytic approximation of BSM implied volatility ([Jackel 2016](jaeckel.16mb.com/LetsBeRational.pdf)): implement the method, include it to BSM class and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness.
