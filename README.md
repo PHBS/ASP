@@ -24,11 +24,11 @@ __04__ | 9.11 Wed | Python crash course ([Basic](py/PythonCrashCourse_Derek_Bana
 __05__ | 9.17 Tue | Spread/Basket options ([Slides](files/SpreadBasketOption.pdf)), Correlated Normal RNs ([Slides](files/MCmethod.pdf) \| [Py Demo](py/CorrelatedNormals_Demo.ipynb))
 __06__ | 9.20 Fri | Spread/Basket options continued, HW2: [Spread/Basket option implementation](py/HW2/TestCode_BasketSpread.ipynb)
 __07__ | 9.24 Tue | SABR model ([Slides](files/SABRmodel.pdf): Volatility smile, Local volatility model)
-__08__  | 9.27 Fri | SABR model continued. Suggested project topics. Introduction to PyFE.
+__08__  | 9.27 Fri | SABR model continued ([Slides](files/SABRmodel.pdf): Model intro, Euler/Milstein method).
  x | x | __No Class: National Day Week__
-__09__ | 10.08 Tue | Debugging in Python, Import ([Py Demo](py/HW4/Demo_Advanced_Import.ipynb))
-__10__ | 10.11 Fri | HW2 review, SABR model ([Slides](files/SABRmodel.pdf)), Stochastic Finance review
-__11__ | 10.15 Tue | SABR model ([Slides](files/SABRmodel.pdf)): Conditional MC method
+__09__ | 10.08 Tue | SABR model continued ([Slides](files/SABRmodel.pdf): Conditional MC method) , Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), Suggested [project topics](files/Project.md). 
+__10__ | 10.11 Fri | 
+__11__ | 10.15 Tue | Debugging in Python, Stochastic Finance review, Introduction to PyFE.
 __12__ | 10.18 Fri | Review for midterm exam
 __13__ | 10.22 Tue | Midterm exam
 __14__ | 10.25 Fri | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
