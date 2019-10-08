@@ -26,7 +26,7 @@ __06__ | 9.20 Fri | Spread/Basket options continued, HW2: [Spread/Basket option 
 __07__ | 9.24 Tue | SABR model ([Slides](files/SABRmodel.pdf): Volatility smile, Local volatility model)
 __08__  | 9.27 Fri | SABR model continued ([Slides](files/SABRmodel.pdf): Model intro, Euler/Milstein method).
  x | x | __No Class: National Day Week__
-__09__ | 10.08 Tue | SABR model continued ([Slides](files/SABRmodel.pdf): Conditional MC method) , Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), Suggested [project topics](files/Project.md). 
+__09__ | 10.08 Tue | SABR model continued ([Slides](files/SABRmodel.pdf): Conditional MC method), Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), Suggested [project topics](files/Project.md). HW3: [MS for SABR](py/HW3/TestCode_SABR.ipynb)
 __10__ | 10.11 Fri | 
 __11__ | 10.15 Tue | Debugging in Python, Stochastic Finance review, Introduction to PyFE.
 __12__ | 10.18 Fri | Review for midterm exam
@@ -43,11 +43,11 @@ __18__ | 11.08 Fri | Course project presentation
   * Install [Anaconda](https://www.anaconda.com/download/) Python distribution (__3.X version__, not 2.X version). Anaconda distribution is core Python + useful scientific computation libraries (e.g., numpy, scipy, pandas) + package management system (pip or conda)
   * Send the screenshot of Github desktop and Anaconda installed to TA. (Example: [Github Desktop](files/Choi_Jaehyuk_Github.png), [Anaconda Spyder](files/Choi_Jaehyuk_Python.png))  
 * ### __Set 1__ [Due by 9.19 Fri] Simple corporate (default) bond pricing by MC simulation. [Starter Code](py/HW1/HW1.ipynb)
-* ### __Set 2__ [Due by 9.27 Fri] Pricing basket and spread option using MC [Starter Code](py/HW2/TestCode_BasketSpread.ipynb)
-* ### __Set 3__ 
+* ### __Set 2__ [Due by 9.27 Fri] Pricing basket and spread option using MC. [Starter Code](py/HW2/TestCode_BasketSpread.ipynb)
+* ### __Set 3__ [Due by 10.17 Fri] Simulating SABR model. [Starter Code](py/HW3/TestCode_SABR.ipynb)
 * ### __Set 4__ 
 
-## Course Project: [2018 Project Description](https://github.com/PHBS/2018.M1.ASP/blob/master/files/Project.md)
+## Course Project: [Project Description](files/Project.md) (Previous year: [2018](https://github.com/PHBS/2018.M1.ASP/blob/master/files/Project.md))
 
 ## Classes: 
 * Lectures: Tues & Fri 1:30 – 3:20 PM
