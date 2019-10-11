@@ -27,8 +27,8 @@ __07__ | 9.24 Tue | SABR model ([Slides](files/SABRmodel.pdf): Volatility smile,
 __08__  | 9.27 Fri | SABR model continued ([Slides](files/SABRmodel.pdf): Model intro, Euler/Milstein method).
  x | x | __No Class: National Day Week__
 __09__ | 10.08 Tue | SABR model continued ([Slides](files/SABRmodel.pdf): Conditional MC method), Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), Suggested [project topics](files/Project.md). HW3: [MC method for SABR](py/HW3/TestCode_SABR.ipynb)
-__10__ | 10.11 Fri | 
-__11__ | 10.15 Tue | Debugging in Python, Stochastic Finance review, Introduction to PyFE.
+__10__ | 10.11 Fri | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
+__11__ | 10.15 Tue | Debugging in Python, Introduction to PyFE.
 __12__ | 10.18 Fri | Review for midterm exam
 __13__ | 10.22 Tue | Midterm exam
 __14__ | 10.25 Fri | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
