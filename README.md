@@ -11,7 +11,7 @@
 * Normal (Bachelier) model ([Slides](files/Normal_Model.pdf)) from **Stochastic Finance** class
 * Implied volatility ([Slides](files/ImpVol.pdf) | [Py demo](py/BlackScholes_ImpliedVol.ipynb))
 * Spread/Basket options ([Slides](files/SpreadBasketOption.pdf))
-* SABR model ([Slides](files/SABRmodel.pdf))
+* SABR model ([Slides](files/SABRmodel.pdf)) | NSVh model ([Slides](files/NSVh_Slides.pdf))
 * Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 
 ## Lectures
@@ -28,13 +28,13 @@ __08__  | 9.27 Fri | SABR model continued ([Slides](files/SABRmodel.pdf): Model 
  x | x | __No Class: National Day Week__
 __09__ | 10.08 Tue | SABR model continued ([Slides](files/SABRmodel.pdf): Conditional MC method), Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), Suggested [project topics](files/Project.md). HW3: [MC method for SABR](py/HW3/TestCode_SABR.ipynb)
 __10__ | 10.11 Fri | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
-__11__ | 10.15 Tue | Debugging in Python, Introduction to PyFE.
+__11__ | 10.15 Tue | Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf)), Introduction to PyFE, Github Pull-request
 __12__ | 10.18 Fri | Review for midterm exam
 __13__ | 10.22 Tue | Midterm exam
 __14__ | 10.25 Fri | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
-__15__ | 10.29 Tue | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb)), Github Pull-request
+__15__ | 10.29 Tue | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 __16__ | 11.01 Fri | Research Presentation: (Sum of BSM models) and HW3 review
-__17__ | 11.05 Tue | Course project presentation (or Research Presentation (NSVh model) and HW4 review)
+__17__ | 11.05 Tue | Course project presentation
 __18__ | 11.08 Fri | Course project presentation
 
 ## Homeworks:
