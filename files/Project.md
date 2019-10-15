@@ -1,9 +1,9 @@
 # ASP Course Project
 
-## Do do
-* Please report me (by email) if you already formed a group.
+## [Repository](https://github.com/PHBS/pyfedev-ASP) and [Project List](https://github.com/PHBS/pyfedev-ASP/projects)
 
-## Project List [[link](https://github.com/PHBS/pyfedev_ASP2019/projects)]
+## Do do
+* Create new project wiht **title**, **short description**, and **team**.
 
 ## Topics
 * Among the topics and HWs covered in the class, choose an in-depth research on one topic. You are also welcome to do the project on your own original idea. Otherwise, pick one from my suggestions which are basically understanding and implementing literatures. Topics includes 
