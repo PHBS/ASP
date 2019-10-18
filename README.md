@@ -29,7 +29,7 @@ __08__  | 9.27 Fri | SABR model continued ([Slides](files/SABRmodel.pdf): Model 
 __09__ | 10.08 Tue | SABR model continued ([Slides](files/SABRmodel.pdf): Conditional MC method), Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), Suggested [project topics](files/Project.md). HW3: [MC method for SABR](py/HW3/TestCode_SABR.ipynb)
 __10__ | 10.11 Fri | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
 __11__ | 10.15 Tue | Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf)), Introduction to PyFE, Github Pull-request
-__12__ | 10.18 Fri | Review for midterm exam
+__12__ | 10.18 Fri | Review for midterm exam (Past Exams: [2017-18](files/ASP2017_Midterm.pdf), [2018-19](files/ASP2018_Midterm.pdf))
 __13__ | 10.22 Tue | Midterm exam
 __14__ | 10.25 Fri | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 __15__ | 10.29 Tue | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
