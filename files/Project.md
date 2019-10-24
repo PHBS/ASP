@@ -16,12 +16,13 @@
 
 ## File requirements
 * Core implementation (.py): python class and functions
-  * Make sure to comment in detail.
+  * Make sure to comment in detail. Example: [bsm.py](https://github.com/PHBS/pyfedev-ASP/blob/master/pyfe/bsm.py)
   * __Integrate into the `pyfe` folder.__ Do not mix with testing/manual notebook files.
 * Documentation/Test (__.ipynb__): one Jupyter notebook file briefly describing the method (base theory, equations, SDE, strength/weakness, etc), the function prototype and arguments (manual style) and the usage examples
   * The best examples are from numpy documentation: [example](https://docs.scipy.org/doc/numpy-1.10.1/reference/routines.polynomials.hermite.html)
   * Also include examples and tests of your class (e.g., test against reference parameters)
-
+  * __Put into the `test` folder. The file name should be Test_YOURPROJECT.ipynb__ 
+  
 ## Other guidelines
 * Make sure to show the contribution via github desktop commits (not online upload).
 * The project doesn't have to be complete by the presentation. If you need more time, show your plan, understanding, progress so far, e.g. function prototypes & arguments, etc and the tests to put on.
