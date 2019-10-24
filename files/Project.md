@@ -18,17 +18,13 @@
 * Core implementation (.py): python class and functions
   * Make sure to comment in detail.
   * __Integrate into the `pyfe` folder.__ Do not mix with testing/manual notebook files.
-* Documentation/Manual (__.ipynb__): one Jupyter notebook file briefly describing the method (base theory, equations, SDE, strength/weakness, etc), the function prototype and arguments (manual style) and the usage examples
+* Documentation/Test (__.ipynb__): one Jupyter notebook file briefly describing the method (base theory, equations, SDE, strength/weakness, etc), the function prototype and arguments (manual style) and the usage examples
   * The best examples are from numpy documentation: [example](https://docs.scipy.org/doc/numpy-1.10.1/reference/routines.polynomials.hermite.html)
-* Validation/Test (__.py__): one python file briefly test the code/model.
-  * Think creatively how to avoid possible errors. For example,
-  * BSM/Normal model: make sure to include the analytic-vs-numerical risk test.
-  * SV (SABR/Heston): make sure that the price converge to BSM/Normal if alpha(vov parameter) goes to 0
-  * Spread/Basket: make sure that the price is same as single asset BSM if the weigit is 1 for only one asset and zero otherwise.
+  * Also include examples and tests of your class (e.g., test against reference parameters)
 
 ## Other guidelines
 * Make sure to show the contribution via github desktop commits (not online upload).
-* The presentation next week doesn't have to be complete. Show your plan and understanding so far, e.g. function prototypes & arguments, etc and the tests to put on.
+* The project doesn't have to be complete by the presentation. If you need more time, show your plan, understanding, progress so far, e.g. function prototypes & arguments, etc and the tests to put on.
 
 ## Suggested Topics and Papers 
 ### * Simulations of Heston model
