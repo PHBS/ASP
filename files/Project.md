@@ -12,7 +12,7 @@
   * SABR model and other stochastic volatility models
 
 ## Repository:
-* https://github.com/PHBS/pyfedev_ASP2019
+* https://github.com/PHBS/pyfedev-ASP
 
 ## File requirements
 * Core implementation (.py): python class and functions
