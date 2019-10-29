@@ -1,6 +1,7 @@
 # ASP Course Project
 
 ## [Repository](https://github.com/PHBS/pyfedev-ASP) and [Project List](https://github.com/PHBS/pyfedev-ASP/projects)
+* https://github.com/PHBS/pyfedev-ASP
 
 ## Do do
 * Create new project wiht **title**, **short description**, and **team**.
@@ -10,9 +11,6 @@
   * BSM (lognormal) vs Bachelier (normal) model
   * Spread/Basket/Asian option pricing
   * SABR model and other stochastic volatility models
-
-## Repository:
-* https://github.com/PHBS/pyfedev-ASP
 
 ## File requirements
 * Core implementation (.py): python class and functions
