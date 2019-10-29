@@ -2,6 +2,7 @@
 
 ## Announcements
 * Email is the preferred method of communication. Class mailing list will be created as PHBS.ASP@allmail.net.
+* **Course project is due on 11.15 (Friday) night.**
 
 ## Course Slides and Other Resources
 * Prelims: [Probability Statistics Review](files/Prob_Stat_Review.pdf) 
