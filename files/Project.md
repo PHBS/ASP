@@ -3,6 +3,20 @@
 ## [Repository](https://github.com/PHBS/pyfedev-ASP) and [Project List](https://github.com/PHBS/pyfedev-ASP/projects)
 * https://github.com/PHBS/pyfedev-ASP
 
+## Presentation
+### 11.05 Tue
+* [Computing Moments from Laplace Transform](https://github.com/PHBS/pyfedev-ASP/projects/12): Aiyu CAO, Rong CHEN
+* [Exact Simulation of the Ornstein-Uhlenbeck Driven Stochastic Volatility Model](https://github.com/PHBS/pyfedev-ASP/projects/23): Lu Jinlei, Minghui CAO
+* [Exact Simulation of Heston Model](https://github.com/PHBS/pyfedev-ASP/projects/13): Zhibin GUO, Yunxia SHI
+* [(Conditional) Monte-Carlo simulation of GARCH-diffusions](https://github.com/PHBS/pyfedev-ASP/projects/26): Yao Li, Erik Nielsen, Hao Li
+* Zhang Shiqi
+### 11.08 Fri
+* [Exact simulation of diffusions](https://github.com/PHBS/pyfedev-ASP/projects/25): Zhang Zijie, Zhong Lin
+* [Simple and efficient simulation of the Heston stochastic volatility model](https://github.com/PHBS/pyfedev-ASP/projects/24): Liu Sheng, Jinchao Du
+* [Exact simulation of the 3/2 model](https://github.com/PHBS/pyfedev-ASP/projects/17): Li Gong, Lei Wang
+* [GARCH-diffusion model](https://github.com/PHBS/pyfedev-ASP/projects/14): Xiangrong LI, Mingcong LI
+* [Exact Simulation of SABR Model](https://github.com/PHBS/pyfedev-ASP/projects/15): Xinlei Chang, Jian Zhou
+
 ## Do do
 * Create new project wiht **title**, **short description**, and **team**.
 
