@@ -1,4 +1,5 @@
 # ASP Course Project
+* Course project is due on 11.15 (Friday) night.
 
 ## [Repository](https://github.com/PHBS/pyfedev-ASP) and [Project List](https://github.com/PHBS/pyfedev-ASP/projects)
 * https://github.com/PHBS/pyfedev-ASP
