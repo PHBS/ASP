@@ -46,7 +46,7 @@ __18__ | 5.07 Fri | Course project presentation
 * ### __Set 2__ [Due by XXX] Pricing basket and spread option using MC. [Starter Code](py/HW2/TestCode_BasketSpread.ipynb)
 * ### __Set 3__ [Due by XXX] Simulating SABR model. [Starter Code](py/HW3/TestCode_SABR.ipynb)
 
-## Course Project: [Project Description](files/Project.md) (Previous year: [2017](past-years/2017-18-M1/Project.md) | [2019](past-years/2019-20-M1/Project.md))
+## Course Project: [Project Description](files/Project.md) (Previous year: [2017](past-years/2017-18-M1/Project.md) | [2018](past-years/2018-19-M1/Project.md) | [2019](past-years/2019-20-M1/Project.md))
 
 ## Classes: 
 * Lectures: Tues & Fri 1:30 – 3:20 PM
