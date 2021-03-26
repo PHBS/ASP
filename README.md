@@ -23,7 +23,7 @@ __02__ | 3.12 Fri | Continued ([Slides](files/MCmethod.pdf) \| [Py demo](py/MC_D
 __03__ | 3.16 Tue | Python crash course ([Py Demo](py/PythonCrashCourse_Derek_Banas.ipynb)). More [cheatsheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html) also available in [MLF CMS](http://cms.phbs.pku.edu.cn/claroline/document/document.php?cidReset=true&cidReq=FN570). 
 __04__ | 3.19 Fri | Numpy crach course ([Py Demo](py/PythonCrashCourse_Numpy.ipynb)). Black-Scholes implementation ([Py Demo](py/BlackScholes_FunctionVsClass.ipynb)). Implied volatility ([Slides](files/ImpVol.pdf) \| [Py demo](py/BlackScholes_ImpliedVol.ipynb)). 
 __05__ | 3.23 Tue | Bachelier model ([Slides](files/Normal_Model.pdf)). Black-Scholes-Merton and Bachelier option pricing with MC ([Py Demo](py/BlackScholes_MC.ipynb)). Spread/Basket options ([Slides](files/SpreadBasketOption.pdf)). Correlated Normal RNs ([Slides](files/MCmethod.pdf) \| [Py Demo](py/CorrelatedNormals_Demo.ipynb))
-__06__ | 3.26 Fri | Spread/Basket options continued, [HW2: Spread/Basket option implementation](py/HW2/TestCode_BasketSpread.ipynb), Due next Friday]
+__06__ | 3.26 Fri | Spread/Basket options continued, [HW2: [Spread/Basket option implementation](py/HW2/TestCode_BasketSpread.ipynb), Due next Friday]
 __07__ | 3.30 Tue | SABR model ([Slides](files/SABRmodel.pdf): Volatility smile, Local volatility model)
 __08__ | 4.02 Fri | SABR model continued ([Slides](files/SABRmodel.pdf): Model intro, Euler/Milstein method)
 __09__ | 4.06 Tue | SABR model continued ([Slides](files/SABRmodel.pdf): Conditional MC method), Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), Suggested [project topics](files/Project.md). HW3: [MC method for SABR](py/HW3/TestCode_SABR.ipynb)
