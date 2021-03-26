@@ -2,7 +2,7 @@
 """
 Created on Tue Sep 19 22:56:58 2017
 
-@author: jaehyuk
+@author: jaehyukchoi
 """
 
 import numpy as np
@@ -14,7 +14,7 @@ def bsm_formula(strike, spot, vol, texp, intr=0.0, divr=0.0, cp=1):
     disc_fac = np.exp(-texp*intr)
     forward = spot / disc_fac * div_fac
 
-    if( texp<0 or vol*np.sqrt(texp)<1e-8 ):
+    if( texp<0 or vol*np.sqrt(texp)<1e-10 ):
         return disc_fac * np.fmax( cp*(forward-strike), 0 )
     
     vol_std = vol*np.sqrt(texp)
