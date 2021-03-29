@@ -36,6 +36,8 @@
 * [Basket+Asian option] Ju's Taylor expansion method in Krekel at al. (2004, Wilmott magazine, July, 82-89)
   * Implement the method in a new class. In python notebook, summarize the method, write a quick help and report strength and weakness.
   * Implemente Ju's method for Asian option
+* [Exact Asian Option Pricing] 
+  * Linetsky, V. (2004). Spectral Expansions for Asian (Average Price) Options. Operations Research, 52(6), 856–867. https://doi.org/10.1287/opre.1040.0113
 
 ### * CEV Model
 * Option pricing under Constant Elasticity of Variance (CEV) model (formula available many on-line sources):
