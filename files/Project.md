@@ -42,7 +42,7 @@
 ### * CEV Model
 * Option pricing under Constant Elasticity of Variance (CEV) model (formula available many on-line sources):
 implement the method, include it to Normal class and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness.
-
+* Basic model is completed. Need to check Greeks (Delta/Gamma/Vega/Theta)
 
 ### * Simulations of Heston model
 * [Heston Model](https://en.wikipedia.org/wiki/Heston_model)
@@ -50,6 +50,11 @@ implement the method, include it to Normal class and write a thorough test code.
 * Kahl, C., Jäckel, P., 2006. Fast strong approximation Monte Carlo schemes for stochastic volatility models. Quantitative Finance 6, 513–536. https://doi.org/10.1080/14697680600841108
 * Andersen, L., 2008. Simple and efficient simulation of the Heston stochastic volatility model. The Journal of Computational Finance 11, 1–42. https://doi.org/10.21314/JCF.2008.189
 * Lord, R., Koekkoek, R., Dijk, D.V., 2010. A comparison of biased simulation schemes for stochastic volatility models. Quantitative Finance 10, 177–194. https://doi.org/10.1080/14697680802392496
+
+### * Rough Volatility
+* McCrickerd, R., Pakkanen, M.S., 2018. Turbocharging Monte Carlo pricing for the rough Bergomi model. Quantitative Finance 18, 1877–1886. https://doi.org/10.1080/14697688.2018.1459812
+* Bennedsen, M., Lunde, A., Pakkanen, M.S., 2017. Hybrid scheme for Brownian semistationary processes. Finance Stoch 21, 931–965. https://doi.org/10.1007/s00780-017-0335-5
+* J. Gatheral's [python code](https://tpq.io/p/rough_volatility_with_python.html)
 
 ### * GARCH-diffusion model
 * Barone-Adesi, G., Rasmussen, H., Ravanelli, C., 2005. An option pricing formula for the GARCH diffusion model. Computational Statistics & Data Analysis, 2nd CSDA Special Issue on Computational Econometrics 49, 287–310. https://doi.org/10.1016/j.csda.2004.05.014
@@ -63,16 +68,3 @@ implement the method, include it to Normal class and write a thorough test code.
 * __3/2 SV Model__: Baldeaux, J., 2012. Exact simulation of the 3/2 model. Int. J. Theor. Appl. Finan. 15, 1250032. https://doi.org/10.1142/S021902491250032X
 * __SABR Model__: Cai, N., Song, Y., Chen, N., 2017. Exact Simulation of the SABR Model. Operations Research 65, 931–951. https://doi.org/10.1287/opre.2017.1617
 * __Computing Moments from Laplace Transform__: Choudhury, G.L., Lucantoni, D.M., 1996. Numerical Computation of the Moments of a Probability Distribution from its Transform. Operations Research 44, 368–381. https://doi.org/10.1287/opre.44.2.368
-
-### * Rough Volatility
-* McCrickerd, R., Pakkanen, M.S., 2018. Turbocharging Monte Carlo pricing for the rough Bergomi model. Quantitative Finance 18, 1877–1886. https://doi.org/10.1080/14697688.2018.1459812
-* Bennedsen, M., Lunde, A., Pakkanen, M.S., 2017. Hybrid scheme for Brownian semistationary processes. Finance Stoch 21, 931–965. https://doi.org/10.1007/s00780-017-0335-5
-* J. Gatheral's [python code](https://tpq.io/p/rough_volatility_with_python.html)
-### * Unfinished Projects
-* [BSM Implied Volatility] Analytic approximation of BSM implied volatility ([Jackel 2016](jaeckel.16mb.com/LetsBeRational.pdf)): implement the method, include it to BSM class and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness.
-
-## Completed Papers
-* ~[SABR Option Pricing]~ Arbitrage-free pricing method by [Kennedy et al, 2011](http://www.tandfonline.com/doi/abs/10.1080/1350486X.2011.646523) ([Download](http://ssrn.com/abstract_id=2043504)): simpler approach introduced in class is enough. Implement the method, create a new class ModelKennedy in sabr.py, and write a thorough test code. In python notebook, summarize the method, write a quick help and report strength and weakness. 
-* ~[SABR Simulation]~ [Efficient SABR simulation by Leitao et al](http://dx.doi.org/10.1016/j.amc.2016.08.030)
-* ~[SABR Simulation/Interpolation]~ SABR simulation by stochastic collocation Monte Carlo method ( [paper 1](https://ssrn.com/abstract=2529691), [paper 2](https://ssrn.com/abstract=2529684) )
-
