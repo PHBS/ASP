@@ -49,8 +49,8 @@ def basket_price_mc_cv(
     price3 = 0
     
     # return two prices: without and with CV
-    return [price1, price1 - (price2 - price3)] 
-    
+    return np.array([price1, price1 - (price2 - price3)])
+
 
 def basket_price_mc(
     strike, spot, vol, weights, texp, cor_m,
