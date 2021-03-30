@@ -33,9 +33,13 @@
 
 ## Suggested Topics and Papers 
 ### * Basket/Asian options
-* [Basket+Asian option] Ju's Taylor expansion method in Krekel at al. (2004, Wilmott magazine, July, 82-89)
+* [Basket/Asian option] Ju's Taylor expansion method
+  * Ju, N. (2002). Pricing Asian and Basket Options Via Taylor Expansion. Journal of Computational Finance, 5(3), 79–103. https://doi.org/10.21314/JCF.2002.088
+  * (Performance Comparison) Krekel, M., de Kock, J., Korn, R., & Man, T.-K. (2004). An analysis of pricing methods for basket options. Wilmott Magazine, 2004(7), 82–89.
   * Implement the method in a new class. In python notebook, summarize the method, write a quick help and report strength and weakness.
-  * Implemente Ju's method for Asian option
+* [Basket/Asian option] Johnson's SU distribution
+  * Posner, S. E., & Milevsky, M. A. (1998). Valuing exotic options by approximating the SPD with higher moments. The Journal of Financial Engineering, 7(2).
+  * Also see Ju (2002) for perfomance comparison
 * [Exact Asian Option Pricing] 
   * Linetsky, V. (2004). Spectral Expansions for Asian (Average Price) Options. Operations Research, 52(6), 856–867. https://doi.org/10.1287/opre.1040.0113
 
