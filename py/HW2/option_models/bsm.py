@@ -37,22 +37,31 @@ class BsmModel:
         return bsm_formula(strike, spot, self.vol, texp, intr=self.intr, divr=self.divr, cp=cp)
     
     def delta(self, strike, spot, texp, cp=1):
-        ''' 
-        <-- PUT your implementation here
-        '''
-        return 0
+        div_fac = np.exp(-texp*self.divr)
+        disc_fac = np.exp(-texp*self.intr)
+        forward = spot / disc_fac * div_fac
+        vol_std = self.vol*np.sqrt(texp)
+        d1 = np.log(forward/strike)/vol_std + 0.5*vol_std
+        self.delta = cp * disc_fac * ss.norm.cdf(cp*d1)
+        return self.delta
 
     def vega(self, strike, spot, vol, texp, cp=1):
-        ''' 
-        <-- PUT your implementation here
-        '''
-        return 0
+        div_fac = np.exp(-texp*self.divr)
+        disc_fac = np.exp(-texp*self.intr)
+        forward = spot / disc_fac * div_fac
+        vol_std = vol*np.sqrt(texp)
+        d1 = np.log(forward/strike)/vol_std + 0.5*vol_std
+        self.vega = cp * disc_fac * forward * np.sqrt(texp) * ss.norm.pdf(cp*d1)
+        return self.vega
 
     def gamma(self, strike, spot, vol, texp, cp=1):
-        ''' 
-        <-- PUT your implementation here
-        '''
-        return 0
+        div_fac = np.exp(-texp*self.divr)
+        disc_fac = np.exp(-texp*self.intr)
+        forward = spot / disc_fac * div_fac
+        vol_std = vol*np.sqrt(texp)
+        d1 = np.log(forward/strike)/vol_std + 0.5*vol_std
+        self.gamma = cp * disc_fac * ss.norm.pdf(cp*d1) / (forward * vol_std)
+        return self.gamma
 
     def impvol(self, price, strike, spot, texp, cp=1):
         iv_func = lambda _vol: \

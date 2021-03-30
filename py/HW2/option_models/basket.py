@@ -16,6 +16,7 @@ def basket_check_args(spot, vol, corr_m, weights):
     n = spot.size
     assert( n == vol.size )
     assert( corr_m.shape == (n, n) )
+    assert( n == weights.size ) ### lose this ?
     return None
     
 def basket_price_mc_cv(
@@ -31,22 +32,19 @@ def basket_price_mc_cv(
     ''' 
     compute price2: mc price based on normal model
     make sure you use the same seed
-
+    '''
     # Restore the state in order to generate the same state
     np.random.set_state(rand_st)  
     price2 = basket_price_mc(
         strike, spot, spot*vol, weights, texp, cor_m,
         intr, divr, cp, False, n_samples)
-    '''
-    price2 = 0
 
     ''' 
     compute price3: analytic price based on normal model
     
-    price3 = basket_price_norm_analytic(
-        strike, spot, vol, weights, texp, cor_m, intr, divr, cp)
     '''
-    price3 = 0
+    price3 = basket_price_norm_analytic(
+        strike, spot, spot*vol, weights, texp, cor_m, intr, divr, cp)
     
     # return two prices: without and with CV
     return [price1, price1 - (price2 - price3)] 
@@ -68,11 +66,9 @@ def basket_price_mc(
     n_assets = spot.size
     znorm_m = np.random.normal(size=(n_assets, n_samples))
     
-    if( bsm ) :
-        '''
-        PUT the simulation of the geometric brownian motion below
-        '''
-        prices = np.zeros_like(znorm_m)
+    if( bsm ):
+        diag_cov_m = np.diagonal(cov_m)
+        prices = forward[:, None] * np.exp( - 0.5 * texp * diag_cov_m[:,None] + np.sqrt(texp) * chol_m @ znorm_m)
     else:
         # bsm = False: normal model
         prices = forward[:,None] + np.sqrt(texp) * chol_m @ znorm_m
@@ -99,8 +95,14 @@ def basket_price_norm_analytic(
     
     PUT YOUR CODE BELOW
     '''
+    forward = spot @ weights[:,None]
     
-    return 0.0
+    cov_m = vol * cor_m * vol[:,None]
+    vol_basket = np.sqrt(weights @ cov_m @ weights[:,None])
+    
+    price = normal_formula(strike, forward[0], vol_basket[0], texp, intr, divr, cp)
+    
+    return price
 
 def spread_price_kirk(strike, spot, vol, texp, corr, intr=0, divr=0, cp=1):
     div_fac = np.exp(-texp*divr)
