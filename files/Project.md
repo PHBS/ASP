@@ -40,6 +40,8 @@
 * [Basket/Asian option] Johnson's SU distribution
   * Posner, S. E., & Milevsky, M. A. (1998). Valuing exotic options by approximating the SPD with higher moments. The Journal of Financial Engineering, 7(2).
   * Also see Ju (2002) for perfomance comparison
+* [Asian option] Tight lower bound
+  * Rogers, L. C. G., & Shi, Z. (1995). The value of an Asian option. Journal of Applied Probability, 32(4), 1077–1088.
 * [Exact Asian Option Pricing] 
   * Linetsky, V. (2004). Spectral Expansions for Asian (Average Price) Options. Operations Research, 52(6), 856–867. https://doi.org/10.1287/opre.1040.0113
 
