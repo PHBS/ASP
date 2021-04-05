@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="94fbd3fb-66f9-4378-a342-faa76d60599d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/py/BlackScholes_FunctionVsClass.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/py/BlackScholes_FunctionVsClass.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/BlackScholes_MC.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/py/BlackScholes_MC.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/CorrelatedNormals_Demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/py/CorrelatedNormals_Demo.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/HW2/TestCode_BasketSpread.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/py/HW2/TestCode_BasketSpread.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/HW2/option_models/basket.py" beforeDir="false" afterPath="$PROJECT_DIR$/py/HW2/option_models/basket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/py/MC_Demo.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/py/MC_Demo.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qPbFDZp3OTxPH14PcaBkqTOmM2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="94fbd3fb-66f9-4378-a342-faa76d60599d" name="Default Changelist" comment="" />
+      <created>1616984066386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616984066386</updated>
+      <workItem from="1616984077767" duration="959000" />
+      <workItem from="1616985231608" duration="17740000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
