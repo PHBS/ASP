@@ -5,8 +5,8 @@
 
 ## Course Slides and Other Resources
 * Prelims: [Probability Statistics Review](files/Prob_Stat_Review.pdf) 
-* Past Exam: [2017-18 Midterm](files/ASP2017_Midterm.pdf), [2018-19 Midterm](files/ASP2018_Midterm.pdf), [2019-20 Midterm](files/ASP2019_Midterm.pdf)
-* `PyFeng` package ([PyPI](https://pypi.org/project/pyfeng/) \| [Github](https://github.com/PyFE/PyFENG))
+* Past Midterm Exams: [All Exams](files/ASP_Problems.pdf) ([2017-18](files/ASP2017_Midterm.pdf), [2018-19](files/ASP2018_Midterm.pdf), [2019-20](files/ASP2019_Midterm.pdf))
+* `PyFeng` package ([PyPI](https://pypi.org/project/pyfeng/) \| [Github](https://github.com/PyFE/PyFENG) \| [Documentation](https://pyfeng.readthedocs.io/))
 * Scientific computing, MC method, RN generation ([Slides](files/MCmethod.pdf) | [Py demo](py/MC_Demo.ipynb))
 * Black-Scholes model ([Py demo](py/BlackScholes_ImpliedVol.ipynb), [MC demo](py/BlackScholes_MC.ipynb)): Also see Ch. 10 of [StoFin Course Notes](https://github.com/PHBS/StoFin/blob/master/files/SCFA_Notes.pdf)
 * Normal (Bachelier) model ([Slides](files/Normal_Model.pdf)) from **Stochastic Finance** class
@@ -26,8 +26,8 @@ __05__ | 3.23 Tue | Bachelier model ([Slides](files/Normal_Model.pdf)). Black-Sc
 __06__ | 3.26 Fri | Spread/Basket options continued, [HW2: [Spread/Basket option implementation](py/HW2/TestCode_BasketSpread.ipynb), Due next Friday]
 __07__ | 3.30 Tue | SABR model ([Slides](files/SABRmodel.pdf): Volatility smile), Suggested [project topics](files/Project.md)
 __08__ | 4.02 Fri | SABR model continued ([Slides](files/SABRmodel.pdf): Local volatility model, Model intro), Introduction to [PyFENG](https://github.com/PyFE/PyFENG) package
-__09__ | 4.06 Tue | SABR model continued ([Slides](files/SABRmodel.pdf): Euler/Milstein method, Conditional MC), Github pull-request (PR), Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)). HW3: [MC method for SABR](py/HW3/TestCode_SABR.ipynb)
-__10__ | 4.09 Fri | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
+__09__ | 4.06 Tue | SABR model continued ([Slides](files/SABRmodel.pdf): Euler/Milstein method, Conditional MC), Github pull-request (PR), Py Demo ([SABR](py/SabrModel_Demo.ipynb), [BsmNdMc](BsmNdMc_Demo.ipynb)), HW3: [MC method for SABR](py/HW3/TestCode_SABR.ipynb)
+__10__ | 4.09 Fri | Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
 __11__ | 4.13 Tue | Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf))
 __12__ | 4.16 Fri | Review for midterm exam (Past Exams: [2017-18](files/ASP2017_Midterm.pdf), [2018-19](files/ASP2018_Midterm.pdf))
 __13__ | 4.20 Tue | Midterm Exam ([Solution](files/ASP2019_Midterm.pdf))
