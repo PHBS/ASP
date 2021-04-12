@@ -28,7 +28,7 @@ __07__ | 3.30 Tue | SABR model ([Slides](files/SABRmodel.pdf): Volatility smile)
 __08__ | 4.02 Fri | SABR model continued ([Slides](files/SABRmodel.pdf): Local volatility model, Model intro), Introduction to [PyFENG](https://github.com/PyFE/PyFENG) package
 __09__ | 4.06 Tue | SABR model continued ([Slides](files/SABRmodel.pdf): Euler/Milstein method, Conditional MC), Github pull-request (PR), Py Demo ([SABR](py/SabrModel_Demo.ipynb), [BsmNdMc](BsmNdMc_Demo.ipynb)), HW3: [MC method for SABR](py/HW3/TestCode_SABR.ipynb)
 __10__ | 4.09 Fri | Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
-__11__ | 4.13 Tue | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf)),[Past Exams](files/ASP_Problems.pdf) Review
+__11__ | 4.13 Tue | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf)), [Past Exams](files/ASP_Problems.pdf) Review
 __12__ | 4.16 Fri | [Past Exams](files/ASP_Problems.pdf) Review
 __13__ | 4.20 Tue | Midterm Exam ([Solution](files/ASP2019_Midterm.pdf))
 __14__ | 4.23 Fri | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
