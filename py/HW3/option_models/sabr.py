@@ -11,230 +11,127 @@ import scipy.optimize as sopt
 from . import normal
 from . import bsm
 
-'''
-Asymptotic approximation for 0<beta<=1 by Hagan
-'''
-def bsm_vol(strike, forward, texp, sigma, alpha=0, rho=0, beta=1):
-    if(texp<=0.0):
-        return( 0.0 )
-
-    powFwdStrk = (forward*strike)**((1-beta)/2)
-    logFwdStrk = np.log(forward/strike)
-    logFwdStrk2 = logFwdStrk**2
-    rho2 = rho*rho
-
-    pre1 = powFwdStrk*( 1 + (1-beta)**2/24 * logFwdStrk2*(1 + (1-beta)**2/80 * logFwdStrk2) )
-  
-    pre2alp0 = (2-3*rho2)*alpha**2/24
-    pre2alp1 = alpha*rho*beta/4/powFwdStrk
-    pre2alp2 = (1-beta)**2/24/powFwdStrk**2
-
-    pre2 = 1 + texp*( pre2alp0 + sigma*(pre2alp1 + pre2alp2*sigma) )
-
-    zz = powFwdStrk*logFwdStrk*alpha/np.fmax(sigma, 1e-32)  # need to make sure sig > 0
-    if isinstance(zz, float):
-        zz = np.array([zz])
-    yy = np.sqrt(1 + zz*(zz-2*rho))
-
-    xx_zz = np.zeros(zz.size)
-
-    ind = np.where(abs(zz) < 1e-5)
-    xx_zz[ind] = 1 + (rho/2)*zz[ind] + (1/2*rho2-1/6)*zz[ind]**2 + 1/8*(5*rho2-3)*rho*zz[ind]**3
-    ind = np.where(zz >= 1e-5)
-    xx_zz[ind] = np.log( (yy[[ind]] + (zz[ind]-rho))/(1-rho) ) / zz[ind]
-    ind = np.where(zz <= -1e-5)
-    xx_zz[ind] = np.log( (1+rho)/(yy[ind] - (zz[ind]-rho)) ) / zz[ind]
-
-    bsmvol = sigma*pre2/(pre1*xx_zz) # bsm vol
-    return(bsmvol[0] if bsmvol.size==1 else bsmvol)
-
-'''
-Asymptotic approximation for beta=0 by Hagan
-'''
-def norm_vol(strike, forward, texp, sigma, alpha=0, rho=0):
-    # forward, spot, sigma may be either scalar or np.array. 
-    # texp, alpha, rho, beta should be scholar values
-
-    if(texp<=0.0):
-        return( 0.0 )
-    
-    zeta = (forward - strike)*alpha/np.fmax(sigma, 1e-32)
-    # explicitly make np.array even if args are all scalar or list
-    if isinstance(zeta, float):
-        zeta = np.array([zeta])
-        
-    yy = np.sqrt(1 + zeta*(zeta - 2*rho))
-    chi_zeta = np.zeros(zeta.size)
-    
-    rho2 = rho*rho
-    ind = np.where(abs(zeta) < 1e-5)
-    chi_zeta[ind] = 1 + 0.5*rho*zeta[ind] + (0.5*rho2 - 1/6)*zeta[ind]**2 + 1/8*(5*rho2-3)*rho*zeta[ind]**3
-
-    ind = np.where(zeta >= 1e-5)
-    chi_zeta[ind] = np.log( (yy[ind] + (zeta[ind] - rho))/(1-rho) ) / zeta[ind]
-
-    ind = np.where(zeta <= -1e-5)
-    chi_zeta[ind] = np.log( (1+rho)/(yy[ind] - (zeta[ind] - rho)) ) / zeta[ind]
-
-    nvol = sigma * (1 + (2-3*rho2)/24*alpha**2*texp) / chi_zeta
- 
-    return(nvol[0] if nvol.size==1 else nvol)
-
-'''
-Hagan model class for 0<beta<=1
-'''
-class ModelHagan:
-    alpha, beta, rho = 0.0, 1.0, 0.0
-    texp, sigma, intr, divr = None, None, None, None
-    bsm_model = None
-    
-    def __init__(self, texp, sigma, alpha=0, rho=0.0, beta=1.0, intr=0, divr=0):
-        self.beta = beta
-        self.texp = texp
-        self.sigma = sigma
-        self.alpha = alpha
-        self.rho = rho
-        self.intr = intr
-        self.divr = divr
-        self.bsm_model = bsm.Model(texp, sigma, intr=intr, divr=divr)
-        
-    def bsm_vol(self, strike, spot, texp=None, sigma=None):
-        sigma = self.sigma if(sigma is None) else sigma
-        texp = self.texp if(texp is None) else texp
-        forward = spot * np.exp(texp*(self.intr - self.divr))
-        return bsm_vol(strike, forward, texp, sigma, alpha=self.alpha, beta=self.beta, rho=self.rho)
-        
-    def price(self, strike, spot, texp=None, sigma=None, cp_sign=1):
-        bsm_vol = self.bsm_vol(strike, spot, texp, sigma)
-        return self.bsm_model.price(strike, spot, texp, bsm_vol, cp_sign=cp_sign)
-    
-    def impvol(self, price, strike, spot, texp=None, cp_sign=1, setval=False):
-        texp = self.texp if(texp is None) else texp
-        vol = self.bsm_model.impvol(price, strike, spot, texp, cp_sign=cp_sign)
-        forward = spot * np.exp(texp*(self.intr - self.divr))
-        
-        iv_func = lambda _sigma: \
-            bsm_vol(strike, forward, texp, _sigma, alpha=self.alpha, rho=self.rho) - vol
-        sigma = sopt.brentq(iv_func, 0, 10)
-        if(setval):
-            self.sigma = sigma
-        return sigma
-    
-    def calibrate3(self, price_or_vol3, strike3, spot, texp=None, cp_sign=1, setval=False, is_vol=True):
-        '''  
-        Given option prices or bsm vols at 3 strikes, compute the sigma, alpha, rho to fit the data
-        If prices are given (is_vol=False) convert the prices to vol first.
-        Then use multi-dimensional root solving 
-        you may use sopt.root
-        # https://docs.scipy.org/doc/scipy-0.18.1/reference/generated/scipy.optimize.root.html#scipy.optimize.root
-        '''
-        return 0, 0, 0 # sigma, alpha, rho
-
-'''
-Hagan model class for beta=0
-'''
-class ModelNormalHagan:
-    alpha, beta, rho = 0.0, 0.0, 0.0
-    texp, sigma, intr, divr = None, None, None, None
-    normal_model = None
-    
-    def __init__(self, texp, sigma, alpha=0, rho=0.0, beta=0.0, intr=0, divr=0):
-        self.beta = 0.0 # not used but put it here
-        self.texp = texp
-        self.sigma = sigma
-        self.alpha = alpha
-        self.rho = rho
-        self.intr = intr
-        self.divr = divr
-        self.normal_model = normal.Model(texp, sigma, intr=intr, divr=divr)
-        
-    def norm_vol(self, strike, spot, texp=None, sigma=None):
-        sigma = self.sigma if(sigma is None) else sigma
-        texp = self.texp if(texp is None) else texp
-        forward = spot * np.exp(texp*(self.intr - self.divr))
-        return norm_vol(strike, forward, texp, sigma, alpha=self.alpha, rho=self.rho)
-        
-    def price(self, strike, spot, texp=None, sigma=None, cp_sign=1):
-        n_vol = self.norm_vol(strike, spot, texp, sigma)
-        return self.normal_model.price(strike, spot, texp, n_vol, cp_sign=cp_sign)
-    
-    def impvol(self, price, strike, spot, texp=None, cp_sign=1, setval=False):
-        texp = self.texp if(texp is None) else texp
-        vol = self.normal_model.impvol(price, strike, spot, texp, cp_sign=cp_sign)
-        forward = spot * np.exp(texp*(self.intr - self.divr))
-        
-        iv_func = lambda _sigma: \
-            norm_vol(strike, forward, texp, _sigma, alpha=self.alpha, rho=self.rho) - vol
-        sigma = sopt.brentq(iv_func, 0, 50)
-        if(setval):
-            self.sigma = sigma
-        return sigma
-
-    def calibrate3(self, price_or_vol3, strike3, spot, texp=None, cp_sign=1, setval=False, is_vol=True):
-        '''  
-        Given option prices or normal vols at 3 strikes, compute the sigma, alpha, rho to fit the data
-        If prices are given (is_vol=False) convert the prices to vol first.
-        Then use multi-dimensional root solving 
-        you may use sopt.root
-        # https://docs.scipy.org/doc/scipy-0.18.1/reference/generated/scipy.optimize.root.html#scipy.optimize.root
-        '''
-        return 0, 0, 0 # sigma, alpha, rho
+import pyfeng as pf
 
 '''
 MC model class for Beta=1
 '''
+
 class ModelBsmMC:
     beta = 1.0   # fixed (not used)
-    alpha, rho = 0.0, 0.0
-    texp, sigma, intr, divr = None, None, None, None
+    vov, rho = 0.0, 0.0
+    sigma, intr, divr = None, None, None
     bsm_model = None
     '''
     You may define more members for MC: time step, etc
     '''
     
-    def __init__(self, texp, sigma, alpha=0, rho=0.0, beta=1.0, intr=0, divr=0):
-        self.texp = texp
+    def __init__(self, sigma, vov=0, rho=0.0, beta=1.0, intr=0, divr=0):
         self.sigma = sigma
-        self.alpha = alpha
+        self.vov = vov
         self.rho = rho
         self.intr = intr
         self.divr = divr
-        self.bsm_model = bsm.Model(texp, sigma, intr=intr, divr=divr)
+        self.bsm_model = pf.Bsm(sigma, intr=intr, divr=divr)
         
-    def bsm_vol(self, strike, spot, texp=None, sigma=None):
+    def bsm_vol(self, strike, spot, cp=1, texp=None, sigma=None):
         ''''
         From the price from self.price() compute the implied vol
         this is the opposite of bsm_vol in ModelHagan class
         use bsm_model
         '''
-        return 0
+        bsm_model = bsm.Model(texp=texp,vol=self.sigma,intr=self.intr,divr=self.divr)
+        price_in = self.price(strike, spot, texp, sigma)
+        impvol_m = []
+        for i in range(len(price_in)):
+            impvol_m.append(bsm_model.impvol(price_in[i], strike[i], spot, texp, cp))
+        
+        return impvol_m
     
-    def price(self, strike, spot, texp=None, sigma=None, cp_sign=1):
+    def price(self, strike, spot, texp=None, sigma=None, cp=1):
         '''
         Your MC routine goes here
         Generate paths for vol and price first. Then get prices (vector) for all strikes
         You may fix the random number seed
         '''
         np.random.seed(12345)
-        return 0
+        
+        npath = 10000
+        nstep = 365
+        dt = texp / nstep
+        cor_m = np.array([[1,self.rho],[self.rho,1]])
+        cov_m = cor_m 
+        chol_m = np.linalg.cholesky(cov_m)
+        
+        vov = self.vov
+        sigma = self.sigma
+
+        St = spot * np.ones((nstep+1, npath))
+        vol = sigma * np.ones((nstep+1, npath))
+        strike_m = strike[:,None] * np.ones((strike.size, npath))
+        
+        
+        for k in range(0, nstep):
+            znorm_m = np.random.normal(loc=0,scale=1,size=[2, npath]) # 生成二维独立随机变量
+            znorm_correlated = chol_m @ znorm_m # 生成二维相关随机变量
+
+            St[k + 1, :] = St[k, :] * np.exp( vol[k,:] * np.sqrt(dt) * znorm_correlated[0,:]- 1/2 * dt * vol[k,:]**2 )
+            vol[k+1, :] = vol[k, :] * np.exp(vov * np.sqrt(dt) * znorm_correlated[1,:]-1/2 * (self.vov**2)*dt)
+        
+        opt_price = np.mean( np.fmax(cp*(St[-1,:] - strike_m), 0),axis=1 )
+        
+        return opt_price
+    
+    def variance(self, strike, spot, texp=None, sigma=None, cp=1):
+        '''
+        Your MC routine goes here
+        Generate paths for vol and price first. Then get prices (vector) for all strikes
+        You should not use the random number seed
+        '''
+        
+        npath = 10000
+        nstep = 365
+        dt = texp / nstep
+        cor_m = np.array([[1,self.rho],[self.rho,1]])
+        cov_m = cor_m 
+        chol_m = np.linalg.cholesky(cov_m)
+        
+        vov = self.vov
+        sigma = self.sigma
+
+        St = spot * np.ones((nstep+1, npath))
+        vol = sigma * np.ones((nstep+1, npath))
+        strike_m = strike[:,None] * np.ones((strike.size, npath))
+        
+        
+        for k in range(0, nstep):
+            znorm_m = np.random.normal(loc=0,scale=1,size=[2, npath]) # 生成二维独立随机变量
+            znorm_correlated = chol_m @ znorm_m # 生成二维相关随机变量
+
+            St[k + 1, :] = St[k, :] * np.exp( vol[k,:] * np.sqrt(dt) * znorm_correlated[0,:]- 1/2 * dt * vol[k,:]**2 )
+            vol[k+1, :] = vol[k, :] * np.exp(vov * np.sqrt(dt) * znorm_correlated[1,:]-1/2 * (self.vov**2)*dt)
+        
+        opt_npath = np.fmax(cp*(St[-1,:] - strike_m), 0)
+        var_mc = np.var(opt_npath, axis = 1)
+        
+        return var_mc
 
 '''
 MC model class for Beta=0
 '''
 class ModelNormalMC:
     beta = 0.0   # fixed (not used)
-    alpha, rho = 0.0, 0.0
-    texp, sigma, intr, divr = None, None, None, None
+    vov, rho = 0.0, 0.0
+    sigma, intr, divr = None, None, None
     normal_model = None
     
-    def __init__(self, texp, sigma, alpha=0, rho=0.0, beta=0.0, intr=0, divr=0):
-        self.texp = texp
+    def __init__(self, sigma, vov=0, rho=0.0, beta=0.0, intr=0, divr=0):
         self.sigma = sigma
-        self.alpha = alpha
+        self.vov = vov
         self.rho = rho
         self.intr = intr
         self.divr = divr
-        self.normal_model = normal.Model(texp, sigma, intr=intr, divr=divr)
+        self.normal_model = pf.Norm(sigma, intr=intr, divr=divr)
         
     def norm_vol(self, strike, spot, texp=None, sigma=None):
         ''''
@@ -242,39 +139,104 @@ class ModelNormalMC:
         this is the opposite of normal_vol in ModelNormalHagan class
         use normal_model 
         '''
-        return 0
+        normal_model = normal.Model(texp=texp,vol=self.sigma,intr=self.intr,divr=self.divr)
+        price_in = self.price(strike, spot, texp, sigma)
+        impvol_m = []
+        for i in range(len(price_in)):
+            impvol_m.append(normal_model.impvol(price_in[i], strike[i], spot, texp))
         
-    def price(self, strike, spot, texp=None, sigma=None, cp_sign=1):
+        return impvol_m
+        
+    def price(self, strike, spot, texp=None, sigma=None, cp=1):
         '''
         Your MC routine goes here
         Generate paths for vol and price first. Then get prices (vector) for all strikes
         You may fix the random number seed
         '''
         np.random.seed(12345)
-        return 0
+        
+        npath = 10000
+        nstep = 365
+        dt = texp / nstep
+        cor_m = np.array([[1,self.rho],[self.rho,1]])
+        cov_m = cor_m 
+        chol_m = np.linalg.cholesky(cov_m)
+        
+        vov = self.vov
+        sigma = self.sigma
+
+        St = spot * np.ones((nstep+1, npath))
+        vol = sigma * np.ones((nstep+1, npath))
+        strike_m = strike[:,None] * np.ones((strike.size, npath))
+        
+        
+        for k in range(0, nstep):
+            znorm_m = np.random.normal(loc=0,scale=1,size=[2, npath]) # 生成二维独立随机变量
+            znorm_correlated = chol_m @ znorm_m # 生成二维相关随机变量
+
+            St[k + 1, :] = St[k, :] + vol[k,:] * np.sqrt(dt) * znorm_correlated[0,:]
+            vol[k+1, :] = vol[k, :] * np.exp(vov * np.sqrt(dt) * znorm_correlated[1,:]-1/2 * (self.vov**2)*dt)
+        
+        
+        opt_price = np.mean( np.fmax(cp*(St[-1,:] - strike_m), 0),axis=1 )
+        
+        return opt_price
+    
+    def variance(self, strike, spot, texp=None, sigma=None, cp=1):
+        '''
+        Your MC routine goes here
+        Generate paths for vol and price first. Then get prices (vector) for all strikes
+        You should not use the random number seed
+        '''
+        
+        npath = 10000
+        nstep = 365
+        dt = texp / nstep
+        cor_m = np.array([[1,self.rho],[self.rho,1]])
+        cov_m = cor_m 
+        chol_m = np.linalg.cholesky(cov_m)
+        
+        vov = self.vov
+        sigma = self.sigma
+
+        St = spot * np.ones((nstep+1, npath))
+        vol = sigma * np.ones((nstep+1, npath))
+        strike_m = strike[:,None] * np.ones((strike.size, npath))
+        
+        
+        for k in range(0, nstep):
+            znorm_m = np.random.normal(loc=0,scale=1,size=[2, npath]) # 生成二维独立随机变量
+            znorm_correlated = chol_m @ znorm_m # 生成二维相关随机变量
+
+            St[k + 1, :] = St[k, :] + vol[k,:] * np.sqrt(dt) * znorm_correlated[0,:]
+            vol[k+1, :] = vol[k, :] * np.exp(vov * np.sqrt(dt) * znorm_correlated[1,:]-1/2 * (self.vov**2)*dt)
+        
+        opt_npath = np.fmax(cp*(St[-1,:] - strike_m), 0)
+        var_mc = np.var(opt_npath, axis = 1)
+        
+        return var_mc
 
 '''
 Conditional MC model class for Beta=1
 '''
 class ModelBsmCondMC:
     beta = 1.0   # fixed (not used)
-    alpha, rho = 0.0, 0.0
-    texp, sigma, intr, divr = None, None, None, None
+    vov, rho = 0.0, 0.0
+    sigma, intr, divr = None, None, None
     bsm_model = None
     '''
     You may define more members for MC: time step, etc
     '''
     
-    def __init__(self, texp, sigma, alpha=0, rho=0.0, beta=1.0, intr=0, divr=0):
-        self.texp = texp
+    def __init__(self, sigma, vov=0, rho=0.0, beta=1.0, intr=0, divr=0):
         self.sigma = sigma
-        self.alpha = alpha
+        self.vov = vov
         self.rho = rho
         self.intr = intr
         self.divr = divr
-        self.bsm_model = bsm.Model(texp, sigma, intr=intr, divr=divr)
+        self.bsm_model = pf.Bsm(sigma, intr=intr, divr=divr)
         
-    def bsm_vol(self, strike, spot, texp=None, sigma=None):
+    def bsm_vol(self, strike, spot, texp=None):
         ''''
         From the price from self.price() compute the implied vol
         this is the opposite of bsm_vol in ModelHagan class
@@ -283,7 +245,7 @@ class ModelBsmCondMC:
         '''
         return 0
     
-    def price(self, strike, spot, texp=None, sigma=None, cp_sign=1):
+    def price(self, strike, spot, texp=None, cp=1):
         '''
         Your MC routine goes here
         Generate paths for vol only. Then compute integrated variance and BSM price.
@@ -291,27 +253,102 @@ class ModelBsmCondMC:
         You may fix the random number seed
         '''
         np.random.seed(12345)
-        return 0
+        
+        npath = 10000
+        nstep = 365 * texp
+        dt = texp / nstep
+       
+        
+        vov = self.vov
+        sigma = self.sigma
 
+        
+        vol = sigma * np.ones((nstep+1, npath))
+        strike_m = strike[:,None] * np.ones((strike.size, npath))
+        
+        
+        for k in range(0, nstep):
+            znorm_m = np.random.normal(loc=0,scale=1,size=(npath)) 
+
+            vol[k+1, :] = vol[k, :] * np.exp(vov * np.sqrt(dt) * znorm_m-1/2 * (vov**2)*dt)
+            
+        opt_price = []
+        N = vol.shape[0]-1
+        weight = 4*np.ones(N+1)
+        weight[::2] = 2
+        weight[0] = 1
+        weight[-1] = 1
+        IT = (weight @ (vol**2))/ (3*N)
+        spot_new = spot * np.exp(self.rho/vov *(vol[-1,:]-vol[0,:])-(self.rho*sigma)**2 * texp *IT/2)
+        sigma_new = sigma * np.sqrt((1-self.rho**2)*IT)
+
+        for s in strike:
+            opt_npath = bsm.price(s, spot_new, texp = texp, vol = sigma_new, intr = self.intr, divr = self.divr, cp_sign = cp)
+            opt_price.append( np.mean( opt_npath ) )
+        
+        return opt_price
+    
+    def variance(self, strike, spot, texp=None, cp=1):
+        '''
+        Your MC routine goes here
+        Generate paths for vol only. Then compute integrated variance and BSM price.
+        Then get prices (vector) for all strikes
+        You should not use the random number seed
+        '''
+        
+        npath = 10000
+        nstep = 365 * texp
+        dt = texp / nstep
+       
+        
+        vov = self.vov
+        sigma = self.sigma
+
+        
+        vol = sigma * np.ones((nstep+1, npath))
+        strike_m = strike[:,None] * np.ones((strike.size, npath))
+        
+        
+        for k in range(0, nstep):
+            znorm_m = np.random.normal(loc=0,scale=1,size=(npath)) 
+
+            vol[k+1, :] = vol[k, :] * np.exp(vov * np.sqrt(dt) * znorm_m-1/2 * (vov**2)*dt)
+            
+        var_mc = []
+        N = vol.shape[0]-1
+        weight = 4*np.ones(N+1)
+        weight[::2] = 2
+        weight[0] = 1
+        weight[-1] = 1
+        IT = (weight @ (vol**2))/ (3*N)
+        spot_new = spot * np.exp(self.rho/vov *(vol[-1,:]-vol[0,:])-(self.rho*sigma)**2 * texp *IT/2)
+        sigma_new = sigma * np.sqrt((1-self.rho**2)*IT)
+
+        for s in strike:
+            opt_npath = bsm.price(s, spot_new, texp = texp, vol = sigma_new, intr = self.intr, divr = self.divr, cp_sign = cp)
+            var_mc.append( np.var( opt_npath ) )
+        
+        return var_mc
+
+    
 '''
 Conditional MC model class for Beta=0
 '''
 class ModelNormalCondMC:
     beta = 0.0   # fixed (not used)
-    alpha, rho = 0.0, 0.0
-    texp, sigma, intr, divr = None, None, None, None
+    vov, rho = 0.0, 0.0
+    sigma, intr, divr = None, None, None
     normal_model = None
     
-    def __init__(self, texp, sigma, alpha=0, rho=0.0, beta=0.0, intr=0, divr=0):
-        self.texp = texp
+    def __init__(self, sigma, vov=0, rho=0.0, beta=0.0, intr=0, divr=0):
         self.sigma = sigma
-        self.alpha = alpha
+        self.vov = vov
         self.rho = rho
         self.intr = intr
         self.divr = divr
-        self.normal_model = normal.Model(texp, sigma, intr=intr, divr=divr)
+        self.normal_model = pf.Norm(sigma, intr=intr, divr=divr)
         
-    def norm_vol(self, strike, spot, texp=None, sigma=None):
+    def norm_vol(self, strike, spot, texp=None):
         ''''
         From the price from self.price() compute the implied vol
         this is the opposite of normal_vol in ModelNormalHagan class
@@ -320,11 +357,74 @@ class ModelNormalCondMC:
         '''
         return 0
         
-    def price(self, strike, spot, texp=None, sigma=None, cp_sign=1):
+    def price(self, strike, spot, cp=1):
         '''
         Your MC routine goes here
         Generate paths for vol only. Then compute integrated variance and normal price.
         You may fix the random number seed
         '''
         np.random.seed(12345)
-        return 0
+        
+        npath = 10000
+        nstep = 365 * texp
+        dt = texp / nstep
+          
+        vov = self.vov
+        sigma = self.sigma
+        vol = sigma * np.ones((nstep+1, npath))
+         
+        for k in range(0, nstep):
+            znorm_m = np.random.normal(loc=0,scale=1,size=(npath)) 
+            vol[k+1, :] = vol[k, :] * np.exp(vov * np.sqrt(dt) * znorm_m-1/2 * (vov**2)*dt)
+            
+        opt_price = []
+        N = vol.shape[0]-1
+        weight = 2*np.ones(N+1)
+        weight[0] = 1
+        weight[-1] = 1
+        IT = (weight @ (vol**2))/ (2*N)
+        spot_new = spot + self.rho/vov *(vol[-1,:]-vol[0,:])
+        sigma_new = sigma * np.sqrt((1-self.rho**2)*IT)
+
+        for s in strike:
+            opt_npath = normal.price(strike=s, spot=spot_new, texp = texp, vol = sigma_new, intr = self.intr, divr = self.divr, cp_sign = cp)
+            opt_price.append( np.mean( opt_npath ) )
+        
+        
+        return opt_price
+    
+    def variance(self, strike, spot, cp=1):
+        '''
+        Your MC routine goes here
+        Generate paths for vol only. Then compute integrated variance and normal price.
+        You should not use the random number seed
+        '''
+        
+        npath = 10000
+        nstep = 365 * texp
+        dt = texp / nstep
+          
+        vov = self.vov
+        sigma = self.sigma
+        vol = sigma * np.ones((nstep+1, npath))
+         
+        for k in range(0, nstep):
+            znorm_m = np.random.normal(loc=0,scale=1,size=(npath)) 
+            vol[k+1, :] = vol[k, :] * np.exp(vov * np.sqrt(dt) * znorm_m-1/2 * (vov**2)*dt)
+            
+        var_mc = []
+        N = vol.shape[0]-1
+        weight = 2*np.ones(N+1)
+        weight[0] = 1
+        weight[-1] = 1
+        IT = (weight @ (vol**2))/ (2*N)
+        spot_new = spot + self.rho/vov *(vol[-1,:]-vol[0,:])
+        sigma_new = sigma * np.sqrt((1-self.rho**2)*IT)
+
+        for s in strike:
+            opt_npath = normal.price(strike=s, spot=spot_new, texp = texp, vol = sigma_new, intr = self.intr, divr = self.divr, cp_sign = cp)
+            var_mc.append( np.var( opt_npath ) )
+        
+        
+        return var_mc
+
