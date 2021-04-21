@@ -30,7 +30,7 @@ __09__ | 4.06 Tue | SABR model continued ([Slides](files/SABRmodel.pdf): Euler/M
 __10__ | 4.09 Fri | Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
 __11__ | 4.13 Tue | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf)), [Past Exams](files/ASP_Problems.pdf) Review
 __12__ | 4.16 Fri | [Past Exams](files/ASP_Problems.pdf) Review
-__13__ | 4.20 Tue | Midterm Exam ([Solution](files/ASP2019_Midterm.pdf))
+__13__ | 4.20 Tue | Midterm Exam ([Solution](files/ASP2020_Midterm.pdf))
 __14__ | 4.23 Fri | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 __15__ | 4.27 Tue | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 __16__ | 4.28 Wed | Research Presentation: (Sum of BSM models) and HW3 review
