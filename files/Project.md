@@ -4,8 +4,6 @@
 ## [Repository](https://github.com/pyfe/pyfeng) and [Project List](https://github.com/pyfe/pyfeng/projects)
 
 ## Presentation
-### 5.04 Tue
-*
 ### 5.07 Fri
 *
 
@@ -18,29 +16,19 @@
   * SABR other stochastic volatility models
   * Copula
 
-* Conditional Monte-Carlo for SV models
-  * OUSV, Garch Diffusion (and 3/2)
-
-* Almost-Exact Simulation for
-  * Heston
-  * 3/2
-  * Garch Diffusion
-
 ## File requirements
 * Core implementation (.py): python class and functions
-  * Make sure to comment in detail. Example: [bsm.py](https://github.com/PHBS/pyfedev-ASP/blob/master/pyfe/bsm.py)
-  * __Integrate into the `pyfe` folder.__ Do not mix with testing/manual notebook files.
+  * Make sure to add docstring in detail. Example: [bsm.py](https://github.com/PHBS/pyfeng/blob/master/pyfeng/bsm.py)
+  * __Integrate into the `pyfeng` folder.__ Make pull-requests (pr).
 * Documentation/Test (__.ipynb__): one Jupyter notebook file briefly describing the method (base theory, equations, SDE, strength/weakness, etc), the function prototype and arguments (manual style) and the usage examples
   * The best examples are from numpy documentation: [example](https://docs.scipy.org/doc/numpy-1.10.1/reference/routines.polynomials.hermite.html)
   * Also include examples and tests of your class (e.g., test against reference parameters)
   * __Put into the `test` folder. The file name should be Test_YOURPROJECT.ipynb__ 
 
 ## Other guidelines
-* Make sure to show the contribution via github pull-requests (pr).
-* The project doesn't have to be complete by the presentation. If you need more time, show your plan, understanding, progress so far, e.g. function prototypes & arguments, etc and the tests to put on.
+* Deadline: 5.9 (Sunday)
 
 ## Suggested Topics and Papers 
-### * Basket/Asian options
 * [Basket/Asian option] Ju's Taylor expansion method
   * Ju, N. (2002). Pricing Asian and Basket Options Via Taylor Expansion. Journal of Computational Finance, 5(3), 79–103. https://doi.org/10.21314/JCF.2002.088
   * (Performance Comparison) Krekel, M., de Kock, J., Korn, R., & Man, T.-K. (2004). An analysis of pricing methods for basket options. Wilmott Magazine, 2004(7), 82–89.
@@ -48,6 +36,13 @@
 * [Exact Asian Option Pricing] 
   * Linetsky, V. (2004). Spectral Expansions for Asian (Average Price) Options. Operations Research, 52(6), 856–867. https://doi.org/10.1287/opre.1040.0113
 
+* Conditional Monte-Carlo for SV models
+  * OUSV, Garch Diffusion (and 3/2)
+
+* Almost-Exact Simulation for
+  * Heston
+  * 3/2
+  * Garch Diffusion
 
 
 ### * Simulations of Heston model
