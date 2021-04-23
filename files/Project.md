@@ -35,10 +35,9 @@
   * Implement the method in a new class. In python notebook, summarize the method, write a quick help and report strength and weakness.
 * [Exact Asian Option Pricing] 
   * Linetsky, V. (2004). Spectral Expansions for Asian (Average Price) Options. Operations Research, 52(6), 856–867. https://doi.org/10.1287/opre.1040.0113
-
 * Conditional Monte-Carlo for SV models
   * OUSV, Garch Diffusion (and 3/2)
-
+  * Ornstein Uhlenbeck Simulation. ([Vasicek Model](https://en.wikipedia.org/wiki/Vasicek_model) for interest rate)
 * Almost-Exact Simulation for
   * Heston
   * 3/2
