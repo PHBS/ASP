@@ -23,7 +23,7 @@
   * (Performance Comparison) Krekel, M., de Kock, J., Korn, R., & Man, T.-K. (2004). An analysis of pricing methods for basket options. Wilmott Magazine, 2004(7), 82–89. See the [notebook](https://github.com/PyFE/PyfengForPapers/blob/main/ipynb/KrekelEtAl2004-Wilmott-BasketOption.ipynb) in PyfengForPapers.
   * Implement the method in a new class. In python notebook, summarize the method, write a quick help and report strength and weakness.
 * Johnson's SU distribution approximation for basket/Asian options 
-  * [@chenyingong](https://github.com/chenyingong)
+  * Team: [@chenyingong](https://github.com/chenyingong)
   * Posner, S. E., & Milevsky, M. A. (1998). Valuing exotic options by approximating the SPD with higher moments. The Journal of Financial Engineering, 7(2).
   * Also see Ju (2002) for perfomance comparison
 * Tight lower bound for Asian option
