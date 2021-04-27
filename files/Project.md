@@ -26,6 +26,7 @@
   * Team: [@chenyingong](https://github.com/chenyingong)
   * Posner, S. E., & Milevsky, M. A. (1998). Valuing exotic options by approximating the SPD with higher moments. The Journal of Financial Engineering, 7(2).
   * Also see Ju (2002) for perfomance comparison
+  * `Nsvh1` is equivalent to the Johnson's SU distribution. See `Nsvh1.calibrate_vsk` is implemented.
 * Tight lower bound for Asian option
   * Team: [@daifengqi](https://github.com/daifengqi)
   * Rogers, L. C. G., & Shi, Z. (1995). The value of an Asian option. Journal of Applied Probability, 32(4), 1077–1088.
