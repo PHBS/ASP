@@ -33,7 +33,7 @@ __12__ | 4.16 Fri | [Past Exams](files/ASP_Problems.pdf) Review
 __13__ | 4.20 Tue | Midterm Exam ([Solution](files/ASP2020_Midterm.pdf))
 __14__ | 4.23 Fri | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 __15__ | 4.27 Tue | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
-__16__ | 4.28 Wed | Research Presentation: (Sum of BSM models) and HW3 review
+__16__ | 4.28 Wed | Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf))
 __17__ | 5.04 Tue | Course project presentation
 __18__ | 5.07 Fri | Course project presentation
 
