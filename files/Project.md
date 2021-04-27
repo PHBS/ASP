@@ -35,6 +35,8 @@
 * Conditional MC simulation for OUSV and Garch
   * Team: [@PanyuLi](https://github.com/PanyuLi) and [@jiangxunmu](https://github.com/jiangxunmu)
   * Ornstein Uhlenbeck Simulation. ([Vasicek Model](https://en.wikipedia.org/wiki/Vasicek_model) for interest rate)
+  * Approximate price formula for uncorrelated GARCH model is implemented: Barone-Adesi, G., Rasmussen, H., Ravanelli, C., 2005. An option pricing formula for the GARCH diffusion model. Computational Statistics & Data Analysis, 2nd CSDA Special Issue on Computational Econometrics 49, 287–310. https://doi.org/10.1016/j.csda.2004.05.014
+  * Fourier inversion formula for OUSV model is implemented.
 * Almost-Exact simulation for Heston model
   * Team: [@CharlieSCC](https://github.com/CharlieSCC) and [@RAY185](https://github.com/RAY185)
 * Almost-Exact simulation for 3/2 model
