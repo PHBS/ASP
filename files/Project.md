@@ -18,32 +18,32 @@
 
 ## Suggested Topics and Papers 
 * Ju's Taylor expansion method for basket/Asian options
-  * Team: [@Feng-Yuze](https://github.com/Feng-Yuze) and [@LantianXue](https://github.com/LantianXue)
+  * Team [[Report](https://github.com/LantianXue/2001212267_2001212401/blob/main/PHBS_ASP_Project/Ju2002_asian_and_basket_option.ipynb)]: [@Feng-Yuze](https://github.com/Feng-Yuze) and [@LantianXue](https://github.com/LantianXue).
   * Ju, N. (2002). Pricing Asian and Basket Options Via Taylor Expansion. Journal of Computational Finance, 5(3), 79–103. https://doi.org/10.21314/JCF.2002.088
   * (Performance Comparison) Krekel, M., de Kock, J., Korn, R., & Man, T.-K. (2004). An analysis of pricing methods for basket options. Wilmott Magazine, 2004(7), 82–89. See the [notebook](https://github.com/PyFE/PyfengForPapers/blob/main/ipynb/KrekelEtAl2004-Wilmott-BasketOption.ipynb) in PyfengForPapers.
   * Implement the method in a new class. In python notebook, summarize the method, write a quick help and report strength and weakness.
 * Johnson's SU distribution approximation for basket/Asian options 
-  * Team: [@chenyingong](https://github.com/chenyingong)
+  * Team [[Report](https://github.com/chenyingong/PHBS_ASP_Project/blob/main/Test_Jsu.ipynb)]: [@chenyingong](https://github.com/chenyingong).
   * Posner, S. E., & Milevsky, M. A. (1998). Valuing exotic options by approximating the SPD with higher moments. The Journal of Financial Engineering, 7(2).
   * Also see Ju (2002) for perfomance comparison
   * `Nsvh1` is equivalent to the Johnson's SU distribution. See `Nsvh1.calibrate_vsk` is implemented.
-* Tight lower bound for Asian option
+* Tight lower bound for Basket/Asian option
   * Team: [@daifengqi](https://github.com/daifengqi)
   * Rogers, L. C. G., & Shi, Z. (1995). The value of an Asian option. Journal of Applied Probability, 32(4), 1077–1088.
 * Exact Asian Option Pricing by expansions.
   * Team: [@Zaynmalivski](https://github.com/Zaynmalivski) and [@cy-wang15](https://github.com/cy-wang15)
   * Linetsky, V. (2004). Spectral Expansions for Asian (Average Price) Options. Operations Research, 52(6), 856–867. https://doi.org/10.1287/opre.1040.0113
 * Conditional MC simulation for OUSV and Garch
-  * Team: [@PanyuLi](https://github.com/PanyuLi) and [@jiangxunmu](https://github.com/jiangxunmu)
+  * Team [[Report](https://github.com/PanyuLi/PHBS_ASP_Project/blob/main/Test_FinalProject.ipynb)]: [@PanyuLi](https://github.com/PanyuLi) and [@jiangxunmu](https://github.com/jiangxunmu). 
   * Ornstein Uhlenbeck Simulation. ([Vasicek Model](https://en.wikipedia.org/wiki/Vasicek_model) for interest rate)
   * Approximate price formula for uncorrelated GARCH model is implemented: Barone-Adesi, G., Rasmussen, H., Ravanelli, C., 2005. An option pricing formula for the GARCH diffusion model. Computational Statistics & Data Analysis, 2nd CSDA Special Issue on Computational Econometrics 49, 287–310. https://doi.org/10.1016/j.csda.2004.05.014
   * Fourier inversion formula for OUSV model is implemented.
 * Almost-Exact simulation for Heston model
   * Team: [@CharlieSCC](https://github.com/CharlieSCC) and [@RAY185](https://github.com/RAY185)
 * Almost-Exact simulation for 3/2 model
-  * Team: [@Hejinzefinance](https://github.com/Hejinzefinance) and [@1901212564](https://github.com/1901212564)
+  * Team [[Report](https://github.com/Hejinzefinance/PHBS_ASP_Project/blob/main/test_for_32model.ipynb)]: [@Hejinzefinance](https://github.com/Hejinzefinance) and [@1901212564](https://github.com/1901212564).
 * Conditional MC simulation for Heston, 3/2 and 4/2 models with QE-M scheme 
-  * Team: [@Delia810](https://github.com/Delia810) and [@XueyangHu](https://github.com/XueyangHu)
+  * Team [[Report](https://github.com/XueyangHu/PHBS_ASP_Project/blob/main/Test_Heston_QE_CondMC.ipynb)]: [@Delia810](https://github.com/Delia810) and [@XueyangHu](https://github.com/XueyangHu). 
   * (QE-M scheme) Andersen, L. (2008). Simple and efficient simulation of the Heston stochastic volatility model. The Journal of Computational Finance, 11(3), 1–42. https://doi.org/10.21314/JCF.2008.189
   * (Comparison for various simulation schemes) Van Haastrecht, A., & Pelsser, A. (2010). Efficient, almost exact simulation of the heston stochastic volatility model. International Journal of Theoretical and Applied Finance, 13(01), 1–43. https://doi.org/10.1142/S0219024910005668
   * (4/2 model) Grasselli, M. (2017). The 4/2 Stochastic Volatility Model: A Unified Approach for the Heston and the 3/2 Model. Mathematical Finance, 27(4), 1013–1034. https://doi.org/10.1111/mafi.12124
