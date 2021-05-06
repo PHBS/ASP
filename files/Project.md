@@ -34,7 +34,7 @@
   * Team: [@Zaynmalivski](https://github.com/Zaynmalivski) and [@cy-wang15](https://github.com/cy-wang15)
   * Linetsky, V. (2004). Spectral Expansions for Asian (Average Price) Options. Operations Research, 52(6), 856–867. https://doi.org/10.1287/opre.1040.0113
 * Conditional MC simulation for OUSV and Garch
-  * Team [[Report](https://github.com/PanyuLi/PHBS_ASP_Project/blob/main/Test_FinalProject.ipynb)]: [@PanyuLi](https://github.com/PanyuLi) and [@jiangxunmu](https://github.com/jiangxunmu). 
+  * Team [[Report](https://github.com/PanyuLi/PHBS_ASP_Project/blob/main/Test_CondMC_OUSV_Garch.ipynb)]: [@PanyuLi](https://github.com/PanyuLi) and [@jiangxunmu](https://github.com/jiangxunmu). 
   * Ornstein Uhlenbeck Simulation. ([Vasicek Model](https://en.wikipedia.org/wiki/Vasicek_model) for interest rate)
   * Approximate price formula for uncorrelated GARCH model is implemented: Barone-Adesi, G., Rasmussen, H., Ravanelli, C., 2005. An option pricing formula for the GARCH diffusion model. Computational Statistics & Data Analysis, 2nd CSDA Special Issue on Computational Econometrics 49, 287–310. https://doi.org/10.1016/j.csda.2004.05.014
   * Fourier inversion formula for OUSV model is implemented.
