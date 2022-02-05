@@ -24,12 +24,12 @@ __03__ | 3.01 Tue | Python crash course ([Py Demo](py/PythonCrashCourse_Derek_Ba
 __04__ | 3.04 Fri | Numpy crach course ([Py Demo](py/PythonCrashCourse_Numpy.ipynb)). Black-Scholes implementation ([Py Demo](py/BlackScholes_FunctionVsClass.ipynb)). Implied volatility ([Slides](files/ImpVol.pdf) \| [Py demo](py/BlackScholes_ImpliedVol.ipynb)). 
 __05__ | 3.08 Tue | Bachelier model ([Slides](files/Normal_Model.pdf)). Black-Scholes-Merton and Bachelier option pricing with MC ([Py Demo](py/BlackScholes_MC.ipynb)). Spread/Basket options ([Slides](files/SpreadBasketOption.pdf)). Correlated Normal RNs ([Slides](files/MCmethod.pdf) \| [Py Demo](py/CorrelatedNormals_Demo.ipynb))
 __06__ | 3.11 Fri | Spread/Basket options continued, [HW2: [Spread/Basket option implementation](py/HW2/TestCode_BasketSpread.ipynb), Due next Friday]
-__07__ | 3.30 Tue | SABR model ([Slides](files/SABRmodel.pdf): Volatility smile), Suggested [project topics](files/Project.md)
-__08__ | 4.02 Fri | SABR model continued ([Slides](files/SABRmodel.pdf): Local volatility model, Model intro), Introduction to [PyFENG](https://github.com/PyFE/PyFENG) package
-__09__ | 4.06 Tue | SABR model continued ([Slides](files/SABRmodel.pdf): Euler/Milstein method, Conditional MC), Github pull-request (PR), Py Demo ([SABR](py/SabrModel_Demo.ipynb), [BsmNdMc](BsmNdMc_Demo.ipynb)), HW3: [MC method for SABR](py/HW3/TestCode_SABR.ipynb)
-__10__ | 4.09 Fri | Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
-__11__ | 4.13 Tue | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf)), [Past Exams](files/ASP_Problems.pdf) Review
-__12__ | 4.16 Fri | [Past Exams](files/ASP_Problems.pdf) Review
+__07__ | 3.15 Tue | SABR model ([Slides](files/SABRmodel.pdf): Volatility smile), Suggested [project topics](files/Project.md)
+__08__ | 3.18 Fri | SABR model continued ([Slides](files/SABRmodel.pdf): Local volatility model, Model intro), Introduction to [PyFENG](https://github.com/PyFE/PyFENG) package
+__09__ | 3.22 Tue | SABR model continued ([Slides](files/SABRmodel.pdf): Euler/Milstein method, Conditional MC), Github pull-request (PR), Py Demo ([SABR](py/SabrModel_Demo.ipynb), [BsmNdMc](BsmNdMc_Demo.ipynb)), HW3: [MC method for SABR](py/HW3/TestCode_SABR.ipynb)
+__10__ | 3.25 Fri | Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
+__11__ | 3.29 Tue | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf)), [Past Exams](files/ASP_Problems.pdf) Review
+__12__ | 3.01 Fri | [Past Exams](files/ASP_Problems.pdf) Review
 __13__ | 4.20 Tue | Midterm Exam ([Solution](files/ASP2020_Midterm.pdf))
 __14__ | 4.23 Fri | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 __15__ | 4.27 Tue | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
