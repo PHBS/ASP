@@ -1,4 +1,4 @@
-# Applied Stochastic Processes 2020-21 Module 3 (Spring 2021)
+# Applied Stochastic Processes 2021-22 Module 3 (Spring 2022)
 
 ## Announcements
 * Email is the preferred method of communication. Class mailing list will be created as PHBS.ASP@allmail.net.
@@ -30,7 +30,7 @@ __09__ | 3.22 Tue | SABR model continued ([Slides](files/SABRmodel.pdf): Euler/M
 __10__ | 3.25 Fri | Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
 __11__ | 3.29 Tue | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf)), [Past Exams](files/ASP_Problems.pdf) Review
 __12__ | 4.01 Fri | [Past Exams](files/ASP_Problems.pdf) Review
-__13__ | 4.05 Tue | Midterm Exam ([Solution](files/ASP2020_Midterm.pdf))
+__13__ | 4.06 __Wed__ | Midterm Exam ([Solution](files/ASP2020_Midterm.pdf))
 __14__ | 4.88 Fri | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 __15__ | 4.12 Tue | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 __16__ | 4.15 Wed | Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf))
@@ -60,9 +60,9 @@ __18__ | 4.22 Fri | Course project presentation
 * Email: jaehyuk@phbs.pku.edu.cn
 * Office Hour: Tuesday 9-10 PM, Friday 3:30-4:30 PM
 
-## Teaching Assistance: TBA
-* Email: xxxx@pku.edu.cn
-* TA Office Hour: TBA (Room 213/214)
+## Teaching Assistance: NING Lei (宁磊)
+* Email: leining@stu.pku.edu.cn
+* TA Office Hour: __TBA__ (Room 213/214)
 
 ## Course overview: 
 Applied Stochastic Processes (ASP) is intended for the students who are
