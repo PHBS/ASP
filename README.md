@@ -29,13 +29,13 @@ __08__ | 3.18 Fri | SABR model continued ([Slides](files/SABRmodel.pdf): Local v
 __09__ | 3.22 Tue | SABR model continued ([Slides](files/SABRmodel.pdf): Euler/Milstein method, Conditional MC), Github pull-request (PR), Py Demo ([SABR](py/SabrModel_Demo.ipynb), [BsmNdMc](BsmNdMc_Demo.ipynb)), HW3: [MC method for SABR](py/HW3/TestCode_SABR.ipynb)
 __10__ | 3.25 Fri | Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
 __11__ | 3.29 Tue | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf)), [Past Exams](files/ASP_Problems.pdf) Review
-__12__ | 3.01 Fri | [Past Exams](files/ASP_Problems.pdf) Review
-__13__ | 4.20 Tue | Midterm Exam ([Solution](files/ASP2020_Midterm.pdf))
-__14__ | 4.23 Fri | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
-__15__ | 4.27 Tue | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
-__16__ | 4.28 Wed | Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf))
-__17__ | 5.04 Tue | Course project presentation
-__18__ | 5.07 Fri | Course project presentation
+__12__ | 4.01 Fri | [Past Exams](files/ASP_Problems.pdf) Review
+__13__ | 4.05 Tue | Midterm Exam ([Solution](files/ASP2020_Midterm.pdf))
+__14__ | 4.88 Fri | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
+__15__ | 4.12 Tue | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
+__16__ | 4.15 Wed | Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf))
+__17__ | 4.19 Tue | Course project presentation
+__18__ | 4.22 Fri | Course project presentation
 
 <!-- , Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf)) -->
 
