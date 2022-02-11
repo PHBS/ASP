@@ -52,13 +52,13 @@ __18__ | 4.22 Fri | Course project presentation
 
 ## Classes: 
 * Lectures: Tues & Fri 1:30 – 3:20 PM
-* Venue: PHBS Building, Room 417
+* Venue: PHBS Building, Room 229
 
 ## Instructor: [Jaehyuk Choi](http://www.jaehyukchoi.net/phbs_en)
 * Office: PHBS Building, Room 755
 * Phone: 86-755-2603-0568
 * Email: jaehyuk@phbs.pku.edu.cn
-* Office Hour: Tuesday 9-10 PM, Friday 3:30-4:30 PM
+* Office Hour: __TBA__
 
 ## Teaching Assistance: NING Lei (宁磊)
 * Email: leining@stu.pku.edu.cn
