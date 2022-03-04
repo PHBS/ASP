@@ -20,8 +20,8 @@ No | Date | Contents
 --- | :---: | ---
 __01__ | 2.22 Tue | Course overview, Scientific computing, MC method, RN generation ([Slides](files/MCmethod.pdf) \| [Py demo](py/MC_Demo.ipynb))
 __02__ | 2.25 Fri | Continued ([Slides](files/MCmethod.pdf) \| [Py demo](py/MC_Demo.ipynb))
-__03__ | 3.01 Tue | Python crash course ([Py Demo](py/PythonCrashCourse_Derek_Banas.ipynb)). More [cheatsheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html) also available in [MLF CMS](http://cms.phbs.pku.edu.cn/claroline/document/document.php?cidReset=true&cidReq=FN570). 
-__04__ | 3.04 Fri | Numpy crach course ([Py Demo](py/PythonCrashCourse_Numpy.ipynb)). Black-Scholes implementation ([Py Demo](py/BlackScholes_FunctionVsClass.ipynb)). Implied volatility ([Slides](files/ImpVol.pdf) \| [Py demo](py/BlackScholes_ImpliedVol.ipynb)). 
+__03__ | 3.01 Tue | Python crash course ([Py Demo](py/PythonCrashCourse_Derek_Banas.ipynb)). More [cheatsheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html) also available in [MLF CMS](http://cms.phbs.pku.edu.cn/claroline/document/document.php?cidReset=true&cidReq=FN570).  Numpy crach course ([Py Demo](py/PythonCrashCourse_Numpy.ipynb)). 
+__04__ | 3.04 Fri |Black-Scholes implementation ([Py Demo](py/BlackScholes_FunctionVsClass.ipynb)). Implied volatility ([Slides](files/ImpVol.pdf) \| [Py demo](py/BlackScholes_ImpliedVol.ipynb)). 
 __05__ | 3.08 Tue | Bachelier model ([Slides](files/Normal_Model.pdf)). Black-Scholes-Merton and Bachelier option pricing with MC ([Py Demo](py/BlackScholes_MC.ipynb)). Spread/Basket options ([Slides](files/SpreadBasketOption.pdf)). Correlated Normal RNs ([Slides](files/MCmethod.pdf) \| [Py Demo](py/CorrelatedNormals_Demo.ipynb))
 __06__ | 3.11 Fri | Spread/Basket options continued, [HW2: [Spread/Basket option implementation](py/HW2/TestCode_BasketSpread.ipynb), Due next Friday]
 __07__ | 3.15 Tue | SABR model ([Slides](files/SABRmodel.pdf): Volatility smile), Suggested [project topics](files/Project.md)
