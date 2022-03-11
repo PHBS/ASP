@@ -54,7 +54,7 @@ def basket_price_mc_cv(
 
 def basket_price_mc(
     strike, spot, vol, weights, texp, cor_m,
-    intr=0.0, divr=0.0, cp=1, bsm=True, n_samples = 10000
+    intr=0.0, divr=0.0, cp=1, bsm=True, n_samples = 100000
 ):
     basket_check_args(spot, vol, cor_m, weights)
     
