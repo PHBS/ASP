@@ -1,4 +1,4 @@
-    # -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 """
 Created on Tue Oct 10
 
@@ -8,8 +8,6 @@ Created on Tue Oct 10
 import numpy as np
 import scipy.stats as ss
 import scipy.optimize as sopt
-from . import normal
-from . import bsm
 import pyfeng as pf
 
 '''
@@ -35,10 +33,9 @@ class ModelBsmMC:
     def bsm_vol(self, strike, spot, texp=None, sigma=None):
         ''''
         From the price from self.price() compute the implied vol
-        this is the opposite of bsm_vol in ModelHagan class
-        use bsm_model
+        Use self.bsm_model.impvol() method
         '''
-        return 0
+        return np.zeros_like(strike)
     
     def price(self, strike, spot, texp=None, sigma=None, cp=1):
         '''
@@ -47,7 +44,7 @@ class ModelBsmMC:
         You may fix the random number seed
         '''
         np.random.seed(12345)
-        return 0
+        return np.zeros_like(strike)
 
 '''
 MC model class for Beta=0
@@ -68,11 +65,10 @@ class ModelNormalMC:
         
     def norm_vol(self, strike, spot, texp=None, sigma=None):
         ''''
-        From the price from self.price() compute the implied vol
-        this is the opposite of normal_vol in ModelNormalHagan class
-        use normal_model 
+        From the price from self.price() compute the implied vol.
+        Use self.normal_model.impvol() method        
         '''
-        return 0
+        return np.zeros_like(strike)
         
     def price(self, strike, spot, texp=None, sigma=None, cp=1):
         '''
@@ -81,7 +77,7 @@ class ModelNormalMC:
         You may fix the random number seed
         '''
         np.random.seed(12345)
-        return 0
+        return np.zeros_like(strike)
 
 '''
 Conditional MC model class for Beta=1
@@ -105,12 +101,9 @@ class ModelBsmCondMC:
         
     def bsm_vol(self, strike, spot, texp=None):
         ''''
-        From the price from self.price() compute the implied vol
-        this is the opposite of bsm_vol in ModelHagan class
-        use bsm_model
         should be same as bsm_vol method in ModelBsmMC (just copy & paste)
         '''
-        return 0
+        return np.zeros_like(strike)
     
     def price(self, strike, spot, texp=None, cp=1):
         '''
@@ -120,7 +113,7 @@ class ModelBsmCondMC:
         You may fix the random number seed
         '''
         np.random.seed(12345)
-        return 0
+        return np.zeros_like(strike)
 
 '''
 Conditional MC model class for Beta=0
@@ -141,12 +134,9 @@ class ModelNormalCondMC:
         
     def norm_vol(self, strike, spot, texp=None):
         ''''
-        From the price from self.price() compute the implied vol
-        this is the opposite of normal_vol in ModelNormalHagan class
-        use normal_model
         should be same as norm_vol method in ModelNormalMC (just copy & paste)
         '''
-        return 0
+        return np.zeros_like(strike)
         
     def price(self, strike, spot, cp=1):
         '''
@@ -155,4 +145,4 @@ class ModelNormalCondMC:
         You may fix the random number seed
         '''
         np.random.seed(12345)
-        return 0
+        return np.zeros_like(strike)
