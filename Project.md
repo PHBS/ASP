@@ -44,7 +44,7 @@
 
 ### Option pricing with Fourier Transform
 * Lord R, Kahl C (2010) Complex Logarithms in Heston-Like Models. Mathematical Finance 20:671–694. https://doi.org/10.1111/j.1467-9965.2010.00416.x
-* Lord R, Kahl C (2010) Complex Logarithms in Heston-Like Models. Mathematical Finance 20:671–694. https://doi.org/10.1111/j.1467-9965.2010.00416.x
+* Kahl C, Jäckel P (2005) Not-so-complex Logarithms in the Heston Model. Wilmott 19
 * [Implemented but not perfect] __OUSV:__ Schöbel R, Zhu J (1999) Stochastic Volatility With an Ornstein–Uhlenbeck Process: An Extension. Rev Financ 3:23–46. https://doi.org/10.1023/A:1009803506170
 
 ### * GARCH-diffusion model
