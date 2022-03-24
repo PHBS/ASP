@@ -40,6 +40,7 @@
 
 ### * Spread/Basket/Asian Option
 * [[Partially](https://github.com/PyFE/pyfedev/blob/master/pyfe/bsm_multi_choi2018.py) implemented] Choi J (2018) Sum of all Black-Scholes-Merton models: An efficient pricing method for spread, basket, and Asian options. Journal of Futures Markets 38:627–644. https://doi.org/10.1002/fut.21909
+  * R implementation: https://github.com/PyFE/SumBSM-R
 * [Most methods implemented] Krekel M, de Kock J, Korn R, Man T-K (2004) An analysis of pricing methods for basket options. Wilmott Magazine 2004:82–89
 
 ### Option pricing with Fourier Transform
@@ -66,7 +67,7 @@
 
 ### * OUSV Model
 * [Implemented] Euler/Milstein
-* [Implemented] Li, C., Wu, L., 2019. Exact simulation of the Ornstein–Uhlenbeck driven stochastic volatility model. European Journal of Operational Research 275, 768–779. https://doi.org/10.1016/j.ejor.2018.11.057
+* [Implemented] Li C, Wu L (2019) Exact simulation of the Ornstein–Uhlenbeck driven stochastic volatility model. European Journal of Operational Research 275:768–779. https://doi.org/10.1016/j.ejor.2018.11.057
 * [2021 Thesis] Almost exact simulation
 
 ### * 3/2 SV model
