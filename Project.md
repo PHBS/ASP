@@ -16,9 +16,13 @@
 * Your repository (`PHBS_ASP_2021` or any name is OK)
   * Test (__.ipynb__): one Jupyter notebook file briefly describing the method (base theory, equations, SDE, strength/weakness, etc).
   * Include some test examples (e.g., the same parameter sets from the paper)
+* See past years' proejct:
+  * [2020-21](https://github.com/PHBS/ASP/blob/master/past-years/2020-21-M1/Project.md)
+  * [2019-20](https://github.com/PHBS/ASP/blob/master/past-years/2019-20-M1/Project.md)
+  * [2018-19](https://github.com/PHBS/ASP/blob/master/past-years/2018-19-M1/Project.md)
+  * [2017-18](https://github.com/PHBS/ASP/blob/master/past-years/2017-18-M1/Project.md)
 
 # Project Topics
-
 
 ## Topics
 * Among the topics and HWs covered in the class, choose an in-depth research on one topic. You are also welcome to do the project on your own original idea. Otherwise, pick one from my suggestions which are basically understanding and implementing literatures. Topics includes 
@@ -26,7 +30,6 @@
   * SV models (SABR, Heston, etc)
   * Rough volatility
   * Copula
-
 
 ### * Rough Volatility
 * Ma J, Wu H (2021) A fast algorithm for simulation of rough volatility models. Quantitative Finance 0:1–16. https://doi.org/10.1080/14697688.2021.1970213
@@ -43,7 +46,6 @@
 * Lord R, Kahl C (2010) Complex Logarithms in Heston-Like Models. Mathematical Finance 20:671–694. https://doi.org/10.1111/j.1467-9965.2010.00416.x
 * Lord R, Kahl C (2010) Complex Logarithms in Heston-Like Models. Mathematical Finance 20:671–694. https://doi.org/10.1111/j.1467-9965.2010.00416.x
 
-
 ### * GARCH-diffusion model
 * [Implemented] Barone-Adesi G, Rasmussen H, Ravanelli C (2005) An option pricing formula for the GARCH diffusion model. Computational Statistics & Data Analysis 49:287–310. https://doi.org/10.1016/j.csda.2004.05.014
 
@@ -52,13 +54,14 @@
 * [No method] Papadopoulos, Y.A., Lewis, A.L., 2018. A First Option Calibration of the GARCH Diffusion Model by a PDE Method. arXiv:1801.06141 [q-fin].
 
 ### * SABR model
-* [Implemented but not verified] Cai, N., Song, Y., Chen, N., 2017. Exact Simulation of the SABR Model. Operations Research 65, 931–951. https://doi.org/10.1287/opre.2017.1617
+* [Implemented but not verified] Cai N, Song Y, Chen N (2017) Exact Simulation of the SABR Model. Oper Res 65:931–951. https://doi.org/10.1287/opre.2017.1617
+* [Implemented but not verified] Leitao Á, Grzelak LA, Oosterlee CW (2017) On a one time-step Monte Carlo simulation approach of the SABR model: Application to European options. Applied Mathematics and Computation 293:461–479. https://doi.org/10.1016/j.amc.2016.08.030
 
 ### * [Heston Model](https://en.wikipedia.org/wiki/Heston_model) (SV)
-* [Implemented] Broadie, M., Kaya, Ö., 2006. Exact Simulation of Stochastic Volatility and Other Affine Jump Diffusion Processes. Operations Research 54, 217–231. https://doi.org/10.1287/opre.1050.0247 
+* [No need] Broadie M, Kaya Ö (2006) Exact Simulation of Stochastic Volatility and Other Affine Jump Diffusion Processes. Operations Research 54:217–231. https://doi.org/10.1287/opre.1050.0247
 * [Implemented] Glasserman, P., Kim, K.-K., 2011. Gamma expansion of the Heston stochastic volatility model. Finance Stoch 15, 267–296. https://doi.org/10.1007/s00780-009-0115-y
 * [Implemented]  Andersen, L., 2008. Simple and efficient simulation of the Heston stochastic volatility model. The Journal of Computational Finance 11, 1–42. https://doi.org/10.21314/JCF.2008.189
-* [2022 Thesis] Almost exact simulation
+* [Implemented / 2022 Thesis] Almost exact simulation
 
 ### * OUSV Model
 * [Implemented] Euler/Milstein
