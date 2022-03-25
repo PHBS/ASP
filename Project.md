@@ -9,7 +9,7 @@
 ## File requirements
 * `PyFENG` repository:
   * Core implementation (.py): python class and functions
-  * Make sure to add docstring in detail. Example: [bsm.py](https://github.com/PHBS/pyfeng/blob/master/pyfeng/bsm.py)
+  * Make sure to add docstring in detail. Example: [bsm.py](https://github.com/PYFE/pyfeng/blob/master/pyfeng/bsm.py)
   * The best examples of docstring are from numpy documentation: [example](https://docs.scipy.org/doc/numpy-1.10.1/reference/routines.polynomials.hermite.html)
   * __Integrate into the `PyFENG` repository__ by making pull-requests (pr).
   * __Do not__ place any `.ipynb` file.
@@ -62,7 +62,7 @@
 
 ### * [Heston Model](https://en.wikipedia.org/wiki/Heston_model) (SV)
 * [No need] Broadie M, Kaya Ö (2006) Exact Simulation of Stochastic Volatility and Other Affine Jump Diffusion Processes. Operations Research 54:217–231. https://doi.org/10.1287/opre.1050.0247
-* [Implemented] Glasserman, P., Kim, K.-K., 2011. Gamma expansion of the Heston stochastic volatility model. Finance Stoch 15, 267–296. https://doi.org/10.1007/s00780-009-0115-y
+* [Implemented] Glasserman P, Kim K-K (2011) Gamma expansion of the Heston stochastic volatility model. Finance Stoch 15:267–296. https://doi.org/10.1007/s00780-009-0115-y
 * [Implemented]  Andersen, L., 2008. Simple and efficient simulation of the Heston stochastic volatility model. The Journal of Computational Finance 11, 1–42. https://doi.org/10.21314/JCF.2008.189
 * [Implemented / 2022 Thesis] Almost exact simulation
 
