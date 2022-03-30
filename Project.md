@@ -34,6 +34,7 @@
 ### * Rough Volatility
 * Ma J, Wu H (2021) A fast algorithm for simulation of rough volatility models. Quantitative Finance 0:1–16. https://doi.org/10.1080/14697688.2021.1970213
 * Jaber EA (2019) Lifting the Heston model. Quantitative Finance 19:1995–2013. https://doi.org/10.1080/14697688.2019.1615113
+* Horvath B, Jacquier A, Muguruza A (2019) Functional central limit theorems for rough volatility. arXiv:171103078 [math, q-fin] http://arxiv.org/abs/1711.03078
 * McCrickerd R, Pakkanen MS (2018) Turbocharging Monte Carlo pricing for the rough Bergomi model. Quantitative Finance 18:1877–1886. https://doi.org/10.1080/14697688.2018.1459812
 * Bennedsen, M., Lunde, A., Pakkanen, M.S., 2017. Hybrid scheme for Brownian semistationary processes. Finance Stoch 21, 931–965. https://doi.org/10.1007/s00780-017-0335-5
 * J. Gatheral's [python code](https://tpq.io/p/rough_volatility_with_python.html)
@@ -50,6 +51,7 @@
 
 ### * GARCH-diffusion model
 * [Implemented] Barone-Adesi G, Rasmussen H, Ravanelli C (2005) An option pricing formula for the GARCH diffusion model. Computational Statistics & Data Analysis 49:287–310. https://doi.org/10.1016/j.csda.2004.05.014
+* Tubikanec I, Tamborrino M, Lansky P, Buckwar E (2021) Qualitative properties of numerical methods for the inhomogeneous geometric Brownian motion. arXiv:200310193 [cs, math] http://arxiv.org/abs/2003.10193
 * [Implemented] Euler/Milstein/Log scheme (in class)
 * [????] Capriotti L, Jiang Y, Shaimerdenova G (2018) Approximation methods for inhomogeneous geometric brownian motion. Int J Theor Appl Finan 22:1850055. https://doi.org/10.1142/S0219024918500553
 * __IGBM:__ Zhao B (2009) Inhomogeneous Geometric Brownian Motion. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.1429449
