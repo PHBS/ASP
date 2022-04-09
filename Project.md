@@ -2,6 +2,22 @@
 
 ## [Repository](https://github.com/pyfe/pyfeng) and [Project List](https://github.com/pyfe/pyfeng/projects)
 
+## List of Projects
+* Simulation of the GARCH Diffusion model
+  * [@Harveydentsun](https://github.com/Harveydentsun) and [@yogaball](https://github.com/yogaball)
+* Simulation of Rough Volatility Model 
+  * [@polarbluebear](https://github.com/polarbluebear) and [@Baiwisher](https://github.com/Baiwisher)
+  * Ma J, Wu H (2021) A fast algorithm for simulation of rough volatility models. Quantitative Finance 0:1–16. https://doi.org/10.1080/14697688.2021.1970213
+* Lifted Heston Model
+  * [@jyyccc](https://github.com/jyyccc) and [@Cecilia525](https://github.com/Cecilia525)
+  * Jaber EA (2019) Lifting the Heston model. Quantitative Finance 19:1995–2013. https://doi.org/10.1080/14697688.2019.1615113
+* Solving Risk Parity Weights
+  * [@lililiyf](https://github.com/lililiyf) and [@TinaWang39](https://github.com/TinaWang39)
+  * Bai X, Scheinberg K, Tutuncu R (2016) Least-squares approach to risk parity in portfolio selection. Quantitative Finance 16:357–376. https://doi.org/10.1080/14697688.2015.1031815
+* Approximate Stochastic Volatility Model Option Pricing
+  * [@zwc00098](https://github.com/zwc00098)
+  * Ball CA, Roma A (1994) Stochastic Volatility Option Pricing. Journal of Financial and Quantitative Analysis 29:589–607. https://doi.org/10.2307/2331111
+
 ## Presentation and Deadline
 * Presentation: 4.22 (Friday) 10 minutes by each group.
 * Pull request deadline: 4.30 (Saturday)
