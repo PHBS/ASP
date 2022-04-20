@@ -28,8 +28,10 @@ https://doi.org/10.1080/14697688.2015.1031815
 ## File requirements
 * `PyFENG` repository:
   * Core implementation (.py): python class and functions
-  * Make sure to add docstring in detail. Example: [bsm.py](https://github.com/PYFE/pyfeng/blob/master/pyfeng/bsm.py)
-  * The best examples of docstring are from numpy documentation: [example](https://docs.scipy.org/doc/numpy-1.10.1/reference/routines.polynomials.hermite.html)
+  * Make sure to add docstring in detail. 
+    * Example: [bsm.py](https://github.com/PYFE/pyfeng/blob/master/pyfeng/bsm.py)
+    * Specify equation/formula number or page in the original paper 
+    * The best examples of docstring are from numpy documentation: [example](https://docs.scipy.org/doc/numpy-1.10.1/reference/routines.polynomials.hermite.html)
   * __Integrate into the `PyFENG` repository__ by making pull-requests (pr).
   * __Do not__ place any `.ipynb` file.
 * Your repository (`PHBS_ASP_2021` or any name is OK)
