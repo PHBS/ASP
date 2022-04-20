@@ -16,7 +16,7 @@
 * Solving Risk Parity Weights
   * [@lililiyf](https://github.com/lililiyf) and [@TinaWang39](https://github.com/TinaWang39)
   * Bai X, Scheinberg K, Tutuncu R (2016) Least-squares approach to risk parity in portfolio selection. Quantitative Finance 16:357–376. https://doi.org/10.1080/14697688.2015.1031815
-* Approximate Stochastic Volatility Model Option Pricing
+* Approximate Stochastic Volatility Model Option Pricing [[Report](https://github.com/zwc00098/ASP_Project/blob/main/Test_Ball%20and%20Roma.ipynb)]
   * [@zwc00098](https://github.com/zwc00098)
   * Ball CA, Roma A (1994) Stochastic Volatility Option Pricing. Journal of Financial and Quantitative Analysis 29:589–607. https://doi.org/10.2307/2331111
 
