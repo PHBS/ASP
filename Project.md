@@ -11,7 +11,7 @@
 * Simulation of the GARCH Diffusion model [[Report](https://github.com/Harveydentsun/ASP_Project/blob/main/Garch-diffusion%20model.ipynb)]
   * [@Harveydentsun](https://github.com/Harveydentsun) and [@yogaball](https://github.com/yogaball)
 https://doi.org/10.1080/14697688.2015.1031815
-* Lifted Heston Model
+* Lifted Heston Model [[Report](https://github.com/Cecilia525/ASP-Project)]
   * [@jyyccc](https://github.com/jyyccc) and [@Cecilia525](https://github.com/Cecilia525)
   * Jaber EA (2019) Lifting the Heston model. Quantitative Finance 19:1995–2013. https://doi.org/10.1080/14697688.2019.1615113
 * Approximate Stochastic Volatility Model Option Pricing [[Report](https://github.com/zwc00098/ASP_Project/blob/main/Test_Ball%20and%20Roma.ipynb)]
