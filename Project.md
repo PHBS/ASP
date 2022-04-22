@@ -17,7 +17,7 @@ https://doi.org/10.1080/14697688.2015.1031815
 * Approximate Stochastic Volatility Model Option Pricing [[Report](https://github.com/zwc00098/ASP_Project/blob/main/Test_Ball%20and%20Roma.ipynb)]
   * [@zwc00098](https://github.com/zwc00098)
   * Ball CA, Roma A (1994) Stochastic Volatility Option Pricing. Journal of Financial and Quantitative Analysis 29:589–607. https://doi.org/10.2307/2331111
-* Simulation of Rough Volatility Model 
+* Simulation of Rough Volatility Model [[Report](https://github.com/Baiwisher/PyFENG/blob/rVolatility/Report_rVolatility.ipynb)]
   * [@polarbluebear](https://github.com/polarbluebear) and [@Baiwisher](https://github.com/Baiwisher)
   * Ma J, Wu H (2021) A fast algorithm for simulation of rough volatility models. Quantitative Finance 0:1–16. https://doi.org/10.1080/14697688.2021.1970213
 
