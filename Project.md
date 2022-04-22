@@ -6,7 +6,7 @@
 * Solving Risk Parity Weights [[Report](https://github.com/lililiyf/ASP/blob/master/RiskParity-ASP-Project-2022.ipynb)]
   * [@lililiyf](https://github.com/lililiyf) and [@TinaWang39](https://github.com/TinaWang39)
   * Bai X, Scheinberg K, Tutuncu R (2016) Least-squares approach to risk parity in portfolio selection. Quantitative Finance 16:357–376. 
-* Almost Exact Simulation of the 3/2 Volatility Model
+* Almost Exact Simulation of the 3/2 Volatility Model [[Report](https://github.com/AHrmnd/ASP-1/blob/master/py/AE_theory.ipynb)]
   * [@AHrmnd](https://github.com/AHrmnd) and [@FLXE-Feidou](https://github.com/FLXE-Feidou)
 * Simulation of the GARCH Diffusion model
   * [@Harveydentsun](https://github.com/Harveydentsun) and [@yogaball](https://github.com/yogaball)
