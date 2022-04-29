@@ -14,7 +14,7 @@ https://doi.org/10.1080/14697688.2015.1031815
 * Lifted Heston Model [[Report](https://github.com/Cecilia525/ASP-Project/blob/main/Report-Lifted%20Heston_v4.ipynb)]
   * [@jyyccc](https://github.com/jyyccc) and [@Cecilia525](https://github.com/Cecilia525)
   * Jaber EA (2019) Lifting the Heston model. Quantitative Finance 19:1995–2013. https://doi.org/10.1080/14697688.2019.1615113
-* Approximate Stochastic Volatility Model Option Pricing [[Report](https://github.com/zwc00098/ASP_Project/blob/main/Test_Ball%20and%20Roma.ipynb)]
+* Approximate Stochastic Volatility Model Option Pricing [[Report](https://github.com/zwc00098/ASP_Project/blob/main/Test_Ball%20and%20Roma_v2.0.ipynb)]
   * [@zwc00098](https://github.com/zwc00098)
   * Ball CA, Roma A (1994) Stochastic Volatility Option Pricing. Journal of Financial and Quantitative Analysis 29:589–607. https://doi.org/10.2307/2331111
 * Simulation of Rough Volatility Model [[Report](https://github.com/Baiwisher/PyFENG/blob/rVolatility/Report_rVolatility.ipynb)]
