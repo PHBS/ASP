@@ -44,7 +44,7 @@ __18__ | 10.27 Thurs | Course project presentation
   * Register on Github.com and send your ID and student number to Prof. Choi via email (jaehyuk@phbs.pku.edu.cn). Use your __full name__ in your profile. Accept invitation to the [PHBS organization](https://github.com/orgs/PHBS/people) from TA. Install [Github Desktop](https://desktop.github.com/). 
   * Install [Anaconda](https://www.anaconda.com/download/) Python distribution (__3.X version__, not 2.X version). Anaconda distribution is core Python + useful scientific computation libraries (e.g., numpy, scipy, pandas) + package management system (pip or conda)
   * Send the screenshot of Github desktop and Anaconda installed to TA. (Example: [Github Desktop](files/Choi_Jaehyuk_Github.png), [Anaconda Spyder](files/Choi_Jaehyuk_Python.png))  
-* ### __Set 1__ [Due by 9.10] Generate a function for generating standard normal RN following Problem 2 of 2021.M3 midterm exam. After drawing 1e6 RNs, check if they are truly standard normal RNs.
+* ### __Set 1__ [Due by 9.9 Fri] Generate a function for generating standard normal RN following Problem 2 of 2021.M3 midterm exam. After drawing 1e6 RNs, check if they are truly standard normal RNs.
   * Draw histogram using `matplotlib.pyplot`
   * Calculate mean/variance/skewness/kurtosis
 * ### __Set 1__ [Due by XXX] Simple corporate (default) bond pricing by MC simulation. [Starter Code](py/HW1/HW1.ipynb)
