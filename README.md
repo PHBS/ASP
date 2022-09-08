@@ -61,7 +61,7 @@ __18__ | 10.27 Thurs | Course project presentation
 * Office: PHBS Building, Room 755
 * Phone: 86-755-2603-0568
 * Email: jaehyuk@phbs.pku.edu.cn
-* Office Hour: __TBA__
+* Office Hour: Wed 1-3 PM
 
 ## Teaching Assistance: Su Nan (苏南)
 * Email: sunan@stu.pku.edu.cn
