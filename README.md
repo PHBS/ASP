@@ -28,13 +28,13 @@ __07__ | 9.19 Mon | SABR model ([Slides](files/SABRmodel.pdf): Volatility smile)
 __08__ | 9.22 Thurs | SABR model continued ([Slides](files/SABRmodel.pdf): Local volatility model, Model intro), Introduction to [PyFENG](https://github.com/PyFE/PyFENG) package
 __09__ | 9.26 Mon | SABR model continued ([Slides](files/SABRmodel.pdf): Euler/Milstein method, Conditional MC), Github pull-request (PR), Py Demo ([SABR](py/SabrModel_Demo.ipynb), [BsmNdMc](BsmNdMc_Demo.ipynb)), HW3: [MC method for SABR](py/HW3/TestCode_SABR.ipynb)
 __10__ | 9.29 Thurs | Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
-__11__ | 10.03 Mon | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf)), [Past Exams](files/ASP_Problems.pdf) Review
-__12__ | 10.06 Thurs | [Past Exams](files/ASP_Problems.pdf) Review
-__13__ | 10.10 __Wed__ | Midterm Exam ([Solution](files/ASP2020_Midterm.pdf))
-__14__ | 10.13 Thurs | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
-__15__ | 10.17 Mon | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
-__16__ | 10.20 Wed | Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf))
-__17__ | 10.24 Mon | Course project presentation
+__11__ | 10.06 Thurs | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf)), [Past Exams](files/ASP_Problems.pdf) Review
+__12__ | 10.10 Mon | SV Model Simulation (continued)
+__13__ | 10.13 Thurs | [Past Exams](files/ASP_Problems.pdf) Review
+__14__ | 10.17 Mon | Midterm Exam ([Solution](files/ASP2020_Midterm.pdf))
+__15__ | 10.20 Thurs | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
+__16__ | 10.24 Mon | Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf))
+__17__ | 10.26 Wed | Course project presentation
 __18__ | 10.27 Thurs | Course project presentation
 
 <!-- , Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf)) -->
