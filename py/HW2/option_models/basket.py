@@ -7,6 +7,7 @@ Created on Tue Sep 19 22:56:58 2017
 import numpy as np
 import scipy.stats as ss
 import pyfeng as pf
+import pandas as pd
 
 def basket_check_args(spot, vol, corr_m, weights):
     '''
