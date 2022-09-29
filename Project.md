@@ -12,7 +12,8 @@
   * Zheng W, Zeng P (2016) Pricing timer options and variance derivatives with closed-form partial transform under the 3/2 model. Applied Mathematical Finance 23:344–373. https://doi.org/10.1080/1350486X.2017.1285242
 * Snowball 
   * Recently very popular in China. [Link](https://www.risk.net/derivatives/7894576/sales-of-chinas-snowball-notes-fall)
-### SV Models
+
+### Old Topics
 * Almost Exact Simulation of the 3/2 Volatility Model [[Report](https://github.com/AHrmnd/ASP-1/blob/master/py/AE_theory.ipynb)]
   * [@AHrmnd](https://github.com/AHrmnd) and [@FLXE-Feidou](https://github.com/FLXE-Feidou)
 * Simulation of the GARCH Diffusion model [[Report](https://github.com/Harveydentsun/ASP_Project/blob/main/Garch-diffusion%20model.ipynb)]
