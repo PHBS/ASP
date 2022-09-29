@@ -22,8 +22,8 @@ https://doi.org/10.1080/14697688.2015.1031815
   * Ma J, Wu H (2021) A fast algorithm for simulation of rough volatility models. Quantitative Finance 0:1–16. https://doi.org/10.1080/14697688.2021.1970213
 
 ## Presentation and Deadline
-* Presentation: 4.22 (Friday) 10 minutes by each group.
-* Pull request deadline: 4.30 (Saturday)
+* Presentation: 10.27 (Thurs) 20 minutes by each group.
+* Pull request deadline: 11.01 (Tues)
 
 ## File requirements
 * `PyFENG` repository:
@@ -38,7 +38,8 @@ https://doi.org/10.1080/14697688.2015.1031815
   * Test (__.ipynb__): one Jupyter notebook file briefly describing the method (base theory, equations, SDE, strength/weakness, etc).
   * Include some test examples (e.g., the same parameter sets from the paper)
 * See past years' proejct:
-  * [2020-21](https://github.com/PHBS/ASP/blob/master/past-years/2020-21-M1/Project.md)
+  * [2021-22](https://github.com/PHBS/ASP/blob/master/past-years/2021-22-M3/Project.md)
+  * [2020-21](https://github.com/PHBS/ASP/blob/master/past-years/2020-21-M3/Project.md)
   * [2019-20](https://github.com/PHBS/ASP/blob/master/past-years/2019-20-M1/Project.md)
   * [2018-19](https://github.com/PHBS/ASP/blob/master/past-years/2018-19-M1/Project.md)
   * [2017-18](https://github.com/PHBS/ASP/blob/master/past-years/2017-18-M1/Project.md)
