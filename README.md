@@ -24,7 +24,7 @@ __03__ | 9.05 Mon | Python crash course ([Py Demo](py/PythonCrashCourse_Derek_Ba
 __04__ | 9.08 Thurs |Black-Scholes implementation ([Py Demo](py/BlackScholes_FunctionVsClass.ipynb)). Implied volatility ([Slides](files/ImpVol.pdf) \| [Py demo](py/BlackScholes_ImpliedVol.ipynb)). 
 __05__ | 9.14 Wed | Bachelier model ([Slides](files/Normal_Model.pdf)). Black-Scholes-Merton and Bachelier option pricing with MC ([Py Demo](py/BlackScholes_MC.ipynb)). Spread/Basket options ([Slides](files/SpreadBasketOption.pdf)). Correlated Normal RNs ([Slides](files/MCmethod.pdf) \| [Py Demo](py/CorrelatedNormals_Demo.ipynb))
 __06__ | 9.15 Thurs | Spread/Basket options continued, [HW2: [Spread/Basket option implementation](py/HW2/TestCode_BasketSpread.ipynb), Due next Thursday]
-__07__ | 9.19 Mon | SABR model ([Slides](files/SABRmodel.pdf): Volatility smile), Suggested [project topics](files/Project.md)
+__07__ | 9.19 Mon | SABR model ([Slides](files/SABRmodel.pdf): Volatility smile), Suggested [project topics](Project.md)
 __08__ | 9.22 Thurs | SABR model continued ([Slides](files/SABRmodel.pdf): Local volatility model, Model intro), Introduction to [PyFENG](https://github.com/PyFE/PyFENG) package
 __09__ | 9.26 Mon | SABR model continued ([Slides](files/SABRmodel.pdf): Euler/Milstein method, Conditional MC), Github pull-request (PR), Py Demo ([SABR](py/SabrModel_Demo.ipynb), [BsmNdMc](BsmNdMc_Demo.ipynb)), HW3: [MC method for SABR](py/HW3/TestCode_SABR.ipynb)
 __10__ | 9.29 Thurs | Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
