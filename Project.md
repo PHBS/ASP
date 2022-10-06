@@ -5,11 +5,17 @@
 ## List of Projects
 ### Exotic Derivatives
 * Timer Option
+  * Implementation of time-discretization (Andersen's QE) scheme for Heston/SABR models
+  * Li M, Mercurio F (2015) Analytic Approximation of Finite‐Maturity Timer Option Prices. Journal of Futures Markets 35:245–273. https://doi.org/10.1002/fut.21659
   * Li C (2016) Bessel Processes, Stochastic Volatility, and Timer Options. Mathematical Finance 26:122–148. https://doi.org/10.1111/mafi.12041
   * Bernard C, Cui Z (2011) Pricing timer options. JCF 15:69–104. https://doi.org/10.21314/JCF.2011.228
-  * Li M, Mercurio F (2015) Analytic Approximation of Finite‐Maturity Timer Option Prices. Journal of Futures Markets 35:245–273. https://doi.org/10.1002/fut.21659
   * Zeng P, Kwok YK, Zheng W (2015) Fast hilbert transform algorithms for pricing discrete timer options under stochastic volatility models. Int J Theor Appl Finan 18:1550046. https://doi.org/10.1142/S0219024915500466
   * Zheng W, Zeng P (2016) Pricing timer options and variance derivatives with closed-form partial transform under the 3/2 model. Applied Mathematical Finance 23:344–373. https://doi.org/10.1080/1350486X.2017.1285242
+* SABR Simulation 
+  * Chen B, Oosterlee CW, Van Der Weide H (2012) A low-bias simulation scheme for the SABR stochastic volatility model. Int J Theor Appl Finan 15:1250016. https://doi.org/10.1142/S0219024912500161
+  * [Implemented but not verified] Leitao Á, Grzelak LA, Oosterlee CW (2017) On a one time-step Monte Carlo simulation approach of the SABR model: Application to European options. Applied Mathematics and Computation 293:461–479. https://doi.org/10.1016/j.amc.2016.08.030
+
+
 * Snowball 
   * Recently very popular in China. [Link](https://www.risk.net/derivatives/7894576/sales-of-chinas-snowball-notes-fall)
 
