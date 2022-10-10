@@ -15,6 +15,10 @@
 * SABR Model Simulation 
   * Chen B, Oosterlee CW, Van Der Weide H (2012) A low-bias simulation scheme for the SABR stochastic volatility model. Int J Theor Appl Finan 15:1250016. https://doi.org/10.1142/S0219024912500161
   * [Implemented but not verified] Leitao Á, Grzelak LA, Oosterlee CW (2017) On a one time-step Monte Carlo simulation approach of the SABR model: Application to European options. Applied Mathematics and Computation 293:461–479. https://doi.org/10.1016/j.amc.2016.08.030
+* Stochastic volatility inspired (SVI) model (1-person project)
+  * [Original Slides](http://faculty.baruch.cuny.edu/jgatheral/madrid2004.pdf)
+  * Gatheral J, Jacquier A (2013) Arbitrage-free SVI volatility surfaces. [arXiv:12040646 [q-fin]](http://arxiv.org/abs/1204.0646)
+  * Gatheral J, Jacquier A (2011) Convergence of Heston to SVI. Quantitative Finance 11:1129–1132. https://doi.org/10.1080/14697688.2010.550931
 * Snowball 
   * Recently very popular in China. [Link](https://www.risk.net/derivatives/7894576/sales-of-chinas-snowball-notes-fall)
 
