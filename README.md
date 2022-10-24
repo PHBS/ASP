@@ -34,7 +34,7 @@ __13__ | 10.13 Thurs | Midterm Exam ([Solution](files/ASP2022_Midterm.pdf))
 __14__ | 10.17 Mon | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 __15__ | 10.20 Thurs | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 __16__ | 10.24 Mon | Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf))
-__17__ | 10.26 Wed | Research Presentation: Heston model simulation method
+__17__ | 10.26 Wed | Research Presentation: Heston model simulation method ([Slides](files/HestonMC-Slides.pdf))
 __18__ | 10.27 Thurs | Course project presentation
 
 <!-- , Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf)) -->
