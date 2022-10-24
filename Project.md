@@ -1,42 +1,23 @@
 # ASP Course Project
 
-## [Repository](https://github.com/pyfe/pyfeng) and [Project List](https://github.com/pyfe/pyfeng/projects)
+## [Repository](https://github.com/pyfe/pyfeng)
 
 ## List of Projects
-### Exotic Derivatives
-* Timer Option
-  * Implementation of time-discretization (Andersen's QE) scheme for Heston/SABR models
+* Timer Option: Implementation of time-discretization (Andersen's QE) scheme for Heston/SABR models
+  * [Zhou Gongqi](https://github.com/Zhou-Gongqi) / [Wu Zhuoqun](https://github.com/Wuzhuoqun)
   * Li M, Mercurio F (2015) Analytic Approximation of Finite‐Maturity Timer Option Prices. Journal of Futures Markets 35:245–273. https://doi.org/10.1002/fut.21659
   * Li C (2016) Bessel Processes, Stochastic Volatility, and Timer Options. Mathematical Finance 26:122–148. https://doi.org/10.1111/mafi.12041
-  * (Other related papers)
-  * Bernard C, Cui Z (2011) Pricing timer options. JCF 15:69–104. https://doi.org/10.21314/JCF.2011.228
-  * Zeng P, Kwok YK, Zheng W (2015) Fast hilbert transform algorithms for pricing discrete timer options under stochastic volatility models. Int J Theor Appl Finan 18:1550046. https://doi.org/10.1142/S0219024915500466
-  * Zheng W, Zeng P (2016) Pricing timer options and variance derivatives with closed-form partial transform under the 3/2 model. Applied Mathematical Finance 23:344–373. https://doi.org/10.1080/1350486X.2017.1285242
-* SABR Model Simulation 
-  * Chen B, Oosterlee CW, Van Der Weide H (2012) A low-bias simulation scheme for the SABR stochastic volatility model. Int J Theor Appl Finan 15:1250016. https://doi.org/10.1142/S0219024912500161
-  * [Implemented but not verified] Leitao Á, Grzelak LA, Oosterlee CW (2017) On a one time-step Monte Carlo simulation approach of the SABR model: Application to European options. Applied Mathematics and Computation 293:461–479. https://doi.org/10.1016/j.amc.2016.08.030
-* Stochastic volatility inspired (SVI) model (1-person project)
+* SABR Model Low-bias Simulation Scheme
+  * [Lu Tianzeng](https://github.com/Lu-Tianzeng) / [Hu Zhijie](https://github.com/hzjdeem)
+  * Chen B, Oosterlee CW, Van Der Weide H (2012) A low-bias simulation scheme for the SABR stochastic volatility model. Int J Theor Appl Finan 15:1250016. * 
+* Stochastic volatility inspired (SVI) model
+  * [Liu Can](https://github.com/BoomerBoom)
   * [Original Slides](http://faculty.baruch.cuny.edu/jgatheral/madrid2004.pdf)
   * Gatheral J, Jacquier A (2013) Arbitrage-free SVI volatility surfaces. [arXiv:12040646 [q-fin]](http://arxiv.org/abs/1204.0646)
   * Gatheral J, Jacquier A (2011) Convergence of Heston to SVI. Quantitative Finance 11:1129–1132. https://doi.org/10.1080/14697688.2010.550931
-* Snowball 
-  * Recently very popular in China. [Link](https://www.risk.net/derivatives/7894576/sales-of-chinas-snowball-notes-fall)
-
-### Old Topics
-* Almost Exact Simulation of the 3/2 Volatility Model [[Report](https://github.com/AHrmnd/ASP-1/blob/master/py/AE_theory.ipynb)]
-  * [@AHrmnd](https://github.com/AHrmnd) and [@FLXE-Feidou](https://github.com/FLXE-Feidou)
-* Simulation of the GARCH Diffusion model [[Report](https://github.com/Harveydentsun/ASP_Project/blob/main/Garch-diffusion%20model.ipynb)]
-  * [@Harveydentsun](https://github.com/Harveydentsun) and [@yogaball](https://github.com/yogaball)
-https://doi.org/10.1080/14697688.2015.1031815
-* Lifted Heston Model [[Report](https://github.com/Cecilia525/ASP-Project/blob/main/Report-Lifted%20Heston_v4.ipynb)]
-  * [@jyyccc](https://github.com/jyyccc) and [@Cecilia525](https://github.com/Cecilia525)
-  * Jaber EA (2019) Lifting the Heston model. Quantitative Finance 19:1995–2013. https://doi.org/10.1080/14697688.2019.1615113
-* Approximate Stochastic Volatility Model Option Pricing [[Report](https://github.com/zwc00098/ASP_Project/blob/main/Test_Ball%20and%20Roma_v2.0.ipynb)]
-  * [@zwc00098](https://github.com/zwc00098)
-  * Ball CA, Roma A (1994) Stochastic Volatility Option Pricing. Journal of Financial and Quantitative Analysis 29:589–607. https://doi.org/10.2307/2331111
-* Simulation of Rough Volatility Model [[Report](https://github.com/Baiwisher/PyFENG/blob/rVolatility/Report_rVolatility.ipynb)]
-  * [@polarbluebear](https://github.com/polarbluebear) and [@Baiwisher](https://github.com/Baiwisher)
-  * Ma J, Wu H (2021) A fast algorithm for simulation of rough volatility models. Quantitative Finance 0:1–16. https://doi.org/10.1080/14697688.2021.1970213
+* Timer Option Pricing with MC method
+  * Team 1: [Wu Hao](https://github.com/pkuWu) / [Yang Shuming](https://github.com/PkuYang)
+  * Team 2: [Chen Wangqing](https://github.com/qwq-cwq) / [Chen Ziying](https://github.com/rachelczy)
 
 ## Presentation and Deadline
 * Presentation: 10.27 (Thurs) 20 minutes by each group.
@@ -119,3 +100,38 @@ https://doi.org/10.1080/14697688.2015.1031815
 ### * Other Simulation-related Papers
 * [Implemented but not verified] __General SDE__: Beskos, A., Roberts, G.O., 2005. Exact simulation of diffusions. Ann. Appl. Probab. 15, 2422–2444. https://doi.org/10.1214/105051605000000485
 * [Implemented] __Computing Moments from Laplace Transform__: Choudhury, G.L., Lucantoni, D.M., 1996. Numerical Computation of the Moments of a Probability Distribution from its Transform. Operations Research 44, 368–381. https://doi.org/10.1287/opre.44.2.368
+
+### Exotic Derivatives
+* Timer Option
+  * Implementation of time-discretization (Andersen's QE) scheme for Heston/SABR models
+  * Li M, Mercurio F (2015) Analytic Approximation of Finite‐Maturity Timer Option Prices. Journal of Futures Markets 35:245–273. https://doi.org/10.1002/fut.21659
+  * Li C (2016) Bessel Processes, Stochastic Volatility, and Timer Options. Mathematical Finance 26:122–148. https://doi.org/10.1111/mafi.12041
+  * (Other related papers)
+  * Bernard C, Cui Z (2011) Pricing timer options. JCF 15:69–104. https://doi.org/10.21314/JCF.2011.228
+  * Zeng P, Kwok YK, Zheng W (2015) Fast hilbert transform algorithms for pricing discrete timer options under stochastic volatility models. Int J Theor Appl Finan 18:1550046. https://doi.org/10.1142/S0219024915500466
+  * Zheng W, Zeng P (2016) Pricing timer options and variance derivatives with closed-form partial transform under the 3/2 model. Applied Mathematical Finance 23:344–373. https://doi.org/10.1080/1350486X.2017.1285242
+* SABR Model Simulation 
+  * Chen B, Oosterlee CW, Van Der Weide H (2012) A low-bias simulation scheme for the SABR stochastic volatility model. Int J Theor Appl Finan 15:1250016. https://doi.org/10.1142/S0219024912500161
+  * [Implemented but not verified] Leitao Á, Grzelak LA, Oosterlee CW (2017) On a one time-step Monte Carlo simulation approach of the SABR model: Application to European options. Applied Mathematics and Computation 293:461–479. https://doi.org/10.1016/j.amc.2016.08.030
+* Stochastic volatility inspired (SVI) model (1-person project)
+  * [Original Slides](http://faculty.baruch.cuny.edu/jgatheral/madrid2004.pdf)
+  * Gatheral J, Jacquier A (2013) Arbitrage-free SVI volatility surfaces. [arXiv:12040646 [q-fin]](http://arxiv.org/abs/1204.0646)
+  * Gatheral J, Jacquier A (2011) Convergence of Heston to SVI. Quantitative Finance 11:1129–1132. https://doi.org/10.1080/14697688.2010.550931
+* Snowball 
+  * Recently very popular in China. [Link](https://www.risk.net/derivatives/7894576/sales-of-chinas-snowball-notes-fall)
+
+### Old Topics
+* Almost Exact Simulation of the 3/2 Volatility Model [[Report](https://github.com/AHrmnd/ASP-1/blob/master/py/AE_theory.ipynb)]
+  * [@AHrmnd](https://github.com/AHrmnd) and [@FLXE-Feidou](https://github.com/FLXE-Feidou)
+* Simulation of the GARCH Diffusion model [[Report](https://github.com/Harveydentsun/ASP_Project/blob/main/Garch-diffusion%20model.ipynb)]
+  * [@Harveydentsun](https://github.com/Harveydentsun) and [@yogaball](https://github.com/yogaball)
+https://doi.org/10.1080/14697688.2015.1031815
+* Lifted Heston Model [[Report](https://github.com/Cecilia525/ASP-Project/blob/main/Report-Lifted%20Heston_v4.ipynb)]
+  * [@jyyccc](https://github.com/jyyccc) and [@Cecilia525](https://github.com/Cecilia525)
+  * Jaber EA (2019) Lifting the Heston model. Quantitative Finance 19:1995–2013. https://doi.org/10.1080/14697688.2019.1615113
+* Approximate Stochastic Volatility Model Option Pricing [[Report](https://github.com/zwc00098/ASP_Project/blob/main/Test_Ball%20and%20Roma_v2.0.ipynb)]
+  * [@zwc00098](https://github.com/zwc00098)
+  * Ball CA, Roma A (1994) Stochastic Volatility Option Pricing. Journal of Financial and Quantitative Analysis 29:589–607. https://doi.org/10.2307/2331111
+* Simulation of Rough Volatility Model [[Report](https://github.com/Baiwisher/PyFENG/blob/rVolatility/Report_rVolatility.ipynb)]
+  * [@polarbluebear](https://github.com/polarbluebear) and [@Baiwisher](https://github.com/Baiwisher)
+  * Ma J, Wu H (2021) A fast algorithm for simulation of rough volatility models. Quantitative Finance 0:1–16. https://doi.org/10.1080/14697688.2021.1970213
