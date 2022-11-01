@@ -3,7 +3,7 @@
 ## [Repository](https://github.com/pyfe/pyfeng)
 
 ## List of Projects
-* Timer Option: Implementation of time-discretization (Andersen's QE) scheme for Heston/SABR models
+* Timer Option: Implementation of time-discretization (Andersen's QE) scheme for Heston/SABR models [[Report](https://github.com/Wuzhuoqun/Final-Project/blob/main/Report%20final_20221031.ipynb)]
   * [Zhou Gongqi](https://github.com/Zhou-Gongqi) / [Wu Zhuoqun](https://github.com/Wuzhuoqun)
   * Li M, Mercurio F (2015) Analytic Approximation of Finite‐Maturity Timer Option Prices. Journal of Futures Markets 35:245–273. https://doi.org/10.1002/fut.21659
   * Li C (2016) Bessel Processes, Stochastic Volatility, and Timer Options. Mathematical Finance 26:122–148. https://doi.org/10.1111/mafi.12041
