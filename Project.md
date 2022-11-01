@@ -7,7 +7,7 @@
   * [Zhou Gongqi](https://github.com/Zhou-Gongqi) / [Wu Zhuoqun](https://github.com/Wuzhuoqun)
   * Li M, Mercurio F (2015) Analytic Approximation of Finite‐Maturity Timer Option Prices. Journal of Futures Markets 35:245–273. https://doi.org/10.1002/fut.21659
   * Li C (2016) Bessel Processes, Stochastic Volatility, and Timer Options. Mathematical Finance 26:122–148. https://doi.org/10.1111/mafi.12041
-* SABR Model Low-bias Simulation Scheme
+* SABR Model Low-bias Simulation Scheme [[Report](https://github.com/Lu-Tianzeng/ASP_project/blob/main/A%20low-bias%20SABR%20model.ipynb)]
   * [Lu Tianzeng](https://github.com/Lu-Tianzeng) / [Hu Zhijie](https://github.com/hzjdeem)
   * Chen B, Oosterlee CW, Van Der Weide H (2012) A low-bias simulation scheme for the SABR stochastic volatility model. Int J Theor Appl Finan 15:1250016. * 
 * Stochastic volatility inspired (SVI) model
