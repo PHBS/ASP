@@ -15,9 +15,9 @@
   * [Original Slides](http://faculty.baruch.cuny.edu/jgatheral/madrid2004.pdf)
   * Gatheral J, Jacquier A (2013) Arbitrage-free SVI volatility surfaces. [arXiv:12040646 [q-fin]](http://arxiv.org/abs/1204.0646)
   * Gatheral J, Jacquier A (2011) Convergence of Heston to SVI. Quantitative Finance 11:1129–1132. https://doi.org/10.1080/14697688.2010.550931
-* Timer Option Pricing with MC method
-  * Team 1: [Wu Hao](https://github.com/pkuWu) / [Yang Shuming](https://github.com/PkuYang)
-  * Team 2: [Chen Wangqing](https://github.com/qwq-cwq) / [Chen Ziying](https://github.com/rachelczy)
+* Snowball Pricing with MC method
+  * Team 1: [Wu Hao](https://github.com/pkuWu) / [Yang Shuming](https://github.com/PkuYang). [[Report](https://github.com/pkuWu/ASP_Pre_SnowBall)]
+  * Team 2: [Chen Wanqing](https://github.com/qwq-cwq) / [Chen Ziying](https://github.com/rachelczy). [[Report](https://github.com/qwq-cwq/PHBS_ASP_project/blob/main/snowball_docs/snowball_v2.ipynb)]
 
 ## Presentation and Deadline
 * Presentation: 10.27 (Thurs) 20 minutes by each group.
