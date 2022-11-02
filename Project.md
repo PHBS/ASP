@@ -9,8 +9,8 @@
   * Li C (2016) Bessel Processes, Stochastic Volatility, and Timer Options. Mathematical Finance 26:122–148. https://doi.org/10.1111/mafi.12041
 * SABR Model Low-bias Simulation Scheme [[Report](https://github.com/Lu-Tianzeng/ASP_project/blob/main/A%20low-bias%20SABR%20model.ipynb)]
   * [Lu Tianzeng](https://github.com/Lu-Tianzeng) / [Hu Zhijie](https://github.com/hzjdeem)
-  * Chen B, Oosterlee CW, Van Der Weide H (2012) A low-bias simulation scheme for the SABR stochastic volatility model. Int J Theor Appl Finan 15:1250016. * 
-* Stochastic volatility inspired (SVI) model
+  * Chen B, Oosterlee CW, Van Der Weide H (2012) A low-bias simulation scheme for the SABR stochastic volatility model. Int J Theor Appl Finan 15:1250016. 
+* Stochastic volatility inspired (SVI) model [[Report](https://github.com/BoomerBoom/SVI/blob/main/Test_for_SVI.ipynb)]
   * [Liu Can](https://github.com/BoomerBoom)
   * [Original Slides](http://faculty.baruch.cuny.edu/jgatheral/madrid2004.pdf)
   * Gatheral J, Jacquier A (2013) Arbitrage-free SVI volatility surfaces. [arXiv:12040646 [q-fin]](http://arxiv.org/abs/1204.0646)
