@@ -62,7 +62,7 @@ __18__ | 4.19 Fri | Course project presentation
 * Office: PHBS Building, Room 755
 * Phone: 86-755-2603-0568
 * Email: jaehyuk@phbs.pku.edu.cn
-* Office Hours: Wed 1-3 PM
+* Office Hours: Mon 7-9 PM
 
 ## Teaching Assistance: Su Nan (苏南)
 * Email: sunan@stu.pku.edu.cn
@@ -77,7 +77,7 @@ how financial observations (e.g. stock prices and FX rate) are modeled with stoc
 processes and how they can be computed using analytics or computer simulations.
 
 ## Prerequisites: 
-[Stochastic Finance](https://github.com/PHBS/StoFin) (FIN 519), a year 1 required course for a quantitative finance program, is a prerequisite for the ASP since it provides theoretical background. Undergraduate-level knowledge in probability, statistics, linear algebra and programming skill (Python) are also highly recommended. 
+[Stochastic Finance](https://github.com/PHBS/StoFin) (FIN 519), a year 1 required course for a quantitative finance program, is a prerequisite for the ASP since it provides theoretical background. Undergraduate-level knowledge in probability, statistics, linear algebra, and programming skills (Python) are also highly recommended.
 
 ##  Extra Reading Materials
 * Monte Carlo Methods in Finance by Peter Jaeckel
