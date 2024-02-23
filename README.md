@@ -64,8 +64,8 @@ __18__ | 4.19 Fri | Course project presentation
 * Email: jaehyuk@phbs.pku.edu.cn
 * Office Hours: Mon 7-9 PM
 
-## Teaching Assistance: Su Nan (苏南)
-* Email: sunan@stu.pku.edu.cn
+## Teaching Assistance: Xin Yang (杨鑫)
+* Email: xinyang30@stu.pku.edu.cn
 * TA Office Hour: __TBA__ (Room 213/214)
 
 ## Course overview: 
