@@ -53,7 +53,7 @@ __18__ | 4.19 Fri | Course project presentation
   * Create a designated repository `YOUR_GITHUB_ID/PHBS_ASP_2023` for your HW and project. Tick Initialize this repository with a README and select python under .gitignore
   * Copy `HW2` folder from `ASP` repository to `YOUR_GITHUB_ID/PHBS_ASP_2023` repository.
   * Upload your HW to the folder `HW2` and update the repository. (`Commit to master` and `Fetch Origin`).
-* ### __Set 2__ [Due by XXX] Simulating SABR model. [Starter Code](py/HW3/TestCode_SABR.ipynb)
+* ### __Set 2__ [Due by 3.30] Simulating SABR model. [Starter Code](py/HW3/TestCode_SABR.ipynb)
 
 ## Course Project: [Project Description](files/Project.md) (Previous year: [2017](past-years/2017-18-M1/Project.md) | [2018](past-years/2018-19-M1/Project.md) | [2019](past-years/2019-20-M1/Project.md) | [2019](past-years/2019-20-M1/Project.md) | [2020](past-years/2020-21-M3/Project.md) | [2021](past-years/2021-22-M3/Project.md))
 
