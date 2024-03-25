@@ -43,6 +43,13 @@
 * Bennedsen, M., Lunde, A., Pakkanen, M.S., 2017. Hybrid scheme for Brownian semistationary processes. Finance Stoch 21, 931–965. https://doi.org/10.1007/s00780-017-0335-5
 * J. Gatheral's [python code](https://tpq.io/p/rough_volatility_with_python.html)
 
+## * Equivalent BS volatility of SV models
+* Medvedev A, Scaillet O (2007) Approximation and Calibration of Short-Term Implied Volatilities Under Jump-Diffusion Stochastic Volatility. The Review of Financial Studies 20:427–459. https://doi.org/10.1093/rfs/hhl013
+* Lorig M, Pagliarani S, Pascucci A (2017) Explicit implied volatilities for multifactor local-stochastic volatility models. Mathematical Finance 27:926–960. https://doi.org/10.1111/mafi.12105
+* Armstrong John, Forde Martin, Lorig Matthew, Zhang Hongzhong (2017) Small-Time Asymptotics under Local-Stochastic Volatility with a Jump-to-Default: Curvature and the Heat Kernel Expansion. SIAM J Finan Math 8:82–113. https://doi.org/10.1137/140971397
+* [2023 Theiss] Implemented GARCH model.
+* Other models?
+
 ## * European Option pricing with Fourier Transform
 * Implemented in PyFENG for Heston and OUSV models.
   * Lord R, Kahl C (2010) Complex Logarithms in Heston-Like Models. Mathematical Finance 20:671–694. https://doi.org/10.1111/j.1467-9965.2010.00416.x
@@ -51,7 +58,7 @@
 
 ## * GARCH-diffusion model
 * [Implemented in PyFENG] Euler/Milstein/Log scheme (in class)
-* [Implemented in [PyfengForPapers](https://github.com/PyFE/PyfengForPapers/blob/main/ipynb/BaroneAdesiEtAl2005-CSDA-UncorGarch.ipynb)] Barone-Adesi G, Rasmussen H, Ravanelli C (2005) An option pricing formula for the GARCH diffusion model. Computational Statistics & Data Analysis 49:287–310. https://doi.org/10.1016/j.csda.2004.05.014
+* [Implemented in [PyfengForPapers](https://github.com/PyFE/PyfengForPapers/blob/main/ipynb/BaroneAdesiEtAl2005-CSDA-UncorGarch.ipynb). Uncorrelated case only] Barone-Adesi G, Rasmussen H, Ravanelli C (2005) An option pricing formula for the GARCH diffusion model. Computational Statistics & Data Analysis 49:287–310. https://doi.org/10.1016/j.csda.2004.05.014
 * Tubikanec I, Tamborrino M, Lansky P, Buckwar E (2021) Qualitative properties of numerical methods for the inhomogeneous geometric Brownian motion. arXiv:200310193 [cs, math] http://arxiv.org/abs/2003.10193
 * [????] Capriotti L, Jiang Y, Shaimerdenova G (2018) Approximation methods for inhomogeneous geometric Brownian motion. Int J Theor Appl Finan 22:1850055. https://doi.org/10.1142/S0219024918500553
 * __IGBM:__ Zhao B (2009) Inhomogeneous Geometric Brownian Motion. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.1429449
