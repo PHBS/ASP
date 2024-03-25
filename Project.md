@@ -75,9 +75,9 @@
 * [Implenented in PyFENG] Tse ST, Wan JWL (2013) Low-bias simulation scheme for the Heston model by Inverse Gaussian approximation. Quantitative Finance 13:919–937. https://doi.org/10.1080/14697688.2012.696678
 
 ### * OUSV Model
-* [Implemented in PyFENG] Euler/Milstein
+* [Implemented in PyFENG] Euler/Milstein, Prof Choi's exact simulation scheme based on KL expansion.
 * [Implemented] Li C, Wu L (2019) Exact simulation of the Ornstein–Uhlenbeck driven stochastic volatility model. European Journal of Operational Research 275:768–779. https://doi.org/10.1016/j.ejor.2018.11.057
-* [2021 Thesis] Almost exact simulation
+* [2021 Thesis by Chang Xinlei] Almost exact simulation based on the two moments obtained from the numerical derivatives
 
 ### * 3/2 SV model
 * [Implemented but not verified] Baldeaux, J., 2012. Exact simulation of the 3/2 model. Int. J. Theor. Appl. Finan. 15, 1250032. https://doi.org/10.1142/S021902491250032X
@@ -91,10 +91,10 @@
 * Timer Option
   * Implementation of time-discretization (Andersen's QE) scheme for Heston/SABR models
   * Li M, Mercurio F (2015) Analytic Approximation of Finite‐Maturity Timer Option Prices. Journal of Futures Markets 35:245–273. https://doi.org/10.1002/fut.21659
-  * Li C (2016) Bessel Processes, Stochastic Volatility, and Timer Options. Mathematical Finance 26:122–148. https://doi.org/10.1111/mafi.12041
+  * [Heston] Li C (2016) Bessel Processes, Stochastic Volatility, and Timer Options. Mathematical Finance 26:122–148. https://doi.org/10.1111/mafi.12041
   * (Other related papers)
-  * Bernard C, Cui Z (2011) Pricing timer options. JCF 15:69–104. https://doi.org/10.21314/JCF.2011.228
-  * Zeng P, Kwok YK, Zheng W (2015) Fast hilbert transform algorithms for pricing discrete timer options under stochastic volatility models. Int J Theor Appl Finan 18:1550046. https://doi.org/10.1142/S0219024915500466
+  * [MC, Perpetual] Bernard C, Cui Z (2011) Pricing timer options. JCF 15:69–104. https://doi.org/10.21314/JCF.2011.228
+  * Zeng P, Kwok YK, Zheng W (2015) Fast Hilbert transform algorithms for pricing discrete timer options under stochastic volatility models. Int J Theor Appl Finan 18:1550046. https://doi.org/10.1142/S0219024915500466
   * Zheng W, Zeng P (2016) Pricing timer options and variance derivatives with closed-form partial transform under the 3/2 model. Applied Mathematical Finance 23:344–373. https://doi.org/10.1080/1350486X.2017.1285242
 * SABR Model Simulation 
   * Chen B, Oosterlee CW, Van Der Weide H (2012) A low-bias simulation scheme for the SABR stochastic volatility model. Int J Theor Appl Finan 15:1250016. https://doi.org/10.1142/S0219024912500161
