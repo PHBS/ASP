@@ -7,6 +7,7 @@
 ## Course Slides and Other Resources
 * Prelims: [Probability Statistics Review](files/Prob_Stat_Review.pdf) 
 * Past Midterm Exams: [All Exams](files/ASP_Problems.pdf) ([2017-18](files/ASP2017_Midterm.pdf), [2018-19](files/ASP2018_Midterm.pdf), [2019-20](files/ASP2019_Midterm.pdf), [2020-21](files/ASP2020_Midterm.pdf), [2021-22](files/ASP2021_Midterm.pdf), [2022-23](files/ASP2022_Midterm.pdf))
+* Term Projects: [Current](Project.md), [2022-23](past-years/2022-23-M1/Project.md), [2021-22](past-years/2021-22-M3/Project.md), [2020-21](past-years/2020-21-M3/Project.md), [2019-20](past-years/2019-20-M1/Project.md), [2018-19](past-years/2018-19-M1/Project.md), [2017-18](past-years/2017-18-M1/Project.md)
 * `PyFeng` package ([PyPI](https://pypi.org/project/pyfeng/) \| [Github](https://github.com/PyFE/PyFENG) \| [Documentation](https://pyfeng.readthedocs.io/))
 * Scientific computing, MC method, RN generation ([Slides](files/MCmethod.pdf) | [Py demo](py/MC_Demo.ipynb))
 * Black-Scholes model ([Py demo](py/BlackScholes_ImpliedVol.ipynb), [MC demo](py/BlackScholes_MC.ipynb)): Also see Ch. 10 of [StoFin Course Notes](https://github.com/PHBS/StoFin/blob/master/files/SCFA_Notes.pdf)
