@@ -22,21 +22,21 @@ No | Date | Contents
 --- | :---: | ---
 __01__ | 2.20 Tues | Course overview, Scientific computing, MC method, RN generation ([Slides](files/MCmethod.pdf) \| [Py demo](py/MC_Demo.ipynb))
 __02__ | 2.23 Fri | Continued ([Slides](files/MCmethod.pdf) \| [Py demo](py/MC_Demo.ipynb))
-__03__ | 2.27 Tues | Python crash course ([Py Demo](py/PythonCrashCourse_Derek_Banas.ipynb)). More [cheatsheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html) also available in [MLF CMS](http://cms.phbs.pku.edu.cn/claroline/document/document.php?cidReset=true&cidReq=FN570).  Numpy crach course ([Py Demo](py/PythonCrashCourse_Numpy.ipynb)). 
-__04__ | 3.01 Fri |Black-Scholes implementation ([Py Demo](py/BlackScholes_FunctionVsClass.ipynb)). Implied volatility ([Slides](files/ImpVol.pdf) \| [Py demo](py/BlackScholes_ImpliedVol.ipynb)). 
-__05__ | 3.05 Tues | Bachelier model ([Slides](files/Bachelier_Model.pdf)). Black-Scholes-Merton and Bachelier option pricing with MC ([Py Demo](py/BlackScholes_MC.ipynb)). Spread/Basket options ([Slides](files/SpreadBasketOption.pdf)). Correlated Normal RNs ([Slides](files/MCmethod.pdf) \| [Py Demo](py/CorrelatedNormals_Demo.ipynb))
-__06__ | 3.08 Fri | Spread/Basket options continued, [HW2: [Spread/Basket option implementation](py/HW2/TestCode_BasketSpread.ipynb), Due next Thursday]
-__07__ | 3.12 Tues | SABR model ([Slides](files/SABRmodel.pdf): Volatility smile), Suggested [project topics](Project.md)
-__08__ | 3.15 Fri | SABR model continued ([Slides](files/SABRmodel.pdf): Local volatility model, Model intro), Introduction to [PyFENG](https://github.com/PyFE/PyFENG) package
-__09__ | 3.19 Tues | SABR model continued ([Slides](files/SABRmodel.pdf): Euler/Milstein method, Conditional MC), Github pull-request (PR), Py Demo ([SABR](py/SabrModel_Demo.ipynb), [BsmNdMc](BsmNdMc_Demo.ipynb)), HW3: [MC method for SABR](py/HW3/TestCode_SABR.ipynb)
-__10__ | 3.22 Fri | Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
-__11__ | 3.26 Tues | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
-__12__ | 3.29 Fri | Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf))
+__03__ | 2.27 Tues | Numpy crach course ([Py Demo](py/PythonCrashCourse_Numpy.ipynb)). Python crash course ([Py Demo](py/PythonCrashCourse_Derek_Banas.ipynb)). More [cheatsheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html) also available in [MLF CMS](http://cms.phbs.pku.edu.cn/claroline/document/document.php?cidReset=true&cidReq=FN570). 
+__04__ | 3.01 Fri | Black-Scholes implementation ([Py Demo](py/BlackScholes_FunctionVsClass.ipynb)). Implied volatility ([Slides](files/ImpVol.pdf) \| [Py demo](py/BlackScholes_ImpliedVol.ipynb)). Bachelier model ([Slides](files/Bachelier_Model.pdf)). Black-Scholes-Merton and Bachelier option pricing with MC ([Py Demo](py/BlackScholes_MC.ipynb)). 
+__05__ | 3.05 Tues | Spread/Basket options ([Slides](files/SpreadBasketOption.pdf)). Correlated Normal RNs ([Slides](files/MCmethod.pdf) \| [Py Demo](py/CorrelatedNormals_Demo.ipynb)), [HW2: [Spread/Basket option implementation](py/HW2/TestCode_BasketSpread.ipynb), Due next Thursday]
+__06__ | 3.08 Fri | SABR model ([Slides](files/SABRmodel.pdf): Volatility smile) 
+__07__ | 3.12 Tues | SABR model continued ([Slides](files/SABRmodel.pdf): Local volatility model, Model intro), Introduction to [PyFENG](https://github.com/PyFE/PyFENG) package 
+__08__ | 3.15 Fri | SABR model continued ([Slides](files/SABRmodel.pdf): Euler/Milstein method, Conditional MC), Py Demo ([SABR](py/SabrModel_Demo.ipynb), [BsmNdMc](BsmNdMc_Demo.ipynb)), Python Import ([Py Demo](py/HW3/Demo_Advanced_Import.ipynb)), HW3: [MC method for SABR](py/HW3/TestCode_SABR.ipynb)
+__09__ | 3.19 Tues | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf))
+__10__ | 3.22 Fri | Research Presentation: Heston model simulation method ([Slides](files/HestonMC-Slides.pdf))
+__11__ | 3.26 Tues | SV Model Simulation for Project ([Slides](files/SV_Simulation.pdf)), Github pull-request (PR). Suggested [project topics](Project.md)
+__12__ | 3.29 Fri | 
 __13__ | 4.02 Tues | [Past Exams](files/ASP_Problems.pdf) Review
 __14__ | 4.07 __Sun__ | Midterm Exam ([Solution](files/ASP2022_Midterm.pdf))
 __15__ | 4.09 Tues | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 __16__ | 4.12 Fri | Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
-__17__ | 4.16 Tues | Research Presentation: Heston model simulation method ([Slides](files/HestonMC-Slides.pdf))
+__17__ | 4.16 Tues | Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf))
 __18__ | 4.19 Fri | Course project presentation
 
 <!-- , Research Presentation: NSVh model and Normal SABR ([Slides](files/NSVh_Slides.pdf)) -->
