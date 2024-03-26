@@ -20,7 +20,8 @@
 * Your repository (`PHBS_ASP_2021` or any name is OK)
   * Test (__.ipynb__): one Jupyter notebook file briefly describing the method (base theory, equations, SDE, strength/weakness, etc).
   * Include some test examples (e.g., the same parameter sets from the paper)
-* See past years' proejct:
+* See past years' projects:
+  * [2022-23](https://github.com/PHBS/ASP/blob/master/past-years/2022-23-M1/Project.md)
   * [2021-22](https://github.com/PHBS/ASP/blob/master/past-years/2021-22-M3/Project.md)
   * [2020-21](https://github.com/PHBS/ASP/blob/master/past-years/2020-21-M3/Project.md)
   * [2019-20](https://github.com/PHBS/ASP/blob/master/past-years/2019-20-M1/Project.md)
@@ -30,10 +31,8 @@
 # Project Topics
 
 * Among the topics and HWs covered in the class, choose an in-depth research on one topic. You are also welcome to do the project on your own original idea. Otherwise, pick one from my suggestions which are basically understanding and implementing literatures. Topics includes 
-  * Spread/Basket/Asian option pricing
-  * SV models (SABR, Heston, etc)
-  * Rough volatility
-  * Copula
+  * Simulation methods for the SV models (SABR, Heston, Rough volatility, etc)
+  * Pricing of derivatives (Timer option, Variance Swap, Spread/Basket/Asian options)
 
 ## * Rough Volatility
 * Ma J, Wu H (2021) A fast algorithm for simulation of rough volatility models. Quantitative Finance 0:1–16. https://doi.org/10.1080/14697688.2021.1970213
