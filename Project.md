@@ -42,14 +42,14 @@
 * Bennedsen, M., Lunde, A., Pakkanen, M.S., 2017. Hybrid scheme for Brownian semistationary processes. Finance Stoch 21, 931–965. https://doi.org/10.1007/s00780-017-0335-5
 * J. Gatheral's [python code](https://tpq.io/p/rough_volatility_with_python.html)
 
-## * Equivalent BS volatility of SV models
+## * Equivalent BS volatility of SV models [New]
 * Several studies on the short-time approximation of IV under general SV model.
   * Medvedev A, Scaillet O (2007) Approximation and Calibration of Short-Term Implied Volatilities Under Jump-Diffusion Stochastic Volatility. The Review of Financial Studies 20:427–459. https://doi.org/10.1093/rfs/hhl013
   * Lorig M, Pagliarani S, Pascucci A (2017) Explicit implied volatilities for multifactor local-stochastic volatility models. Mathematical Finance 27:926–960. https://doi.org/10.1111/mafi.12105
   * [2023 Theiss] Implemented for GARCH model. Medvedev A, Scaillet O (2007) and Lorig M, Pagliarani S, Pascucci A (2017)
   * Armstrong John, Forde Martin, Lorig Matthew, Zhang Hongzhong (2017) Small-Time Asymptotics under Local-Stochastic Volatility with a Jump-to-Default: Curvature and the Heat Kernel Expansion. SIAM J Finan Math 8:82–113. https://doi.org/10.1137/140971397
   * [Implemented in [PyfengForPapers](https://github.com/PyFE/PyfengForPapers/blob/main/ipynb/BallRoma1994-JFQA-Heston.ipynb). Uncorrelated case only.] Ball CA, Roma A (1994) Stochastic Volatility Option Pricing. Journal of Financial and Quantitative Analysis 29:589–607.
-* Can we apply them to other SV models?
+* Can we apply them to other SV models? `3/2 SV model`?
 * Can they be used for the simulation of asset price?
 
 ## * European Option pricing with Fourier Transform
