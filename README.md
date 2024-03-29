@@ -16,6 +16,8 @@
 * Spread/Basket options ([Slides](files/SpreadBasketOption.pdf))
 * SABR model ([Slides](files/SABRmodel.pdf)) | NSVh model ([Slides](files/NSVh_Slides.pdf))
 * SV model ([Slides](files/SV_Simulation.pdf)): Advanced methods for [Heston Model](files/HestonPoisson-Slides.pdf) and [OUSV Model](files/OUSV-KL-Slides.pdf)
+* Variance Derivatives ([Slides](files/Variance-Derivatives.pdf))
+* Numerical Integral ([Slides](files/NumIntegral.pdf))
 * Copula ([Slides](files/Copula.pdf), [Py demo](py/Demo_Copula.ipynb))
 
 ## Lectures
