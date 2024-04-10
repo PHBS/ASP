@@ -1,30 +1,32 @@
-# ASP Course Project
+![image](https://github.com/PHBS/ASP/assets/13266523/5af15b6f-7163-4bd3-b33c-bd89d27862d4)![image](https://github.com/PHBS/ASP/assets/13266523/b7d36081-4e1d-4d9e-9d6c-ae2b16f07814)# ASP Course Project
 
 ## [Repository](https://github.com/pyfe/pyfeng)
 
 ## List of Projects
 * Group 1: Simulation of Rough Volatility
-  *  
-  * Ma J, Wu H (2021) A fast algorithm for simulation of rough volatility models. Quantitative Finance 0:1–16. https://doi.org/10.1080/14697688.2021.1970213
-
+  * [Zhou Enze](https://www.github.com/RickChauYanChak) and [Vahan Geghamyan](https://www.github.com/Vahan-Geghamyan)
+  * Implementing Ma & Wu (2021)
 * Group 2: Simulation of 3/2 SV model.
+  * [Gu Yuxing](https://www.github.com/Lonelygarden) and [Liu Quan](https://www.github.com/LQMaximus)
   * Exact simulation / Almost exact simulation
-
-* Group 3: Simulation of CGMY model.
-
+* Group 3: Simulation of CGMY model
+  * [Liu Xinyu](https://www.github.com/Loiser) and [Lu Junning](https://www.github.com/Lujunning)
+  * Option pricing based on characteristic function and simulation method
 * Group 4: Option pricing with rHeston model with its characteristic function
-  * El Euch O, Rosenbaum M (2019) The characteristic function of rough Heston models. Mathematical Finance 29:3–38. https://doi.org/10.1111/mafi.12173
-
+  * [Yao Hanxiang](https://www.github.com/yhxpku) and [Ma Chujie](https://www.github.com/Chujie-Ma)
+  * Option pricing via characteristic function (El Euch & Rosenbaum, 2019)
 * Group 5: Simulation of the GARCH diffusion model
-  *
-  
+  * [Zhang Kaiwei](https://www.github.com/zkw001) and [Yu Jichong](https://www.github.com/jason-phbs)
 * Group 6: Simulation of the Lambda SABR model
-  *
-  
+  * [Liu Haotian](https://www.github.com/hydro56555656) and [Shi Pengye](https://www.github.com/spy677)
 * Group 7: Pricing Derivative with SV models
-
+  * [Shen Mengjing](https://www.github.com/mshenn) and [Wang Yuteng](https://www.github.com/wangyutengsam2001)
 * Group 8: Simulation of Heston-Dupire model
+  * [Gong Jiaxin](https://www.github.com/mecc10) and [Zou Xuyuan](https://www.github.com/ZouXuyuan)
 
+## References
+* Ma J, Wu H (2021) A fast algorithm for simulation of rough volatility models. Quantitative Finance 0:1–16. https://doi.org/10.1080/14697688.2021.1970213
+* El Euch O, Rosenbaum M (2019) The characteristic function of rough Heston models. Mathematical Finance 29:3–38. https://doi.org/10.1111/mafi.12173
 
 ## Presentation and Deadline
 * Presentation: 4.19 (Friday) 10 minutes by each group.
