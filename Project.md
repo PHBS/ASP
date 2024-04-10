@@ -13,6 +13,7 @@
   * Current __PyFENG__: [sv_fft.py](https://github.com/PyFE/PyFENG/blob/main/pyfeng/sv_fft.py) (FFT)
 * Group 4: Option pricing with rHeston model with its characteristic function by [Yao Hanxiang](https://www.github.com/yhxpku) and [Ma Chujie](https://www.github.com/Chujie-Ma)
   * Option pricing via the characteristic function (El Euch & Rosenbaum, 2019)
+  * Current __PyFENG__: [sv_fft.py](https://github.com/PyFE/PyFENG/blob/main/pyfeng/sv_fft.py) (FFT)
 * Group 5: Simulation of the GARCH diffusion model by [Zhang Kaiwei](https://www.github.com/zkw001) and [Yu Jichong](https://www.github.com/jason-phbs)
   * Time-discretization using exact mean and variance (Zhao 2009; Tubikanec et al. 2021)
   * Approximate IV (Medvedev and Scaillet, 2007)
