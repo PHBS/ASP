@@ -1,4 +1,4 @@
-![image](https://github.com/PHBS/ASP/assets/13266523/5af15b6f-7163-4bd3-b33c-bd89d27862d4)![image](https://github.com/PHBS/ASP/assets/13266523/b7d36081-4e1d-4d9e-9d6c-ae2b16f07814)# ASP Course Project
+# ASP Course Project
 
 ## [Repository](https://github.com/pyfe/pyfeng)
 
