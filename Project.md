@@ -3,6 +3,28 @@
 ## [Repository](https://github.com/pyfe/pyfeng)
 
 ## List of Projects
+* Group 1: Simulation of Rough Volatility
+  *  
+  * Ma J, Wu H (2021) A fast algorithm for simulation of rough volatility models. Quantitative Finance 0:1–16. https://doi.org/10.1080/14697688.2021.1970213
+
+* Group 2: Simulation of 3/2 SV model.
+  * Exact simulation / Almost exact simulation
+
+* Group 3: Simulation of CGMY model.
+
+* Group 4: Option pricing with rHeston model with its characteristic function
+  * El Euch O, Rosenbaum M (2019) The characteristic function of rough Heston models. Mathematical Finance 29:3–38. https://doi.org/10.1111/mafi.12173
+
+* Group 5: Simulation of the GARCH diffusion model
+  *
+  
+* Group 6: Simulation of the Lambda SABR model
+  *
+  
+* Group 7: Pricing Derivative with SV models
+
+* Group 8: Simulation of Heston-Dupire model
+
 
 ## Presentation and Deadline
 * Presentation: 4.19 (Friday) 10 minutes by each group.
