@@ -9,9 +9,11 @@
 * Group 2: Simulation of 3/2 SV model.
   * [Gu Yuxing](https://www.github.com/Lonelygarden) and [Liu Quan](https://www.github.com/LQMaximus)
   * Exact simulation / Almost exact simulation
+  * PyFeng: [sv32_mc2.py](https://github.com/PyFE/PyFENG/blob/main/pyfeng/sv32_mc2.py) (Exact/Almost Exact)
 * Group 3: Simulation of CGMY model
   * [Liu Xinyu](https://www.github.com/Loiser) and [Lu Junning](https://www.github.com/Lujunning)
   * Option pricing based on characteristic function and simulation method (Ballotta and Kyriakou 2014)
+  * PyFeng: [sv_fft.py](https://github.com/PyFE/PyFENG/blob/main/pyfeng/sv_fft.py) (FFT)
 * Group 4: Option pricing with rHeston model with its characteristic function
   * [Yao Hanxiang](https://www.github.com/yhxpku) and [Ma Chujie](https://www.github.com/Chujie-Ma)
   * Option pricing via the characteristic function (El Euch & Rosenbaum, 2019)
@@ -19,6 +21,7 @@
   * [Zhang Kaiwei](https://www.github.com/zkw001) and [Yu Jichong](https://www.github.com/jason-phbs)
   * Time-discretization using exact mean and variance (Zhao 2009; Tubikanec et al. 2021)
   * Approximate IV (Medvedev and Scaillet 2007)
+  * Current PyFeng: [garch.py](https://github.com/PyFE/PyFENG/blob/main/pyfeng/garch.py) (Euler/Milstein/Log)
 * Group 6: Simulation of the Lambda SABR model
   * [Liu Haotian](https://www.github.com/hydro56555656) and [Shi Pengye](https://www.github.com/spy677)
   * Time-discretization using exact mean and variance (Zhao 2009; Tubikanec et al. 2021)
