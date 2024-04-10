@@ -11,22 +11,32 @@
   * Exact simulation / Almost exact simulation
 * Group 3: Simulation of CGMY model
   * [Liu Xinyu](https://www.github.com/Loiser) and [Lu Junning](https://www.github.com/Lujunning)
-  * Option pricing based on characteristic function and simulation method
+  * Option pricing based on characteristic function and simulation method (Ballotta and Kyriakou 2014)
 * Group 4: Option pricing with rHeston model with its characteristic function
   * [Yao Hanxiang](https://www.github.com/yhxpku) and [Ma Chujie](https://www.github.com/Chujie-Ma)
-  * Option pricing via characteristic function (El Euch & Rosenbaum, 2019)
+  * Option pricing via the characteristic function (El Euch & Rosenbaum, 2019)
 * Group 5: Simulation of the GARCH diffusion model
   * [Zhang Kaiwei](https://www.github.com/zkw001) and [Yu Jichong](https://www.github.com/jason-phbs)
+  * Time-discretization using exact mean and variance (Zhao 2009; Tubikanec et al. 2021)
+  * Approximate IV (Medvedev and Scaillet 2007)
 * Group 6: Simulation of the Lambda SABR model
   * [Liu Haotian](https://www.github.com/hydro56555656) and [Shi Pengye](https://www.github.com/spy677)
+  * Time-discretization using exact mean and variance (Zhao 2009; Tubikanec et al. 2021)
+  * Approximate IV (Henry-Labordère 2005)
 * Group 7: Pricing Derivative with SV models
   * [Shen Mengjing](https://www.github.com/mshenn) and [Wang Yuteng](https://www.github.com/wangyutengsam2001)
 * Group 8: Simulation of Heston-Dupire model
   * [Gong Jiaxin](https://www.github.com/mecc10) and [Zou Xuyuan](https://www.github.com/ZouXuyuan)
 
 ## References
-* Ma J, Wu H (2021) A fast algorithm for simulation of rough volatility models. Quantitative Finance 0:1–16. https://doi.org/10.1080/14697688.2021.1970213
+* Ballotta L, Kyriakou I (2014) Monte Carlo Simulation of the CGMY Process and Option Pricing. Journal of Futures Markets 34:1095–1121. https://doi.org/10.1002/fut.21647
 * El Euch O, Rosenbaum M (2019) The characteristic function of rough Heston models. Mathematical Finance 29:3–38. https://doi.org/10.1111/mafi.12173
+* Henry-Labordère P (2005) A general asymptotic implied volatility for stochastic volatility models. arXiv:cond-mat/0504317
+* Ma J, Wu H (2021) A fast algorithm for simulation of rough volatility models. Quantitative Finance 0:1–16. https://doi.org/10.1080/14697688.2021.1970213
+* Medvedev A, Scaillet O (2007) Approximation and Calibration of Short-Term Implied Volatilities Under Jump-Diffusion Stochastic Volatility. The Review of Financial Studies 20:427–459. https://doi.org/10.1093/rfs/hhl013
+* Tubikanec I, Tamborrino M, Lansky P, Buckwar E (2021) Qualitative properties of numerical methods for the inhomogeneous geometric Brownian motion. arXiv:200310193 [cs, math]
+* Zhao B (2009) Inhomogeneous Geometric Brownian Motion. SSRN Electronic Journal. https://doi.org/10.2139/ssrn.1429449
+
 
 ## Presentation and Deadline
 * Presentation: 4.19 (Friday) 10 minutes by each group.
