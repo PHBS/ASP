@@ -7,6 +7,7 @@
   * Implementing Ma & Wu (2021)
 * Group 2: Simulation of 3/2 SV model by [Gu Yuxing](https://www.github.com/Lonelygarden) and [Liu Quan](https://www.github.com/LQMaximus)
   * Exact simulation / Almost exact simulation
+  * Approximate IV (Medvedev and Scaillet, 2007)
   * Current __PyFENG__: [sv32_mc2.py](https://github.com/PyFE/PyFENG/blob/main/pyfeng/sv32_mc2.py) (Exact/Almost Exact)
 * Group 3: Simulation of CGMY model by [Liu Xinyu](https://www.github.com/Loiser) and [Lu Junning](https://www.github.com/Lujunning)
   * Option pricing based on characteristic function and simulation method (Ballotta and Kyriakou, 2014)
