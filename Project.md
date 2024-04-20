@@ -3,9 +3,9 @@
 ## [Repository](https://github.com/pyfe/pyfeng)
 
 ## List of Projects
-* Group 1: Simulation of Rough Volatility by [Zhou Enze](https://www.github.com/RickChauYanChak) and [Vahan Geghamyan](https://www.github.com/Vahan-Geghamyan)
+* Group 1: [Simulation of Rough Volatility](https://github.com/RickChauYanChak/PHBS_ASP_2023/blob/main/Final%20Project/README.md) by [Zhou Enze](https://www.github.com/RickChauYanChak) and [Vahan Geghamyan](https://www.github.com/Vahan-Geghamyan)
   * Implementing Ma & Wu (2021)
-* Group 2: Simulation of 3/2 SV model by [Gu Yuxing](https://www.github.com/Lonelygarden) and [Liu Quan](https://www.github.com/LQMaximus)
+* Group 2: [Simulation of 3/2 SV model](https://github.com/LQMaximus/Project_sv32_EMC/blob/main/Sv32-ExactMC_AlmostExactMC_demo.ipynb) by [Gu Yuxing](https://www.github.com/Lonelygarden) and [Liu Quan](https://www.github.com/LQMaximus)
   * Exact simulation / Almost exact simulation
   * Approximate IV (Medvedev and Scaillet, 2007)
   * Current __PyFENG__: [sv32_mc2.py](https://github.com/PyFE/PyFENG/blob/main/pyfeng/sv32_mc2.py) (Exact/Almost Exact)
