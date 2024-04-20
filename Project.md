@@ -9,7 +9,7 @@
   * Exact simulation / Almost exact simulation
   * Approximate IV (Medvedev and Scaillet, 2007)
   * Current __PyFENG__: [sv32_mc2.py](https://github.com/PyFE/PyFENG/blob/main/pyfeng/sv32_mc2.py) (Exact/Almost Exact)
-* Group 3: Simulation of CGMY model by [Liu Xinyu](https://www.github.com/Loiser) and [Lu Junning](https://www.github.com/Lujunning)
+* Group 3: [Percent return-based variance Swap](https://github.com/Loiser/PyFENG/blob/main/variance_swap.ipynb) by [Liu Xinyu](https://www.github.com/Loiser) and [Lu Junning](https://www.github.com/Lujunning)
   * Option pricing based on characteristic function and simulation method (Ballotta and Kyriakou, 2014)
   * Current __PyFENG__: [sv_fft.py](https://github.com/PyFE/PyFENG/blob/main/pyfeng/sv_fft.py) (FFT)
 * Group 4: Option pricing with rHeston model with its characteristic function by [Yao Hanxiang](https://www.github.com/yhxpku) and [Ma Chujie](https://www.github.com/Chujie-Ma)
