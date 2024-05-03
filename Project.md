@@ -19,7 +19,7 @@
   * Time-discretization using exact mean and variance (Zhao 2009; Tubikanec et al. 2021)
   * Approximate IV (Medvedev and Scaillet, 2007)
   * Current __PyFENG__: [garch.py](https://github.com/PyFE/PyFENG/blob/main/pyfeng/garch.py) (Euler/Milstein/Log)
-* Group 6: Simulation of the Lambda SABR model by [Liu Haotian](https://www.github.com/hydro56555656) and [Shi Pengye](https://www.github.com/spy677)
+* Group 6: [Simulation of the Lambda SABR model](https://github.com/hydro56555656/project/blob/main/lamda%20SABR%20approximate.ipynb) by [Liu Haotian](https://www.github.com/hydro56555656) and [Shi Pengye](https://www.github.com/spy677)
   * Time-discretization using exact mean and variance (Zhao 2009; Tubikanec et al., 2021)
   * Approximate IV (Henry-Labordère, 2005)
 * Group 7: [Pricing Derivative with SV models](https://github.com/mshenn/PHBS_ASP_2023/blob/main/Project/pre0419/pre0419.ipynb) by[Shen Mengjing](https://www.github.com/mshenn) and [Wang Yuteng](https://www.github.com/wangyutengsam2001)
