@@ -15,14 +15,14 @@
 * Group 4: Option pricing with rHeston model with its characteristic function by [Yao Hanxiang](https://www.github.com/yhxpku) and [Ma Chujie](https://www.github.com/Chujie-Ma)
   * Option pricing via the characteristic function (El Euch & Rosenbaum, 2019)
   * Current __PyFENG__: [sv_fft.py](https://github.com/PyFE/PyFENG/blob/main/pyfeng/sv_fft.py) (FFT)
-* Group 5: Simulation of the GARCH diffusion model by [Zhang Kaiwei](https://www.github.com/zkw001) and [Yu Jichong](https://www.github.com/jason-phbs)
+* Group 5: [Simulation of the GARCH diffusion model](https://github.com/jason-phbs/PHBS_ASP_2023/blob/main/report.inpy) by [Zhang Kaiwei](https://www.github.com/zkw001) and [Yu Jichong](https://www.github.com/jason-phbs)
   * Time-discretization using exact mean and variance (Zhao 2009; Tubikanec et al. 2021)
   * Approximate IV (Medvedev and Scaillet, 2007)
   * Current __PyFENG__: [garch.py](https://github.com/PyFE/PyFENG/blob/main/pyfeng/garch.py) (Euler/Milstein/Log)
 * Group 6: Simulation of the Lambda SABR model by [Liu Haotian](https://www.github.com/hydro56555656) and [Shi Pengye](https://www.github.com/spy677)
   * Time-discretization using exact mean and variance (Zhao 2009; Tubikanec et al., 2021)
   * Approximate IV (Henry-Labordère, 2005)
-* Group 7: Pricing Derivative with SV models by[Shen Mengjing](https://www.github.com/mshenn) and [Wang Yuteng](https://www.github.com/wangyutengsam2001)
+* Group 7: [Pricing Derivative with SV models](https://github.com/mshenn/PHBS_ASP_2023/blob/main/Project/pre0419/pre0419.ipynb) by[Shen Mengjing](https://www.github.com/mshenn) and [Wang Yuteng](https://www.github.com/wangyutengsam2001)
 * Group 8: Simulation of Heston-Dupire model by [Gong Jiaxin](https://www.github.com/mecc10) and [Zou Xuyuan](https://www.github.com/ZouXuyuan)
 
 ## References
