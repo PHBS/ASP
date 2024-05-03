@@ -23,7 +23,7 @@
   * Time-discretization using exact mean and variance (Zhao 2009; Tubikanec et al., 2021)
   * Approximate IV (Henry-Labordère, 2005)
 * Group 7: [Pricing Derivative with SV models](https://github.com/mshenn/PHBS_ASP_2023/blob/main/Project/pre0419/pre0419.ipynb) by[Shen Mengjing](https://www.github.com/mshenn) and [Wang Yuteng](https://www.github.com/wangyutengsam2001)
-* Group 8: Simulation of Heston-Dupire model by [Gong Jiaxin](https://www.github.com/mecc10) and [Zou Xuyuan](https://www.github.com/ZouXuyuan)
+* Group 8: [Simulation of Heston-Dupire model](https://github.com/ZouXuyuan/PyFENG-fork/tree/main/project) by [Gong Jiaxin](https://www.github.com/mecc10) and [Zou Xuyuan](https://www.github.com/ZouXuyuan)
 
 ## References
 * Ballotta L, Kyriakou I (2014) Monte Carlo Simulation of the CGMY Process and Option Pricing. Journal of Futures Markets 34:1095–1121. https://doi.org/10.1002/fut.21647
