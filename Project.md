@@ -12,7 +12,7 @@
 * Group 3: [Percent return-based variance Swap](https://github.com/Loiser/PyFENG/blob/main/variance_swap.ipynb) by [Liu Xinyu](https://www.github.com/Loiser) and [Lu Junning](https://www.github.com/Lujunning)
   * Option pricing based on characteristic function and simulation method (Ballotta and Kyriakou, 2014)
   * Current __PyFENG__: [sv_fft.py](https://github.com/PyFE/PyFENG/blob/main/pyfeng/sv_fft.py) (FFT)
-* Group 4: Option pricing with rHeston model with its characteristic function by [Yao Hanxiang](https://www.github.com/yhxpku) and [Ma Chujie](https://www.github.com/Chujie-Ma)
+* Group 4: [Option pricing with rHeston model with its characteristic function](https://github.com/Chujie-Ma/PyFENG/blob/main/project_report.ipynb) by [Yao Hanxiang](https://www.github.com/yhxpku) and [Ma Chujie](https://www.github.com/Chujie-Ma)
   * Option pricing via the characteristic function (El Euch & Rosenbaum, 2019)
   * Current __PyFENG__: [sv_fft.py](https://github.com/PyFE/PyFENG/blob/main/pyfeng/sv_fft.py) (FFT)
 * Group 5: [Simulation of the GARCH diffusion model](https://github.com/jason-phbs/PHBS_ASP_2023/blob/main/report.inpy) by [Zhang Kaiwei](https://www.github.com/zkw001) and [Yu Jichong](https://www.github.com/jason-phbs)
